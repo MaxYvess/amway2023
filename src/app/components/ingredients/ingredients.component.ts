@@ -23,97 +23,85 @@ export class IngredientsComponent implements OnInit {
 
     public ingredients: Array<any> = [
         {
-            img: 'assets/imgs/ingredient1.png',
+            img: 'assets/imgs/Ingredientes/IMG_1.png',
             name: 'Espinaca',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'La espinaca contiene una mezcla rica en nutrientes de carotenoides, vitamina C, vitamina K, ácido fólico, hierro y calcio, así como luteína, kaempferol, nitratos y otros compuestos vegetales para apoyar una salud óptima.'
         },
         {
-            img: 'assets/imgs/ingredient2.png',
+            img: 'assets/imgs/Ingredientes/IMG_2.png',
             name: 'Rábano',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'El rábano es rico en vitamina C, potasio y una poderosa fuente de fibra, al contener vitamina nos ayuda a protegernos de los radicales libres. '
         },
         {
-            img: 'assets/imgs/ingredient3.png',
+            img: 'assets/imgs/Ingredientes/IMG_3.png',
             name: 'Zanahoria',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'La zanahoria es una hortaliza que destaca por su contenido en vitamina A, la cual contribuye a la salud de la vista y ayuda a mantener la hidratación de la piel. '
         },
         {
-            img: 'assets/imgs/ingredient4.png',
+            img: 'assets/imgs/Ingredientes/IMG_4.png',
             name: 'Arándano',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Contiene ácido elágico que contribuye a la restauración del sistema celular y antocinidina el cual es un grupo de fitonutrientes que tiene fuertes propiedades antioxidantes que contribuyen a la salud del corazón. '
         },
         {
-            img: 'assets/imgs/ingredient5.png',
+            img: 'assets/imgs/Ingredientes/IMG_5.png',
             name: 'Soya, Trigo y Gisantes',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Al combinarse estos tres ingredientes pueden formar una proteína de alto valor biológico, con el beneficio extra de ser libres de grasas saturadas y colesterol y de fácil digestión.'
         },
         {
-            img: 'assets/imgs/ingredient6.png',
+            img: 'assets/imgs/Ingredientes/IMG_6.png',
             name: 'Algas marina calcificadas',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Las algas calcificadas de cultivo en su entorno natural, que se encuentran en la costa de Islandia, son una de las fuentes más concentradas de calcio y magnesio naturales. '
         },
         {
-            img: 'assets/imgs/ingredient7.png',
+            img: 'assets/imgs/Ingredientes/IMG_7.png',
             name: 'Sierra, Anchoa y Sardina',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Estos peces de agua fría encuentras ácidos grasos con EPA y DHA los cuales contribuyen al funcionamiento normal del corazón, además la sustitución de grasas saturadas por grasas insaturadas en la dieta contribuye a mantener niveles normales de colesterol sanguíneo poliinsaturados son grasas.'
         },
         {
-            img: 'assets/imgs/ingredient8.png',
+            img: 'assets/imgs/Ingredientes/IMG_8.png',
             name: 'L-Cisteína',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Aminoácido presente en la proteína que ayuda a la formación de la piel y es básico en los procesos de desintoxicación.'
         },
         {
-            img: 'assets/imgs/ingredient9.png',
+            img: 'assets/imgs/Ingredientes/IMG_9.png',
             name: 'Espirulina',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Alga microscópica que posee forma de espiral, de color azul verdoso, es rica en proteínas y hierro por lo que es ideal para vegetarianos, además de su alto contenido en vitamina B12, Betacaroteno, Calcio, Fosforo y Vitamina E.'
         },
         {
-            img: 'assets/imgs/ingredient10.png',
+            img: 'assets/imgs/Ingredientes/IMG_10.png',
             name: 'Cereza Acerola',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            description: 'Cultivado en la Fazenda Amway Nutrilite™ do Brasil. Estas cerezas crean un extracto excepcionalmente rico en antioxidantes, vitamina C y otros fitonutrientes. Entre sus beneficios está la reducción de fatiga, formación de colágeno, apoya en la cicatrización y ayuda a regular el estrés.'
         }
     ];
     public ingredients2: Array<any> = [
         {
-            img: 'assets/imgs/ingredient5.png',
-            name: 'Soya, Trigo y Gisantes',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            img: 'assets/imgs/Ingredientes/IMG_11.png',
+            name: 'Sandía',
+            description: 'Un extracto de fruta que ayuda a proteger la piel de los daños causados por los radicales libres.'
         },
         {
-            img: 'assets/imgs/ingredient6.png',
-            name: 'Algas marina calcificadas',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
-        },
-        {
-            img: 'assets/imgs/ingredient7.png',
-            name: 'Sierra, Anchoa y Sardina',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
-        },
-        {
-            img: 'assets/imgs/ingredient8.png',
-            name: 'L-Cisteína',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
-        },
-        {
-            img: 'assets/imgs/ingredient9.png',
-            name: 'Espirulina',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
-        },
-        {
-            img: 'assets/imgs/ingredient10.png',
-            name: 'Cereza Acerola',
-            description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolores aliquid voluptas adipisci quam commodi cum asperiores, quia voluptate quo dolor temporibus provident rerum voluptates!'
+            img: 'assets/imgs/Ingredientes/IMG_12.png',
+            name: 'Semilla de chía blanca',
+            description: 'Cultivada en el Rancho El Petacal, México. Uno de los superalimentos más ricos de la naturaleza y el ingrediente héroe en los productos de Artistry™. Sus fitonutrientes ayudan a nutrir y proteger visiblemente la belleza cuidada de la piel.'
+        },  
+         {
+            img: 'assets/imgs/Ingredientes/IMG_13.png',
+            name: 'Micelas',
+            description: 'Moléculas similares a un imán que atraen y eliminan las impurezas.'
         }
     ];
     public certifications: Array<any> = [
         {
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sit animi esse, neque molestias laboriosam in placeat officiis doloribus deleniti beatae id, assumenda ab sequi. Inventore, consequuntur accusantium. Dolorem repellendus tempora harum vero, quae laborum totam sunt ab aliquid dolore, ex autem saepe. Fugiat quod rem quae animi, nesciunt consequuntur?'
+            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. (Aprende más sobre la trazabilidad)'
         },
         {
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sit animi esse, neque molestias laboriosam in placeat officiis doloribus deleniti beatae id, assumenda ab sequi. Inventore, consequuntur accusantium. Dolorem repellendus tempora harum vero, quae laborum totam sunt ab aliquid dolore, ex autem saepe. Fugiat quod rem quae animi, nesciunt consequuntur?'
+            description: 'NutriCert™ es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.'
         },
         {
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sit animi esse, neque molestias laboriosam in placeat officiis doloribus deleniti beatae id, assumenda ab sequi. Inventore, consequuntur accusantium. Dolorem repellendus tempora harum vero, quae laborum totam sunt ab aliquid dolore, ex autem saepe. Fugiat quod rem quae animi, nesciunt consequuntur?'
+            description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. Es ahí donde nacen todos nuestros ingredientes.'
+        },
+        {
+            description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas puras, seguras y efectivas. Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.'
         }
     ];
 

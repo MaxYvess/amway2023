@@ -18,15 +18,15 @@ export class ProductDetailComponent implements OnInit {
         { 
             id: 1, name: 'Daily Plus', 
             slogan: 'El plus que necesitas todos los días', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="orange">Repellat explicabo perspiciatis</span> doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit <br><br> obcaecati atque vero sequi <span class="orange">quibusdam vitae perferendis reprehenderit.</span> Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, <span class="orange">repellendus placeat.</span>', 
+            modeOfUse: 'Tomar una tableta al día. Verifica el modo de uso en la página web de tu país.', 
+            description: 'Un <span class="orange">producto práctico</span> para todas aquellas personas que buscan un suplemento dietario para <span class="orange">complementar</span> sus requerimientos <span class="orange">nutricionales.</span> <br><br> Con cinco <span class="orange">fitonutrientes</span> de la gama de los cinco colores; así como <span class="orange">12 vitaminas</span> y <span class="orange">10 minerales</span> que ayudan a complementar tu alimentación diaria.', 
             img: 'assets/imgs/Daily_Plus/ELEMENT_1.png',
             icon: 'assets/imgs/Daily_Plus/ICON_7.png',
-            footer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.',
+            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: false, 
             color: '#f97c22',
             imgs: [
-                'assets/imgs/Daily_Plus/ICON_5.png',
+                'assets/imgs/Daily_Plus/ICON_8.png',
                 'assets/imgs/Daily_Plus/ICON_4.png',
                 'assets/imgs/Daily_Plus/ICON_5.png',
                 'assets/imgs/Daily_Plus/ICON_3.png'
@@ -35,28 +35,28 @@ export class ProductDetailComponent implements OnInit {
         { 
             id: 2, name: 'Cal Mag D', 
             slogan: 'Eleva tu calcio, eleva tu vida', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Se recomienda acompañar una tableta tres veces al día con los alimentos. Verifica el modo de uso en la página web de tu país.',
+            description: 'Este producto de nuestros <span class="purple">naturalmente irresistibles</span> está pensado para ayudar a la retención, absorción y utilización del calcio. <br><br> Aporta dos tipos de calcio importantes para el cuerpo: <span class="purple">El carbonato de calcio</span> y el que se obtiene por medio de <span class="purple">algas marinas</span> calcificadas. <br><br> Dentro de sus componentes está el calcio, la vitamina D, el magnesio y es enriquecido con zinc y manganeso.', 
             img: 'assets/imgs/Cal_Mag_D/ELEMENT_1.png',
             icon: 'assets/imgs/Cal_Mag_D/ICON_4.png',
-            footer: '',
+            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2013-0002850 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: true, 
             color: '#6e6697',
             imgs: [
                 'assets/imgs/Cal_Mag_D/ICON_5.png',
                 'assets/imgs/Cal_Mag_D/ICON_6.png',
-                'assets/imgs/Cal_Mag_D/ICON_5.png',
+                'assets/imgs/Cal_Mag_D/ICON_7.png',
                 'assets/imgs/Cal_Mag_D/ICON_6.png'
             ]
         },
         { 
             id: 3, name: 'Proteína Vegetal', 
             slogan: 'Para dar el 100% todos los días', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="green">Repellat explicabo</span> perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit <br><br> Obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. <span class="green">Omnis ipsam est corporis.</span> Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.`, 
+            modeOfUse: 'Añade una cucharada sopera completa (aproximadamente 10 gr.) a un vaso de leche, jugo de fruta, o cualquier alimento. Mezcla o agita vigorosamente. Verifica el modo de uso en la página web de tu país.',
+            description: `Proteína 100% de <span class="green">origen vegetal</span>que contiene proteína aislada de soya, trigo y guisante. La proteína es un <span class="green">macronutriente</span> que nuestro cuerpo necesita diariamente. No tiene sabor así que es ideal para mezclar con cualquier alimento y cada porción contiene <span class="green">8 gramos de proteína</span> y <span class="green">9 aminoácidos esenciales.</span>`, 
             img: 'assets/imgs/Proteina_Vegetal/ICON_5.png',
             icon: 'assets/imgs/Proteina_Vegetal/ICON_4.png',
-            footer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.',
+            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO RSIA01I304. ESTE PRODUCTO ES UN ALIMENTO. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
             color: '#0b7c15',
             imgs: [
@@ -69,11 +69,11 @@ export class ProductDetailComponent implements OnInit {
         { 
             id: 4, name: 'Omega 3 Plus',
             slogan: 'Complementa tu bienestar con lo mejor del océano', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Tomar de 1 a 3 cápsulas blandas al día, preferiblemente con las comidas. Verifica el modo de uso en la página web de tu país.',
+            description: 'Una persona debería consumir por lo menos dos porciones de <span class="dark-blue">omega 3</span> a la semana. Este se encuentra en pescados y mariscos. <br><br> Con Omega 3 de Nutrilite vas a obtener ácidos grasos con sus ingredientes que se extraen de: <span class="dark-blue">caballa</span>, <span class="dark-blue">sardina</span> y <span class="dark-blue">anchoa.</span> <br><br> Este suplemento contiene una fórmula balanceada con <span class="dark-blue">EPA</span> y <span class="dark-blue">DHA</span>, estos son ácidos grasos esenciales que el cuerpo no produce de manera eficiente y por eso debemos obtenerlos de nuestra dieta.', 
             img: 'assets/imgs/Omega_3_Plus/ICON_5.png',
             icon: 'assets/imgs/Omega_3_Plus/ICON_4.png',
-            footer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.',
+            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004198 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
             color: '#275994',
             imgs: [
@@ -86,25 +86,25 @@ export class ProductDetailComponent implements OnInit {
         { 
             id: 5, name: 'C Plus',
             slogan: 'Liberación constante de Vitamina C durante 8 horas', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Tomar una tableta al día preferiblemente con alimentos. Verifica el modo de uso en la página web de tu país.',
+            description: 'La <span class="dark-red">vitamina C</span> no es solo un antioxidante, es también un factor fundamental para la formación del colágeno en el cuerpo. <br><br> Con la ingesta  de una tableta al día ayudarás a tus defensas a mantenerse elevadas. <br><br> Está hecho con una fórmula que contiene <span class="dark-red">ingredientes botánicos</span> como el concentrado de <span class="dark-red">cereza acerola.</span>', 
             img: 'assets/imgs/C_Plus/ICON_5.png',
             icon: 'assets/imgs/C_Plus/ICON_4.png',
-            footer: '',
+            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2012-0002338 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: false, 
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/C_Plus/ICON_6.png',
                 'assets/imgs/C_Plus/ICON_7.png',
                 'assets/imgs/C_Plus/ICON_6.png',
-                'assets/imgs/C_Plus/ICON_7.png'
+                'assets/imgs/C_Plus/ICON_8.png'
             ]
         },
         { 
             id: 6, name: 'B Plus', 
             slogan: 'Con 8 vitaminas del complejo B', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Adultos: Tomar una tableta con alimentos preferiblemente. No masticar, romper o triturar. Verifica el modo de uso en la página web de tu país.',
+            description: 'Con <span class="green">tecnología bicapa</span> de liberación prolongada, <span class="green">B complex</span> de Nutrilite, es un suplemento alimentario con <span class="green">8 vitaminas</span> del <span class="green">complejo</span> accesible a tu bolsillo.', 
             img: 'assets/imgs/B_Plus/ICON_5.png',
             icon: 'assets/imgs/B_Plus/ICON_4.png',
             footer: '',
@@ -112,7 +112,7 @@ export class ProductDetailComponent implements OnInit {
             color: '#0b7c15',
             imgs: [
                 'assets/imgs/B_Plus/ICON_6.png',
-                'assets/imgs/B_Plus/ICON_7.png',
+                'assets/imgs/B_Plus/ICON_8.png',
                 'assets/imgs/B_Plus/ICON_6.png',
                 'assets/imgs/B_Plus/ICON_7.png'
             ]
@@ -120,11 +120,11 @@ export class ProductDetailComponent implements OnInit {
         { 
             id: 7, name: 'HSN', 
             slogan: 'Belleza de adentro hacia afuera', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Adultos: Tomar una tableta con alimentos preferiblemente. Verifica el modo de uso en la página web de tu país. ',
+            description: 'Este producto contiene 30 mg de <span class="dark-pink">vitamina C</span> que contribuye a la formación de Colágeno. También contiene <span class="dark-pink">L - cisteína</span> un aminoácido que promueve la formación de <span class="dark-pink">queratina.</span> Otros ingredientes importantes son el <span class="dark-pink">colágeno hidrolizado, biotina, extracto de semilla de uva y vitamina c.</span>', 
             img: 'assets/imgs/HSN/ICON_5.png',
             icon: 'assets/imgs/HSN/ICON_4.png',
-            footer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.',
+            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
             color: '#b83b61',
             imgs: [
@@ -135,10 +135,10 @@ export class ProductDetailComponent implements OnInit {
             ]
         },
         { 
-            id: 8, name: 'Agua Micelar', smallName: 'Aristry Skin Nutrition',
+            id: 8, name: 'Agua Micelar',
             slogan: 'Dale a tu piel lo que se merece', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Para limpiar y desmaquillar la piel, pasa suavemente un algodón húmedo hasta que esté libre de maquillaje e impurezas. Para eliminar el maquillaje de los ojos, mantén un algodón húmedo sobre los ojos cerrados durante unos segundos y límpialo suavemente, sin frotarlo.',
+            description: 'Recomendado para <span class="dark-red">todo tipo de piel, retira el maquillaje, acondiciona y refresca la piel</span>. No deja residuos oleosos y su enjuague es opcional. Ayuda a remover todo tipo de maquillaje, incluyendo los de larga duración y a prueba de agua.<br><br> El <span class="dark-red">agua micelar</span> está compuesta por <span class="dark-red">semilla de chía blanca, extracto de sandía</span> y <span class="dark-red">micelas.</span>', 
             img: 'assets/imgs/Agua_Micelar/ICON_5.png',
             icon: 'assets/imgs/Agua_Micelar/ICON_4.png',
             footer: '',
@@ -147,15 +147,15 @@ export class ProductDetailComponent implements OnInit {
             imgs: [
                 'assets/imgs/Agua_Micelar/ICON_8.png',
                 'assets/imgs/Agua_Micelar/ICON_6.png',
-                'assets/imgs/Agua_Micelar/ICON_7.png',
+                'assets/imgs/Agua_Micelar/ICON_9.png',
                 'assets/imgs/Agua_Micelar/ICON_8.png'
             ]
         },
         { 
-            id: 9, name: 'Glister Pasta de Dientes',
+            id: 9, name: 'Pasta de Dientes',
             slogan: 'Consigue una sonrisa radiante donde quiera que vallas', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'Coloca un poco de pasta sobre tu cepillo dental, lávate los dientes, enjuaga. Lavate los dientes después de cada comida.',
+            description: 'Con su fórmula reminactTM, fortalecerás tus dientes, aportando el calcio y el fósforo que han perdido, además de reparar el esmalte. Su boquilla es 44% más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el pulir suavemente los dientes, limpieza efectiva y ayuda a mantener el tono natural de tus dientes.', 
             img: 'assets/imgs/Pasta_de_dientes/ICON_5.png',
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
@@ -165,14 +165,14 @@ export class ProductDetailComponent implements OnInit {
                 'assets/imgs/Pasta_de_dientes/ICON_6.png',
                 'assets/imgs/Pasta_de_dientes/ICON_7.png',
                 'assets/imgs/Pasta_de_dientes/ICON_6.png',
-                'assets/imgs/Pasta_de_dientes/ICON_7.png'
+                'assets/imgs/Pasta_de_dientes/ICON_8.png'
             ]
         },
         { 
             id: 10, name: 'L.O.C.', smallName: 'Limpiador Multiusos', 
             slogan: '!El limpiado de superficies más versátil¡', 
-            modeOfUse: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis obcaecati dolorem quibusdam quae pariatur molestias amet sed eaque vel facere.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo perspiciatis doloremque quia debitis quos ipsam excepturi, nemo quam est rem labore fugit voluptatibus iusto voluptate vel suscipit odit obcaecati atque vero sequi quibusdam vitae perferendis reprehenderit. Omnis ipsam est corporis. Blanditiis, tenetur! Voluptates iure assumenda similique commodi, repellendus placeat.', 
+            modeOfUse: 'En una cubeta o balde, mezcla 1 ½ tapa o 30 ml aproximadamente en 5 litros de agua.',
+            description: 'Limpiador multiusos que puedes usar sobre todo tipo de superficies lavables. no necesita enjuagar y se retira fácilmente. Quita manchas difíciles es seguro de usar y no daña el planeta.<br><br> Con el podrás limpiar pisos, baños, cocinas, muebles, alfombras, telas y autos. Un solo L.O.C limpiador Multiusos rinde 10 veces más que un limpiador convencional.', 
             img: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_5.png',
             icon: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_4.png',
             footer: '',
@@ -180,7 +180,7 @@ export class ProductDetailComponent implements OnInit {
             color: '#265894',
             imgs: [
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png',
-                'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_7.png',
+                'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_9.png',
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_6.png',
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png'
             ]

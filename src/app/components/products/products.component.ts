@@ -19,16 +19,16 @@ SwiperCore.use([Navigation]);
 export class ProductsComponent implements OnInit {
 
     public products: Array<any> = [
-        { id: 1, name: 'Daily Plus', img: 'assets/imgs/Productos/IMG_7.png' },
-        { id: 2, name: 'Cal Mag D', img: 'assets/imgs/Productos/IMG_8.png' },
-        { id: 3, name: 'Proteina Vegetal', img: 'assets/imgs/Productos/IMG_9.png' },
-        { id: 4, name: 'Omega 3 Plus', img: 'assets/imgs/Productos/IMG_10.png' },
-        { id: 5, name: 'C Plus', img: 'assets/imgs/Productos/IMG_11.png' },
-        { id: 6, name: 'B Plus', img: 'assets/imgs/Productos/IMG_1.png' },
-        { id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_2.png' },
-        { id: 8, name: 'Agua Micelar', img: 'assets/imgs/Productos/IMG_3.png' },
-        { id: 9, name: 'Pasta de Dientes', img: 'assets/imgs/Productos/IMG_4.png' },
-        { id: 10, name: 'L.O.C. Limpiador Multiusos', img: 'assets/imgs/Productos/IMG_5.png' }
+        { id: 1, name: 'Daily Plus', img: 'assets/imgs/Productos/IMG_1.jpg' },
+        { id: 2, name: 'Cal Mag D', img: 'assets/imgs/Productos/IMG_2.jpg' },
+        { id: 3, name: 'Proteina Vegetal', img: 'assets/imgs/Productos/IMG_3.jpg' },
+        { id: 4, name: 'Omega 3 Plus', img: 'assets/imgs/Productos/IMG_4.jpg' },
+        { id: 5, name: 'C Plus', img: 'assets/imgs/Productos/IMG_5.jpg' },
+        { id: 6, name: 'B Plus', img: 'assets/imgs/Productos/IMG_6.jpg' },
+        { id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
+        { id: 8, name: 'Agua Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
+        { id: 9, name: 'Pasta de Dientes', img: 'assets/imgs/Productos/IMG_9.jpg' },
+        { id: 10, name: 'L.O.C. Limpiador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
     public breakpoints: any = {

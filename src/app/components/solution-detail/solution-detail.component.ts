@@ -20,20 +20,20 @@ export class SolutionDetailComponent implements OnInit {
             personName: 'Héctor',
             personJob: 'Contador',
             personAge: 35,
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, corrupti. A error fugiat, minima magnam cumque nostrum est quis beatae amet illo magni vero soluta delectus numquam quasi tenetur sint eius temporibus libero, possimus omnis, ullam itaque. Repellat vel tempore, at velit explicabo sed esse quo debitis alias ab a.',
+            description: 'Héctor es un contador de 35 años que trabaja en una trasnacional 8 horas al día. Se levanta para ir al gimnasio mínimo 1 hora, dice que le da energía para empezar sus labores. Sus rutinas se enfocan en volumen muscular y cardio. Desayuna una hora después de haber terminado sus rutinas. Héctor se enfoca tanto en el gimnasio que quiere ver resultados pronto, por eso cuida su alimentación.',
             reverse: false,
             products: [
                 {
                     name: 'Nutrilite Daily Plus (90 tabs)',
-                    img: 'assets/imgs/solution_product1.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
                     name: 'Nutrilite Cal Mag D (90 tabs)',
-                    img: 'assets/imgs/solution_product2.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_2.png'
                 },
                 {
                     name: 'Nutrilite Proteina Vegetal (450 gr)',
-                    img: 'assets/imgs/solution_product3.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
             ]
         },
@@ -45,20 +45,20 @@ export class SolutionDetailComponent implements OnInit {
             personName: 'Angélica',
             personJob: 'Madre',
             personAge: 35,
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, corrupti. A error fugiat, minima magnam cumque nostrum est quis beatae amet illo magni vero soluta delectus numquam quasi tenetur sint eius temporibus libero, possimus omnis, ullam itaque. Repellat vel tempore, at velit explicabo sed esse quo debitis alias ab a.',
+            description: 'Angélica es madre, tiene 33 años, retomó sus estudios en la universidad. Por todas las labores que tiene (Familia, académicas y laborales del hogar) siente que no rinde lo suficiente. Ella cree que debe mejorar su alimentación porque ahí está la clave para que su cerebro funcione mejor.',
             reverse: true,
             products: [
                 {
                     name: 'Nutrilite Omega 3 Plus (90 tabs)',
-                    img: 'assets/imgs/solution_product4.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
                     name: 'Nutrilite Daily Plus (90 tabs)',
-                    img: 'assets/imgs/solution_product5.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_5.png'
                 },
                 {
                     name: 'Nutrilite C Plus (60 tabs)',
-                    img: 'assets/imgs/solution_product6.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_6.png'
                 }
             ]
         }
@@ -91,3 +91,4 @@ export class SolutionDetailComponent implements OnInit {
     }
 
 }
+
