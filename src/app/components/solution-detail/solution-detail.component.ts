@@ -32,7 +32,7 @@ export class SolutionDetailComponent implements OnInit {
                     img: 'assets/imgs/Soluciones/ELEMENT_2.png'
                 },
                 {
-                    name: 'Nutrilite Proteina Vegetal (450 gr)',
+                    name: 'Nutrilite Proteína Vegetal (450 gr)',
                     img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
             ]

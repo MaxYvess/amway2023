@@ -153,9 +153,9 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             id: 9, name: 'Pasta de Dientes',
-            slogan: 'Consigue una sonrisa radiante donde quiera que vallas', 
+            slogan: 'Consigue una sonrisa radiante donde quiera que vayas', 
             modeOfUse: 'Coloca un poco de pasta sobre tu cepillo dental, lávate los dientes, enjuaga. Lavate los dientes después de cada comida.',
-            description: 'Con su fórmula reminactTM, fortalecerás tus dientes, aportando el calcio y el fósforo que han perdido, además de reparar el esmalte. Su boquilla es 44% más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el pulir suavemente los dientes, limpieza efectiva y ayuda a mantener el tono natural de tus dientes.', 
+            description: 'Con su fórmula <span class="orange">reminactTM</span>, fortalecerás tus dientes, aportando el <span class="orange">calcio</span> y el <span class="orange">fósforo</span> que han perdido, además de reparar el esmalte. Su boquilla es <span class="orange">44%</span> más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el <span class="orange">pulir suavemente</span> los dientes, <span class="orange">limpieza efectiva</span> y ayuda a <span class="orange">mantener</span> el tono natural de tus dientes.', 
             img: 'assets/imgs/Pasta_de_dientes/ICON_5.png',
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
@@ -170,7 +170,7 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             id: 10, name: 'L.O.C.', smallName: 'Limpiador Multiusos', 
-            slogan: '!El limpiado de superficies más versátil¡', 
+            slogan: '¡El limpiado de superficies más versátil!', 
             modeOfUse: 'En una cubeta o balde, mezcla 1 ½ tapa o 30 ml aproximadamente en 5 litros de agua.',
             description: 'Limpiador multiusos que puedes usar sobre todo tipo de superficies lavables. no necesita enjuagar y se retira fácilmente. Quita manchas difíciles es seguro de usar y no daña el planeta.<br><br> Con el podrás limpiar pisos, baños, cocinas, muebles, alfombras, telas y autos. Un solo L.O.C limpiador Multiusos rinde 10 veces más que un limpiador convencional.', 
             img: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_5.png',

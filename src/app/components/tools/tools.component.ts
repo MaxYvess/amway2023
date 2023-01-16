@@ -32,13 +32,13 @@ export class ToolsComponent implements OnInit {
             description: 'Vuélvete experto con los beneficios de los ingredientes de los Naturalmente Irresistibles.'
         },
         {
-            img: 'assets/imgs/Herramientas/ICON_5.png',
+            img: 'assets/imgs/Herramientas/ICON_6.png',
             name: 'REPOSITORIO',
             description: 'Conoce los atributos de tus productos Naturalmente Irresistibles en un solo lugar.'
         },
         {
-            img: 'assets/imgs/Herramientas/ICON_6.png',
-            name: 'TOOLKIT EVENTO ABS´S',
+            img: 'assets/imgs/Herramientas/ICON_5.png',
+            name: 'ENTRENAMIENTOS IRRESISTIBLES',
             description: 'Saber vender es algo que se aprende y se practica. Para formarte tenemos los Entrenamientos INA. Descarga el calendario de los próximos eventos y participa.'
         }
     ]

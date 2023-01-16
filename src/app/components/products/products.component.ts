@@ -21,7 +21,7 @@ export class ProductsComponent implements OnInit {
     public products: Array<any> = [
         { id: 1, name: 'Daily Plus', img: 'assets/imgs/Productos/IMG_1.jpg' },
         { id: 2, name: 'Cal Mag D', img: 'assets/imgs/Productos/IMG_2.jpg' },
-        { id: 3, name: 'Proteina Vegetal', img: 'assets/imgs/Productos/IMG_3.jpg' },
+        { id: 3, name: 'Proteína Vegetal', img: 'assets/imgs/Productos/IMG_3.jpg' },
         { id: 4, name: 'Omega 3 Plus', img: 'assets/imgs/Productos/IMG_4.jpg' },
         { id: 5, name: 'C Plus', img: 'assets/imgs/Productos/IMG_5.jpg' },
         { id: 6, name: 'B Plus', img: 'assets/imgs/Productos/IMG_6.jpg' },
