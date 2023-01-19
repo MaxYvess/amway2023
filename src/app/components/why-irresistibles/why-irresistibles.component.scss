@@ -1,3 +1,7 @@
+.element-style {
+    width: 100%;
+    background: #F4F4F4;
+}
 
 .why-irresistible {
     position: relative;
@@ -31,9 +35,33 @@
         width: 50%;
         object-fit: cover;
     }
+    
 
     .content {
         width: 50%;
+        padding: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.natural-ingredients2 {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    background: #F4F4F4; 
+
+    img {
+        width: 50%;
+        object-fit: cover;
+    }
+    
+
+    .content {
+        width: 20%;
         padding: 2rem;
         text-align: center;
         display: flex;
@@ -67,6 +95,10 @@
 
 .title-icon {
     width: 80px;
+}
+
+.title-icon2 {
+    width: 20px;
 }
 
 .flex-center {

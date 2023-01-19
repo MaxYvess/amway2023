@@ -25,15 +25,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#7D70A9',
             products: [
                 {
-                    name: 'Nutrilite Daily Plus (90 tabs)',
+                    name: 'Daily Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Nutrilite Cal Mag D (90 tabs)',
+                    name: 'Cal Mag D (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_2.png'
                 },
                 {
-                    name: 'Nutrilite Proteína Vegetal (450 gr)',
+                    name: 'Proteína Vegetal (450 gr)',
                     img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
             ]
@@ -51,22 +51,22 @@ export class SolutionDetailComponent implements OnInit {
             border: '#7BA9BD',
             products: [
                 {
-                    name: 'Nutrilite Omega 3 Plus (90 tabs)',
+                    name: 'Omega 3 Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Nutrilite Daily Plus (90 tabs)',
+                    name: 'Daily Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_5.png'
                 },
                 {
-                    name: 'Nutrilite C Plus (60 tabs)',
+                    name: 'C Plus (60 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_6.png'
                 }
             ]
         },
         {
             name: 'Sonrisa ideal',
-            img: 'assets/imgs/Soluciones/IMG_3.jpeg',
+            img: 'assets/imgs/Soluciones/IMG_3.jpg',
             icon: 'assets/imgs/Soluciones/ICON_12.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_7.png',
             personName: 'Hernanado',
@@ -77,12 +77,64 @@ export class SolutionDetailComponent implements OnInit {
             border: '#FF8A5B',
             products: [
                 {
-                    name: 'Nutrilite Cal Mag D (90 tabs)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_1.png'
+                    name: 'Cal Mag D (90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_8.png'
                 },
                 {
                     name: 'Glister Pasta de Dientes Multiacción con Fluoruro',
-                    img: 'assets/imgs/Soluciones/ELEMENT_2.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_7.png'
+                }
+            ]
+        },
+        {
+            name: 'Actividad diaria',
+            img: 'assets/imgs/Soluciones/IMG_4.png',
+            icon: 'assets/imgs/Soluciones/ICON_14.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_9.png',
+            personName: 'Enrique',
+            personJob: 'Empresario',
+            personAge: 50,
+            description: 'Enrique es un empresario de 50 años, está casado y todas las noches, después de trabajar todo el día en ventas, le ayuda a su esposa. No realiza ejercicio regularmente porque no le queda tiempo. Maneja mucho estrés y le preocupa su bienestar cardiovascular.',
+            reverse: true,
+            border: '#76C655',
+            products: [
+                {
+                    name: 'Cal Mag D (90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_9.png'
+                },
+                {
+                    name: 'Proteína Vegetal (450 gr)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_10.png'
+                },
+                {
+                    name: 'B Plus (60 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_11.png'
+                }
+            ]
+        },
+        {
+            name: 'En la mira',
+            img: 'assets/imgs/Soluciones/IMG_4.png',
+            icon: 'assets/imgs/Soluciones/ICON_15.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_10.png',
+            personName: 'Enrique',
+            personJob: 'Empresario',
+            personAge: 50,
+            description: 'Enrique es un empresario de 50 años, está casado y todas las noches, después de trabajar todo el día en ventas, le ayuda a su esposa. No realiza ejercicio regularmente porque no le queda tiempo. Maneja mucho estrés y le preocupa su bienestar cardiovascular.',
+            reverse: false,
+            border: '#76C655',
+            products: [
+                {
+                    name: 'Cal Mag D (90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_9.png'
+                },
+                {
+                    name: 'Proteína Vegetal (450 gr)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_10.png'
+                },
+                {
+                    name: 'B Plus (60 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_11.png'
                 }
             ]
         },
