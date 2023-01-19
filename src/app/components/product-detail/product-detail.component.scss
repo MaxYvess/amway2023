@@ -7,14 +7,24 @@
     justify-content: center;
     align-items: center;
     position: relative;
+
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+.product-detail-footer {
+    background: #f1f1f1; 
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .green {
-    color: #0b7c15 !important;
+    color: #0b7c15;
 }
 
 .orange {
-    color: #f97c22 !important;
+    color: #f97c22;
 }
 
 .purple {
@@ -49,15 +59,15 @@
         position: relative;
 
         #product {
-            width: 55%;
-            max-height: 500px;
+            width: 50%;
+            max-height: 700px;
             object-fit: contain;
         }
 
         #icon {
             position: absolute;
             bottom: 0;
-            right: 32%;
+            right: 24%;
             width: 50px;
             cursor: pointer;
         }
@@ -67,7 +77,11 @@
         width: 50%;
         padding: 1rem 2rem 1rem 2rem;
 
-        h1, h2, p {
+        .general-subtitle {
+            color: #555;
+        }
+
+        /*h1, h2, p {
             margin-bottom: 2.5rem;
             line-height: 1;
         }
@@ -104,41 +118,36 @@
             &:active {
                 background: rgba(34, 34, 34, .9);
             }
-        }
+        }*/
     }
 }
 
 .product-detail-card.reverse {
     flex-direction: row-reverse;
 
+    .img {
+        #icon {
+            right: 65%;
+        }
+    }
+
     .detail {
         text-align: end;
     }
 }
 
-.close-btn {
-    background: #222; 
-    color: #fff; 
-    border-radius: 50%; 
-    width: 45px; 
-    height: 45px; 
-    font-size: 1.5rem;
-}
 
 .small-letters {
-    margin-top: 3rem;
     padding: 1rem;
     text-align: center;
-
-    font-size: xx-small;
-    line-height: 1;
-
+    font-size: 8px;
 }
 
 
 .parallax-img1, .parallax-img2, .parallax-img3, .parallax-img4 {
     position: absolute; 
-    width: 150px;
+    width: 15%;
+    transition: .5s linear;
 }
 
 .parallax-img1 {
@@ -153,12 +162,12 @@
 
 .parallax-img3 {
     bottom: 0; 
-    right: 0; 
+    left: 0; 
 }
 
 .parallax-img4 {
     bottom: 0; 
-    left: 0; 
+    right: 0; 
 }
 
 
@@ -231,6 +240,19 @@
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1599px) {
   
+}
+
+@media (min-width: 1600px) {
+    .product-detail-card{
+       
+        .img {
+            #icon {
+                width: 80px;
+            }
+        }
+    
+    }
+    
 }

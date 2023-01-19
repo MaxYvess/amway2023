@@ -20,34 +20,46 @@ export class SolutionsComponent implements OnInit {
 
     public solutions: Array<any> = [
         {
-            img: 'assets/imgs/Soluciones/IMG_1.png',
-            name: 'MOVIMIENTO CONSTANTE',
-            icon: 'icon1',
-            id: 1
+            id: 1,
+            img: 'assets/imgs/Soluciones/IMG_5.png',
+            /*name: 'MOVIMIENTO CONSTANTE',
+            icon: 'icon1',*/
         },
         {
-            img: 'assets/imgs/Soluciones/IMG_2.png',
-            name: 'DESAFÍA TUS IDEAS',
-            icon: 'icon2',
-            id: 2
+            id: 2,
+            img: 'assets/imgs/Soluciones/IMG_7.png',
+            /*name: 'DESAFÍA TUS IDEAS',
+            icon: 'icon2',*/
         },
         {
-            img: 'assets/imgs/Soluciones/IMG_3.jpeg',
-            name: 'SONRISA IDEAL',
-            icon: 'icon3',
-            id: 3
+            id: 3,
+            img: 'assets/imgs/Soluciones/IMG_9.png',
+            /*name: 'SONRISA IDEAL',
+            icon: 'icon3',*/
         },
         {
-            img: 'assets/imgs/solution1.png',
-            name: 'OTRA SOLUCIÓN',
-            icon: 'icon1',
-            id: 4
+            id: 4,
+            img: 'assets/imgs/Soluciones/IMG_11.png',
+            /*name: 'OTRA SOLUCIÓN',
+            icon: 'icon1',*/
         },
         {
-            img: 'assets/imgs/solution2.png',
-            name: 'ÚLTIMA SOLUCIÓN',
-            icon: 'icon2',
-            id: 5
+            id: 5,
+            img: 'assets/imgs/Soluciones/IMG_13.png',
+            /*name: 'ÚLTIMA SOLUCIÓN',
+            icon: 'icon2',*/
+        },
+        {
+            id: 6,
+            img: 'assets/imgs/Soluciones/IMG_15.png',
+            /*name: 'ÚLTIMA SOLUCIÓN',
+            icon: 'icon2',*/
+        },
+        {
+            id: 7,
+            img: 'assets/imgs/Soluciones/IMG_17.png',
+            /*name: 'ÚLTIMA SOLUCIÓN',
+            icon: 'icon2',*/
         }
     ]
 

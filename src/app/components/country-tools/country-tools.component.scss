@@ -1,0 +1,48 @@
+.tool {
+    width: 100%;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-img {
+    width: 100%; 
+    margin: 2rem; 
+    cursor: pointer;
+}
+
+.background {
+    background: #f4f4f4;
+    padding: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+// extra Small devices (smartphones, 576px and down)
+@media (min-width: 250px) and (max-width: 374px) { 
+    .country-img {
+        width: 75%; 
+        margin-bottom: 2rem;
+    }
+}
+
+
+// Small devices (smartphones, 576px and down)
+@media (min-width: 375px) and (max-width: 576px) { 
+    .country-img {
+        width: 75%; 
+        margin-bottom: 2rem;
+    }
+}
+
+// Medium devices (tablets, 768px and down)
+@media (min-width: 577px) and (max-width: 768px) {
+    .country-img {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+}

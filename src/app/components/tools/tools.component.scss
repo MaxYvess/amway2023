@@ -24,13 +24,13 @@ h3 {
 .tools-card {
     background: #e5e5e5;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem 2rem;
     margin-bottom: 2rem;
     height: calc(100% - 2rem);
 
     img {
         width: 50%;
-        height: 100px;
+        height: 150px;
         object-fit: contain;
         margin-bottom: 1rem;
     }
@@ -44,4 +44,81 @@ h3 {
             box-shadow: 0 0 15px 1px #a9a9a9;
         }
     }
+}
+
+
+
+
+
+// extra Small devices (smartphones, 576px and down)
+@media (min-width: 250px) and (max-width: 374px) { 
+    .tools-card {
+        padding: 2rem;
+        padding-bottom: 3rem;
+    
+        img {
+            width: 40%;
+            height: 140px;
+            margin: 0;
+        }
+    }
+}
+
+
+
+// Small devices (smartphones, 576px and down)
+@media (min-width: 375px) and (max-width: 576px) { 
+    .tools-card {
+        padding: 2rem;
+        padding-bottom: 3rem;
+    
+        img {
+            width: 40%;
+            height: 140px;
+            margin: 0;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and down)
+@media (min-width: 577px) and (max-width: 768px) {
+    .tools-card {
+        padding: 1rem;
+        padding-bottom: 2rem;
+    
+        img {
+            margin: 0;
+        }
+    }
+}
+
+
+// Large devices (desktops, 992px and dpwn)
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .tools-card {
+        padding: 1rem;
+        padding-bottom: 2rem;
+    
+        img {
+            margin: 0;
+        }
+    }
+
+}
+
+// X-Large devices (large desktops, 1399px and down)
+@media (min-width: 1025px) and (max-width: 1399px) {
+    
+    .tools-card {
+        padding: 2rem;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+}
+
+@media (min-width: 1600px) {
+
 }

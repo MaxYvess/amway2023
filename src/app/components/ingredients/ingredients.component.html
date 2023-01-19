@@ -6,20 +6,20 @@
  
     <div class="custom-center" style="background: #f1f1f1; padding: 2rem 0 5rem; min-height: calc(100vh - 80px); position: relative; ">
         
-        <img id="parallax1" src="assets/imgs/parallax1.png" value="-1" style="width: 150px; height: 150px; z-index: 3; position: absolute; left: 0px; top: 0px; transition: .5s linear;" alt="image">
+        <img id="parallax1" src="assets/imgs/Ingredientes/ICON_3.png" class="parallax1" alt="image">
     
-        <img id="parallax2" src="assets/imgs/parallax2.png" style="width: 150px; height: 150px; z-index: 3; position: absolute; right: 0px; top: 0px; transition: .5s linear;" alt="image">
+        <img id="parallax2" src="assets/imgs/Ingredientes/ICON_4.png" class="parallax2" alt="image">
     
-        <img id="parallax3" src="assets/imgs/parallax3.png" style="width: 200px; height: 200px; z-index: 3; position: absolute; left: 0px; bottom: 0px; transition: .5s linear;" alt="image">
+        <img id="parallax3" src="assets/imgs/Ingredientes/ICON_1.png" class="parallax3" alt="image">
     
-        <img id="parallax4" src="assets/imgs/parallax4.png" style="width: 200px; height: 200px; z-index: 3; position: absolute; right: 0px; bottom: 0px; transition: .5s linear;" alt="image" >
+        <img id="parallax4" src="assets/imgs/Ingredientes/ICON_2.png" class="parallax4" alt="image" >
        
         
         <div id="content" class="custom-container" style="z-index: 2">   
             
-            <div class="title">
-                <h1 >Nuestros ingredientes</h1>
-                <h4>Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto</h4>
+            <div class="text-center">
+                <h1 class="general-subtitle" >Nuestros ingredientes</h1>
+                <h4 class="general-text" >Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto</h4>
             </div>
 
             <swiper 
@@ -31,12 +31,12 @@
                     <div class="custom-center">
 
                         <div class="certifications-card">
-                            <h4>Ingredientes con certificación orgánica</h4>
+                            <h4 class="general-text bold-text mb0">{{ certification.title }}</h4>
                             <div>
-                                <h5>{{ certification.description }}</h5>
+                                <h5 class="general-text" [innerHtml]="certification.description"></h5>
 
                                 <div class="text-center">
-                                    <button class="custom-btn">Leer más</button>
+                                    <button class="general-btn">Leer más</button>
                                 </div>
                             </div>
                             
@@ -55,8 +55,12 @@
         
 
             <div class="custom-tabs">
-                <button (click)="tab = 1" [ngClass]="{ 'active': tab == 1 }"><h3>Ingredientes Nutrilite<sup>TM</sup></h3></button>
-                <button (click)="tab = 2" [ngClass]="{ 'active': tab == 2 }"><h3>Ingredientes Artistry<sup>TM</sup></h3></button>
+                <button (click)="tab = 1" [ngClass]="{ 'active': tab == 1 }">
+                    <h3 class="general-text mb0">Ingredientes Nutrilite™</h3>
+                </button>
+                <button (click)="tab = 2" [ngClass]="{ 'active': tab == 2 }">
+                    <h3 class="general-text mb0">Ingredientes Artistry™</h3>
+                </button>
             </div>
 
             <div *ngIf="tab == 1">
@@ -66,8 +70,8 @@
                         <div class="ingredients-card">
                             <img [src]="ingredient.img" draggable="false" alt="">
                             <div>
-                                <h4>{{ ingredient.name }}</h4>
-                                <h6>{{ ingredient.description }}</h6>
+                                <h4 class="general-text bold-text">{{ ingredient.name }}</h4>
+                                <h6 class="general-text">{{ ingredient.description }}</h6>
                             </div>
                         </div>
                     </div>
@@ -82,8 +86,8 @@
                         <div class="ingredients-card">
                             <img [src]="ingredient2.img" draggable="false" alt="">
                             <div>
-                                <h4>{{ ingredient2.name }}</h4>
-                                <h6>{{ ingredient2.description }}</h6>
+                                <h4 class="general-text bold-text">{{ ingredient2.name }}</h4>
+                                <h6 class="general-text">{{ ingredient2.description }}</h6>
                             </div>
                         </div>
                     </div>

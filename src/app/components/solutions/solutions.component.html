@@ -2,46 +2,50 @@
 <div class="solutions" >
     <div class="custom-container">
         
-        <h1 class="title">El Camino <b >Irresistible</b></h1>
+        <div class="text-center">
+            <h1 class="general-subtitle normal-text">El Camino <b class="bold-text">Irresistible</b></h1>
 
-        <h5 style="margin-bottom: 2rem;">Este espacio ha sido creado especialmente para ti, que quiere empezar desde ya obteniendo ganancias por la venta de los productos Naturalmente Irresistibles. En este sitio encontrarás la guía necesaria para empezar a venderlos.</h5>
+            <h5 class="general-text">Este espacio ha sido creado especialmente para ti, que quiere empezar desde ya obteniendo ganancias por la venta de los productos Naturalmente Irresistibles. En este sitio encontrarás la guía necesaria para empezar a venderlos.</h5>
 
-        <h1 class="title">¿A quién <b >Venderle</b>?</h1>
+            <h1 class="general-subtitle normal-text">¿A quién <b class="bold-text">Venderle</b>?</h1>
 
-        <h5 style="margin-bottom: 1rem;">Para cada tipo de persona podemos ofrecerle una combinación ideal de productos Irresistibles. Por eso, hemos identificado algunos ejemplos y diseñamos 7 perfiles a los que podrás ofrecerles cierto tipo de productos según sus gustos y necesidades.</h5>
+            <h5 class="general-text">Para cada tipo de persona podemos ofrecerle una combinación ideal de productos Irresistibles. Por eso, hemos identificado algunos ejemplos y diseñamos 7 perfiles a los que podrás ofrecerles cierto tipo de productos según sus gustos y necesidades.</h5>
 
-        <h5 style="margin-bottom: 1rem;"><br><br/></h5>
+            <h5 style="margin-bottom: 1rem;"><br><br/></h5>
 
-        <h5 style="margin-bottom: 2rem;">Para identificarlos pregúntales sobre su estilo de vida ¿Qué hacen? ¿Qué les gusta? ¿Qué les gustaría mejorar en su vida? Respondiendo esto podrás identificarlo fácilmente en alguno de estos 7 perfiles.</h5>
+            <h5 class="general-text">Para identificarlos pregúntales sobre su estilo de vida ¿Qué hacen? ¿Qué les gusta? ¿Qué les gustaría mejorar en su vida? Respondiendo esto podrás identificarlo fácilmente en alguno de estos 7 perfiles.</h5>
 
-        <div class="text-center" style="margin-bottom: 2rem;">
-            <h5><b>Haz clic en alguno de los perfiles para saber más.</b></h5>
+            <div class="text-center">
+                <h5 class="general-text"><b>Haz clic en alguno de los perfiles para saber más.</b></h5>
+            </div>
         </div>
-        <div class="text-center" style="margin-bottom: 2rem;">
-            <h6>*PRODUCTO DE REFERENCIA, CONSULTA, DISPONIBILIDAD EN TU PAÍS.</h6>
-        </div>
+       
 
 
         <swiper 
-            [autoplay]="{ delay: 2500, disableOnInteraction: false }"
+            [autoplay]="{ delay: 3000, disableOnInteraction: false }"
             [loop]="true"
             [grabCursor]="true"
             [breakpoints]="breakpoints"
             [initialSlide]="0" >
             <ng-template *ngFor="let solution of solutions" swiperSlide >
                 <div class="solution-card">
-                    <img [src]="solution.img" draggable="false" alt="">
-                    <div (click)="navigateTo(['solution', solution.id])" class="description">
+                    <img [src]="solution.img" (click)="navigateTo(['solution', solution.id])" draggable="false" alt="">
+                    <!--div (click)="navigateTo(['solution', solution.id])" class="description">
                         <div>
                             <div class="{{ solution.icon }}"></div>
                             <small>{{ solution.name }}</small>
                         </div>
                         <span class="number">{{ solution.id }}</span> 
-                    </div>
+                    </div-->
                 </div>
             </ng-template>
         </swiper>
 
+
+        <div class="text-center" style="margin-top: 2rem;">
+            <small class="general-small-text" style="color: #777;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
+        </div>
         
     </div>
 

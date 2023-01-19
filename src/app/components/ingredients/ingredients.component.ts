@@ -75,6 +75,7 @@ export class IngredientsComponent implements OnInit {
     ];
     public ingredients2: Array<any> = [
         {
+            
             img: 'assets/imgs/Ingredientes/IMG_11.png',
             name: 'Sandía',
             description: 'Un extracto de fruta que ayuda a proteger la piel de los daños causados por los radicales libres.'
@@ -84,7 +85,7 @@ export class IngredientsComponent implements OnInit {
             name: 'Semilla de chía blanca',
             description: 'Cultivada en el Rancho El Petacal, México. Uno de los superalimentos más ricos de la naturaleza y el ingrediente héroe en los productos de Artistry™. Sus fitonutrientes ayudan a nutrir y proteger visiblemente la belleza cuidada de la piel.'
         },  
-         {
+        {
             img: 'assets/imgs/Ingredientes/IMG_13.png',
             name: 'Micelas',
             description: 'Moléculas similares a un imán que atraen y eliminan las impurezas.'
@@ -92,15 +93,19 @@ export class IngredientsComponent implements OnInit {
     ];
     public certifications: Array<any> = [
         {
-            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. (Aprende más sobre la trazabilidad)'
+            title: 'Ingredientes con certificación orgánica',
+            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. <br><br> Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. (Aprende más sobre la trazabilidad)'
         },
         {
-            description: 'NutriCert™ es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.'
+            title: '¡Todos nuestros ingredientes naturales tienen certificación de NutriCert!',
+            description: '<b>NutriCert™</b> es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. <br><br> Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.'
         },
         {
+            title: 'Granjas Nutrilite',
             description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. Es ahí donde nacen todos nuestros ingredientes.'
         },
         {
+            title: 'Ingredientes Botánicos',
             description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas puras, seguras y efectivas. Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.'
         }
     ];
@@ -149,7 +154,7 @@ export class IngredientsComponent implements OnInit {
         let parallax3: any = document.getElementById('parallax3');
         let parallax4: any = document.getElementById('parallax4');
 
-        const position = parallax1.getAttribute("value");
+        const position = -1;
 
         const x = (window.innerWidth - event.pageX * position) / 250;
         const y = (window.innerHeight - event.pageY * position) / 250;

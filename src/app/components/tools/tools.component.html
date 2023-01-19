@@ -1,19 +1,21 @@
 <div class="tools" >
     <div class="custom-container">
-
     
-        <h1 class="title">Herramientas</h1>
+        <div class="text-center">
+            <h1 class="general-subtitle">Herramientas</h1>
         
-        <h3 class="text-center">Te ofrecemos todas estas herramientas para que hagas crecer tu negocio 
-            con los productos Naturalmente Irresistibles.</h3>
+            <h3 class="general-text">
+                Te ofrecemos todas estas herramientas para que hagas crecer tu negocio con los productos Naturalmente Irresistibles.
+            </h3>
+        </div>
         
         <div class="row">
             <div *ngFor="let tool of tools" class="col-12 col-md-4">
                 <div class="tools-card">
                     <img [src]="tool.img" draggable="false" alt="">
                     <div>
-                        <h6>{{ tool.name }}</h6>
-                        <small>{{ tool.description }}</small>
+                        <h6 (click)="navigateTo(['tool', tool.id])" class="general-small-text" style="cursor: pointer;">{{ tool.name }}</h6>
+                        <small class="general-small-text">{{ tool.description }}</small>
                     </div>
                 </div>
             </div>

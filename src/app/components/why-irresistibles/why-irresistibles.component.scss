@@ -6,14 +6,14 @@
     padding-bottom: 3rem;
     display: flex;
     justify-content: center;
-    min-height: calc(100% - 80px);
-    max-width: 100vw;
-    overflow-x: hidden !important;
+    min-height: 100%;
+    /*max-width: 100vw;
+    overflow-x: hidden !important;*/
 }
 
 .why-irresistible2 {
     background: #F4F4F4; 
-    padding-top: 3rem; 
+    padding-top: 6rem; 
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,29 @@
     min-height: 100%;
 }
 
+.natural-ingredients {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    background: #F4F4F4; 
+
+    img {
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .content {
+        width: 50%;
+        padding: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
 .logos-section {
-    background: #76c655;
     width: 100%; 
     padding: 2rem 0; 
     padding-bottom: 0; 
@@ -43,6 +64,17 @@
     height: 330px;
 }
 
+
+.title-icon {
+    width: 80px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .blue {
     color: #2C2C2C;
 }
@@ -51,10 +83,16 @@
     text-align: center;
     color: #2C2C2C;
     margin-bottom: 5rem;
+    font-size: 32px;
 
     b {
         font-weight: 900;
     }
+}
+
+.text {
+    font-size: 16px;
+    margin-bottom: 2rem;
 }
 
 .green {
@@ -66,23 +104,8 @@
     }
 }
 
-.custom-btn {
-    padding: .5rem 2rem;
-    border-radius: 25px;
-    color: #fff;
-    background-color: #222;
-    outline: none;
-    border: none;
-
-    &:active {
-        background: rgba(34, 34, 34, .9);
-    }
-}
-
 .irresistible-detail-card {
     text-align: center;
-    height: 340px;
-    background: #fff;
     color: #222;
 
     img {
@@ -97,10 +120,9 @@
 
 
 .irresistible-card {
-    
     img {
         width: 100%;
-        height: 240px;
+        height: 400px;
         object-fit: cover;
     }
 
@@ -126,36 +148,68 @@
     }
 }
 
+
 .flip-card {
     background-color: transparent;
-    cursor: pointer;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
-  
+
 .flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.6s;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
 }
-  
-.flip-card:active .flip-card-inner {
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-  
+
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
-  
+
+.flip-card-front {
+    color: #222;
+}
+
 .flip-card-back {
+    background: #fff;
     transform: rotateY(180deg);
 }
 
+
+
+.logos-icon {
+    width: 80%; 
+    height: 300px; 
+    margin-bottom: 1rem; 
+    object-fit: contain;
+}
+
+.natural-footer {
+    display: flex; 
+    margin-top: 3rem; 
+    width: 100%;
+
+    img {
+        width: 70%;
+        object-fit: contain;
+    }
+
+    div {
+        width: 30%;
+    }
+}
 
 
 // extra Small devices (smartphones, 576px and down)
@@ -164,9 +218,64 @@
         width: calc(100% - 2rem) !important;
     }
     .irresistible-card {
-        div {
-            height: auto;
+        img {
+            height: 300px;
         }
+
+        div {
+            height: 100px;
+        }
+    }
+
+    .flip-card {
+        height: 400px;
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .natural-ingredients {
+        height: auto; 
+        flex-wrap: wrap;
+    
+        img {
+            width: 100%;
+            height: 40%;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    
+        .content {
+            width: 100%;
+        }
+    }
+
+    .natural-footer {
+        align-items: center;
+        flex-wrap: wrap;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+    
+        div {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .logos-icon {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .title-icon {
+        width: 70px;
+    }
+
+    .why-irresistible2 {
+        padding-top: 4rem;
     }
 
 }
@@ -177,10 +286,66 @@
     .custom-col {
         width: calc(100% - 2rem) !important;
     }
+
+    .why-irresistible2 {
+        padding-top: 4rem;
+    }
+
     .irresistible-card {
-        div {
-            height: auto;
+        img {
+            height: 300px;
         }
+
+        div {
+            height: 100px;
+        }
+    }
+
+    .flip-card {
+        height: 400px;
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .natural-ingredients {
+        height: auto; 
+        flex-wrap: wrap;
+    
+        img {
+            width: 100%;
+            height: 40%;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    
+        .content {
+            width: 100%;
+        }
+    }
+
+    .natural-footer {
+        align-items: center;
+        flex-wrap: wrap;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+    
+        div {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .logos-icon {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .title-icon {
+        width: 70px;
     }
     
 }
@@ -192,8 +357,47 @@
     }
 
     .irresistible-card {
+        img {
+            height: 350px;
+        }
+
         div {
-            height: auto;
+            height: 100px;
+        }
+    }
+
+    .flip-card {
+        height: 450px;
+        margin-bottom: 2rem;
+    }
+
+
+    .natural-ingredients {
+        height: 100%; 
+        flex-wrap: wrap;
+    
+        img {
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    
+        .content {
+            width: 100%;
+        }
+    }
+
+    .natural-footer {
+        align-items: center;
+
+        img {
+            width: 60%;
+            object-fit: fill;
+        }
+    
+        div {
+            width: 40%;
         }
     }
 }
@@ -201,15 +405,85 @@
 
 // Large devices (desktops, 992px and dpwn)
 @media (min-width: 769px) and (max-width: 1024px) { 
+    .irresistible-card {
+        img {
+            height: 250px;
+        }
 
+        div {
+            height: 100px;
+        }
+
+        h5 {
+            font-size: 1rem;
+        } 
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .flip-card {
+        height: 350px;
+    }
+
+    .logos-icon {
+        width: 70%;
+        height: 150px; 
+    }
+
+    .general-btn {
+        padding: 1rem;
+    }
 }
 
 // X-Large devices (large desktops, 1399px and down)
 @media (min-width: 1025px) and (max-width: 1399px) {
-   
+    .irresistible-card {
+        img {
+            height: 300px;
+        }
+
+        div {
+            height: 100px;
+        }
+    }
+
+    .flip-card {
+        height: 400px;
+    }
+
+    .logos-icon {
+        width: 70%;
+        height: 200px; 
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1599px) {
   
+    .irresistible-card {
+        img {
+            height: 300px;
+        }
+
+        div {
+            height: 100px;
+        }
+    }
+
+    .flip-card {
+        height: 400px;
+    }
+
+    .logos-icon {
+        width: 75%;
+        height: 200px; 
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .logos-icon {
+        height: 250px; 
+    }
 }

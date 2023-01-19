@@ -12,6 +12,10 @@
     margin-bottom: 0;
 }
 
+.title-img {
+    width: 33%;
+}
+
 .border-title {
     line-height: .8;
     font-size: 3.5rem;
@@ -31,7 +35,6 @@
 .product-card {
     img {
         width: 100%;
-        height: 260px;
         object-fit: cover;
     }
 
@@ -55,60 +58,123 @@
     position: absolute; 
     top: 80px; 
     left: 0; 
-    width: 150px;
+    width: 10%;
 }
 
 
+.left-arrow {
+    width: 40px; 
+    cursor: pointer; 
+    transform: rotate(180deg); 
+    margin-right: 1rem;
+}
 
+.right-arrow {
+    width: 40px; 
+    cursor: pointer; 
+    margin-left: 1rem;
+}
 
 // extra Small devices (smartphones, 576px and down)
 @media (min-width: 250px) and (max-width: 374px) { 
-    .border-title {
-        font-size: 2.5rem;
-    }
     
-    .bold-title {
-        font-size: 2.5rem;
-    }
-
     .parallax-img {
         width: 100px;
+    }
+
+    .general-title {
+        font-size: 2rem;
+    }
+
+    .title-img {
+        width: 90%;
+    }
+
+    .left-arrow {
+        width: 30px; 
+    }
+    
+    .right-arrow {
+        width: 30px;
     }
 }
 
 
 // Small devices (smartphones, 576px and down)
 @media (min-width: 375px) and (max-width: 576px) { 
-    .border-title {
-        font-size: 2.5rem;
-    }
-    
-    .bold-title {
-        font-size: 2.5rem;
-    }
 
     .parallax-img {
         width: 100px;
+    }
+
+    .general-title {
+        font-size: 2rem;
+    }
+
+    .title-img {
+        width: 90%;
+    }
+
+    .left-arrow {
+        width: 30px; 
+    }
+    
+    .right-arrow {
+        width: 30px;
     }
 }
 
 // Medium devices (tablets, 768px and down)
 @media (min-width: 577px) and (max-width: 768px) {
-   
+    .general-title {
+        font-size: 2.6rem;
+    }
+    .title-img {
+        width: 60%;
+    }
 }
 
 
 // Large devices (desktops, 992px and dpwn)
 @media (min-width: 769px) and (max-width: 1024px) { 
-    
+    .general-title {
+        font-size: 2rem;
+    }
+
+    .title-img {
+        width: 45%;
+    }
 }
 
 // X-Large devices (large desktops, 1399px and down)
 @media (min-width: 1025px) and (max-width: 1399px) {
-   
+    .general-title {
+        font-size: 2.6rem;
+    }
+
+    .title-img {
+        width: 44%;
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
-  
+@media (min-width: 1400px) and (max-width: 1599px)  {
+    .title-img {
+        width: 45%;
+    }
+
+    .general-title {
+        font-size: 48px;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .title-img {
+        width: 33%;
+    }
+
+    .general-title {
+        font-size: 48px;
+    }
 }

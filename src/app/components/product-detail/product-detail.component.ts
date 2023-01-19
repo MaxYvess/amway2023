@@ -155,7 +155,7 @@ export class ProductDetailComponent implements OnInit {
             id: 9, name: 'Pasta de Dientes',
             slogan: 'Consigue una sonrisa radiante donde quiera que vayas', 
             modeOfUse: 'Coloca un poco de pasta sobre tu cepillo dental, lávate los dientes, enjuaga. Lavate los dientes después de cada comida.',
-            description: 'Con su fórmula <span class="orange">reminactTM</span>, fortalecerás tus dientes, aportando el <span class="orange">calcio</span> y el <span class="orange">fósforo</span> que han perdido, además de reparar el esmalte. Su boquilla es <span class="orange">44%</span> más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el <span class="orange">pulir suavemente</span> los dientes, <span class="orange">limpieza efectiva</span> y ayuda a <span class="orange">mantener</span> el tono natural de tus dientes.', 
+            description: 'Con su fórmula <span class="orange">reminactTM</span>, fortalecerás tus dientes, aportando el <span class="orange">calcio</span> y el <span class="orange">fósforo</span> que han perdido, además de reparar el esmalte. Su boquilla es <span class="orange">44%</span> más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el <span class="orange">pulir suavemente</span> los dientes, <span class="orange">limpieza efectiva</span> y ayuda a <span class="orange">mantener</span> el tono natural de tus dientes.',  
             img: 'assets/imgs/Pasta_de_dientes/ICON_5.png',
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
@@ -204,6 +204,16 @@ export class ProductDetailComponent implements OnInit {
         });
     }
 
+    ngAfterViewInit(){
+        window.addEventListener("mousemove", this.mouseAnimations);
+        window.addEventListener('scroll', this.scrollAnimations, true);
+    }
+    
+    ngOnDestroy() {
+        window.removeEventListener("mousemove", this.mouseAnimations);
+        window.removeEventListener('scroll', this.scrollAnimations, true);
+    }
+
     openModal(){
         this.modal.show();
     }
@@ -214,6 +224,61 @@ export class ProductDetailComponent implements OnInit {
 
     navigateTo(route: Array<any>){
         this.router.navigate(route);
+    }
+
+    scrollAnimations(){
+        let parallax1: any = document.getElementById('parallax1');
+        let parallax2: any = document.getElementById('parallax2');
+        let parallax3: any = document.getElementById('parallax3');
+        let parallax4: any = document.getElementById('parallax4');
+
+        parallax1.style.top = - (window.pageYOffset * 0.4) + 'px';
+
+        parallax2.style.top = + (window.pageYOffset * 0.2) + 'px';
+        parallax2.style.right = - (window.pageYOffset * 0.2) + 'px';
+
+        parallax3.style.bottom = + (window.pageYOffset * 0.2) + 'px';
+        parallax3.style.left = - (window.pageYOffset * 0.4) + 'px';
+
+        parallax4.style.bottom = - (window.pageYOffset * 0.3) + 'px';
+        parallax4.style.right = - (window.pageYOffset * 0.4) + 'px';
+        
+    }
+    
+    mouseAnimations(event: any) {
+        let parallax1: any = document.getElementById('parallax1');
+        let parallax2: any = document.getElementById('parallax2');
+        let parallax3: any = document.getElementById('parallax3');
+        let parallax4: any = document.getElementById('parallax4');
+
+        const position = -1;
+
+        const x = (window.innerWidth - event.pageX * position) / 250;
+        const y = (window.innerHeight - event.pageY * position) / 250;
+
+        if(event.pageX < (window.innerWidth / 2)){
+            parallax1.style.left = - x + 'px';
+            parallax3.style.left = - x + 'px';
+            parallax2.style.right = - x + 'px';
+            parallax4.style.right = - x + 'px';
+        }else {
+            parallax1.style.left = + x + 'px';
+            parallax3.style.left = + x + 'px';
+            parallax2.style.right = + x + 'px';
+            parallax4.style.right = + x + 'px';
+        }
+
+        if(event.pageY < (window.innerHeight / 2)){
+            parallax1.style.top = - y + 'px';
+            parallax3.style.bottom = - y + 'px'; //
+            parallax2.style.top = - y + 'px';
+            parallax4.style.bottom = - y + 'px'; //
+        }else {
+            parallax1.style.top = + y + 'px';
+            parallax3.style.bottom = + y + 'px'; //
+            parallax2.style.top = + y + 'px';
+            parallax4.style.bottom = + y + 'px'; //
+        }
     }
 
 }

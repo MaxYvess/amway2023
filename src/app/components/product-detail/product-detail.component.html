@@ -1,13 +1,12 @@
 <div class="product-detail" >
 
 
-    <img [src]="product.imgs[0]" draggable="false" class="parallax-img1" alt="">
-    <img [src]="product.imgs[1]" draggable="false" class="parallax-img2" alt="">
-    <img [src]="product.imgs[2]" draggable="false" class="parallax-img3" alt="">
-    <img [src]="product.imgs[3]" draggable="false" class="parallax-img4" alt="">
+    <img [src]="product.imgs[0]" id="parallax1" draggable="false" class="parallax-img1" alt="">
+    <img [src]="product.imgs[1]" id="parallax2" draggable="false" class="parallax-img2" alt="">
+    <img [src]="product.imgs[3]" id="parallax3" draggable="false" class="parallax-img3" alt="">
+    <img [src]="product.imgs[2]" id="parallax4" draggable="false" class="parallax-img4" alt="">
     
     
-
     <div class="custom-container" style="position: relative;">
         <div class="product-detail-card" [ngClass]="{ 'reverse': product.reverse }">
             <div class="img">
@@ -15,31 +14,42 @@
                 <img [src]="product.icon" id="icon" (click)="openModal()" draggable="false" alt="">
             </div>
             <div class="detail">
-                <h1 [style.color]="product.color" >{{ product.name }}<br><small>{{ product.smallName }}</small></h1>
-                <h2>{{ product.slogan }}</h2>
-                <h5>MODO DE USO</h5>
-                <p>{{ product.modeOfUse }}</p>
-                <button type="button">Comprar ahora</button>
+                <h1 class="general-title" [style.color]="product.color" >{{ product.name }}<br><small>{{ product.smallName }}</small></h1>
+                <h2 class="general-subtitle">{{ product.slogan }}</h2>
+                <h5 class="general-text bold-text mb0">MODO DE USO</h5>
+                <p class="general-text">{{ product.modeOfUse }}</p>
+
+                <small class="general-small-text mb2" style="color: #777; display: block;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
+                
+                <button class="general-btn" type="button">Comprar ahora</button>
             </div>
         </div>
 
-        <div class="small-letters">
-           {{ product.footer }}
-        </div>
+        
     </div> 
+
+</div>
+
+<div class="product-detail-footer" >
+    <div class="custom-container" >
+        <div class="small-letters">
+            {{ product.footer }}
+        </div>
+    </div>
 </div>
 
 <div id="product-detail" class="modal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
-            <div class="modal-body" style="padding: 2rem;">
+            <div class="modal-body" style="padding: 2rem; padding-bottom: 4rem;">
                 <div class="text-end">
-                    <button (click)="closeModal()" type="button" class="close-btn" >X</button>
+                    <img src="assets/imgs/Daily_Plus/ICON_1.png" (click)="closeModal()" style="width: 50px;" alt="">
                 </div>
-                <h1 [style.color]="product.color" style="font-weight: 600;">{{ product.name }} {{ product.smallName }}</h1>
-                <h2 style="font-weight: 600;">{{ product.slogan }}</h2>
+
+                <h1 class="general-title mb1" [style.color]="product.color" >{{ product.name }}<br><small>{{ product.smallName }}</small></h1>
+                <h2 class="general-subtitle mb1">{{ product.slogan }}</h2>
                 <br>
-                <h5 [innerHtml]="product.description"></h5>
+                <h5 class="general-text" [innerHtml]="product.description"></h5>
             </div>
         </div>
     </div>

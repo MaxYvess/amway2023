@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 
-import { SwiperModule } from 'swiper/angular';
+import { SwiperComponent, SwiperModule } from 'swiper/angular';
 
 // import Swiper core and required modules
 import SwiperCore, { Navigation } from 'swiper';
@@ -18,6 +18,8 @@ SwiperCore.use([Navigation]);
 })
 export class ProductsComponent implements OnInit {
 
+    @ViewChild('swiper', { static: false }) swiper?: any;
+    
     public products: Array<any> = [
         { id: 1, name: 'Daily Plus', img: 'assets/imgs/Productos/IMG_1.jpg' },
         { id: 2, name: 'Cal Mag D', img: 'assets/imgs/Productos/IMG_2.jpg' },
@@ -43,6 +45,14 @@ export class ProductsComponent implements OnInit {
     constructor(private router: Router) { }
 
     ngOnInit(): void {
+    }
+
+    slideNext(){
+        this.swiper.swiperRef.slideNext(600);
+    }
+      
+    slidePrev(){
+        this.swiper.swiperRef.slidePrev(600);
     }
     
     navigateTo(route: Array<any>){

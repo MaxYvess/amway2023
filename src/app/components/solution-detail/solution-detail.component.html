@@ -5,18 +5,18 @@
         <div class="solution-detail" >
             <div class="title">
                 <img [src]="solution.icon" draggable="false" alt="" >
-                <h1>{{ solution.name }}</h1>
+                <h1 class="general-subtitle mb0">{{ solution.name }}</h1>
             </div>
-            <h1 style="font-weight: 900; margin: 0;">{{ solution.personName }}</h1>
-            <h1 style="margin-bottom: 2rem;">{{ solution.personJob }}, {{ solution.personAge }} años</h1>
+            <h1 class="general-subtitle mb0">{{ solution.personName }}</h1>
+            <h1 class="general-subtitle normal-text">{{ solution.personJob }}, {{ solution.personAge }} años</h1>
 
-            <h4>{{ solution.description }}</h4>
+            <h4 class="general-text mb3">{{ solution.description }}</h4>
 
-            <h1>¿Conoces a alguien como {{ solution.personName }}?</h1>
+            <h1 class="general-subtitle">¿Conoces a alguien como {{ solution.personName }}?</h1>
 
             <div class="link">
                 <div class="custom-link" (click)="toggle()">
-                    <h3 >
+                    <h3 class="general-subtitle normal-text mb0" >
                         Haz clic en la pestaña para conocer la solución
                     </h3>
                     <img src="assets/imgs/next_icon.png" draggable="false" alt="">
@@ -26,14 +26,11 @@
     </div>
 
 
-    <div id="solution_detail_card" class="solution-detail-card" [ngClass]="{ 'reverse': solution.reverse }" >
-        <!--div  class="solution-btn">
-            <h2>SOLUCIÓN</h2>
-        </div-->
+    <div id="solution_detail_card" class="solution-detail-card" [ngClass]="{ 'reverse': solution.reverse }" [style.border]="'1px solid ' + solution.border" >
 
         <img [src]="solution.solutionImg" (click)="toggle()" draggable="false" class="solution-img" alt="">
 
-        <h1 class="text-center" style="margin-bottom: 5rem;">
+        <h1 class="general-subtitle text-center" style="margin-bottom: 5rem;">
             A esta persona le puedes ofrecer estos productos
         </h1>
 
@@ -41,7 +38,7 @@
             <div class="col-12 col-lg-4">
                 <ol class="solution-list">
                     <li *ngFor="let product of solution.products; let i = index">
-                        <h5>{{ (i + 1) }}. Nutrilite<sup>TM</sup> {{product.name }}</h5>
+                        <h5 class="general-text">{{ (i + 1) }}. Nutrilite<sup>TM</sup> {{product.name }}</h5>
                     </li> 
                 </ol>
             </div>
@@ -52,9 +49,9 @@
             </div>
         </div>
 
-        <div class="text-center" style="margin-top: 2rem;">
-            <button class="custom-btn">
-                <h5 style="margin: 0;">Comprar ahora</h5> 
+        <div class="text-center" style="margin-top: 3rem;">
+            <button class="general-btn">
+                Comprar ahora
             </button>
         </div>
     </div>
