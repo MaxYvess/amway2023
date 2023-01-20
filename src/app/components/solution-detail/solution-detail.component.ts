@@ -87,36 +87,36 @@ export class SolutionDetailComponent implements OnInit {
             ]
         },
         {
-            name: 'Actividad diaria',
-            img: 'assets/imgs/Soluciones/IMG_4.png',
-            icon: 'assets/imgs/Soluciones/ICON_14.png',
-            solutionImg: 'assets/imgs/Soluciones/ICON_9.png',
-            personName: 'Enrique',
-            personJob: 'Empresario',
-            personAge: 50,
-            description: 'Enrique es un empresario de 50 años, está casado y todas las noches, después de trabajar todo el día en ventas, le ayuda a su esposa. No realiza ejercicio regularmente porque no le queda tiempo. Maneja mucho estrés y le preocupa su bienestar cardiovascular.',
+            name: 'Belleza Integral',
+            img: 'assets/imgs/Soluciones/IMG_19.png',
+            icon: 'assets/imgs/Soluciones/ICON_13.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_8.png',
+            personName: 'Juliana',
+            personJob: 'Educadora',
+            personAge: 35,
+            description: 'Juliana es una educadora de 35 años, por su trabajo, muchas de sus actividades son al aire libre. Le interesa mucho el bienestar de su piel. Corre una hora,  cuatro veces a la semana. Su almuerzo y refrigerios los toma en el colegio, cree que su alimentación no está balanceada.',
             reverse: true,
-            border: '#76C655',
+            border: '#E97184',
             products: [
                 {
-                    name: 'Cal Mag D (90 tabs)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_9.png'
+                    name: 'Daily Plus (30/90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Proteína Vegetal (450 gr)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_10.png'
+                    name: 'HSN',
+                    img: 'assets/imgs/Soluciones/ELEMENT_14.png'
                 },
                 {
-                    name: 'B Plus (60 tabs)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_11.png'
+                    name: 'Agua Micelar Skin Nutrition',
+                    img: 'assets/imgs/Soluciones/ELEMENT_15.png'
                 }
             ]
         },
         {
-            name: 'En la mira',
+            name: 'Actividad diaria',
             img: 'assets/imgs/Soluciones/IMG_4.png',
-            icon: 'assets/imgs/Soluciones/ICON_15.png',
-            solutionImg: 'assets/imgs/Soluciones/ICON_10.png',
+            icon: 'assets/imgs/Soluciones/ICON_14.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_9.png',
             personName: 'Enrique',
             personJob: 'Empresario',
             personAge: 50,
@@ -138,6 +138,55 @@ export class SolutionDetailComponent implements OnInit {
                 }
             ]
         },
+        {
+            name: 'En la mira',
+            img: 'assets/imgs/Soluciones/IMG_55.png',
+            icon: 'assets/imgs/Soluciones/ICON_15.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_10.png',
+            personName: 'Marcela',
+            personJob: 'Administradora',
+            personAge: 45,
+            description: 'Marcela es una administradora de 49 años, trabaja 9 horas frente a un computador. No consume frutas y vegetales de forma regular, pero si le interesan los nutrientes que le ayuden a mejorar su visión ya que lleva muchos años frente al computador. También le interesa saber cómo puede ayudar a la salud visual de sus padres que ya están en la tercera edad.',
+            reverse: true,
+            border: '#01AEB0',
+            products: [
+                {
+                    name: 'Omega 3 Plus (90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_4.png'
+                },
+                {
+                    name: 'Daily Plus (90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_10.png'
+                },
+            ]
+        },
+        {
+            name: 'Eco activo',
+            img: 'assets/imgs/Soluciones/IMG_18.png',
+            icon: 'assets/imgs/Soluciones/ICON_16.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_11.png',
+            personName: 'Pedro',
+            personJob: 'Empleado',
+            personAge: 40,
+            description: 'Pedro tiene 40 años, es cabeza de familia con dos hijos. Se levanta temprano para preparar alimentos y hacer tareas del hogar. Trabaja de 8 a 5, después cena, limpia y organiza toda la cocina. Estudia inglés una hora y para mantenerse activo toma mucho café. Es también un ecologista comprometido con la salud del ser humano en equilibrio con el medio ambiente.',
+            reverse: false,
+            border: '#FE7E29',
+            products: [
+                {
+                    name: 'B Plus (60 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_12.png'
+                },
+                {
+                    name: 'Glister Pasta de Dientes Multiacción con Fluoruro',
+                    img: 'assets/imgs/Soluciones/ELEMENT_7.png'
+                },
+                {
+                    name: 'L.O.C Limpiador Multiusos',
+                    img: 'assets/imgs/Soluciones/ELEMENT_13.png'
+                }
+            ]
+        },
+        
     ];
 
     public solution: any = {};

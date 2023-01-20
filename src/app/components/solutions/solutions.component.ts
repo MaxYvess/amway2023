@@ -39,25 +39,25 @@ export class SolutionsComponent implements OnInit {
         },
         {
             id: 4,
-            img: 'assets/imgs/Soluciones/IMG_11.png',
+            img: 'assets/imgs/Soluciones/IMG_17.png',
             /*name: 'OTRA SOLUCIÓN',
             icon: 'icon1',*/
         },
         {
             id: 5,
-            img: 'assets/imgs/Soluciones/IMG_13.png',
+            img: 'assets/imgs/Soluciones/IMG_11.png',
             /*name: 'ÚLTIMA SOLUCIÓN',
             icon: 'icon2',*/
         },
         {
             id: 6,
-            img: 'assets/imgs/Soluciones/IMG_15.png',
+            img: 'assets/imgs/Soluciones/IMG_13.png',
             /*name: 'ÚLTIMA SOLUCIÓN',
             icon: 'icon2',*/
         },
         {
             id: 7,
-            img: 'assets/imgs/Soluciones/IMG_17.png',
+            img: 'assets/imgs/Soluciones/IMG_15.png',
             /*name: 'ÚLTIMA SOLUCIÓN',
             icon: 'icon2',*/
         }
