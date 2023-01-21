@@ -18,8 +18,8 @@
         <div id="content" class="custom-container" style="z-index: 2">   
             
             <div class="text-center">
-                <h1 class="general-subtitle" >Nuestros ingredientes</h1>
-                <h4 class="general-text" >Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto</h4>
+                <h1 class="general-subtitle">Nuestros ingredientes</h1>
+                <h4 class="general-text" >Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto.</h4>
             </div>
 
             <swiper 
@@ -35,9 +35,9 @@
                             <div>
                                 <h5 class="general-text" [innerHtml]="certification.description"></h5>
 
-                                <div class="text-center">
+                                <!--<div class="text-center">
                                     <button class="general-btn">Leer más</button>
-                                </div>
+                                </div>-->
                             </div>
                             
                         </div>
@@ -80,7 +80,7 @@
             </div>
 
             <div *ngIf="tab == 2">
-                <div class="custom-row">
+                <div class="custom-row mb3">
 
                     <div *ngFor="let ingredient2 of ingredients2" class="custom-col">
                         <div class="ingredients-card">
@@ -90,8 +90,20 @@
                                 <h6 class="general-text">{{ ingredient2.description }}</h6>
                             </div>
                         </div>
+                        
                     </div>
-    
+                    
+                </div>
+                <div class="text-center">
+                    <h1 class="general-subtitle" >Nada que NO quisieras</h1>
+                    <h4 class="general-text">Estamos comprometidos con la seguridad de todos los que utilizan nuestros productos Naturalmente Irresistibles. Con el fin de proporcionar fórmulas Clean Beauty Artistry™, lo que queremos es generar productos que sean puros, seguros y efectivos. Por eso elegimos no utilizar ciertos ingredientes y hacemos un seguimiento continuo para mantenernos al tanto de los últimos avances.</h4>
+                    <h1 class="general-text"><b>*Creado sin:</b></h1>
+                    <h4 class="general-text" ><li>Parabenos</li></h4>
+                    <h4 class="general-text" ><li>Ftalatos</li></h4>
+                    <h4 class="general-text" ><li>Tensioactivos sulfatados (SLS, SLES)</li></h4>
+                    <h4 class="general-text" ><li>Aceite mineral</li></h4>
+                    <h4 class="general-text" ><li>Ingredientes de origen animal</li></h4>
+                    
                 </div>
             </div>
 

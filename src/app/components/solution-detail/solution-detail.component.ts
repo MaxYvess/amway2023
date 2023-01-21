@@ -20,7 +20,7 @@ export class SolutionDetailComponent implements OnInit {
             personName: 'Héctor',
             personJob: 'Contador',
             personAge: 35,
-            description: 'Héctor es un contador de 35 años que trabaja en una trasnacional 8 horas al día. Se levanta para ir al gimnasio mínimo 1 hora, dice que le da energía para empezar sus labores. Sus rutinas se enfocan en volumen muscular y cardio. Desayuna una hora después de haber terminado sus rutinas. Héctor se enfoca tanto en el gimnasio que quiere ver resultados pronto, por eso cuida su alimentación.',
+            description: 'Héctor trabaja en una trasnacional 8 horas al día. Se levanta para ir al gimnasio mínimo 1 hora, dice que le da energía para empezar sus labores. Sus rutinas se enfocan en volumen muscular y cardio. Desayuna una hora después de haber terminado sus rutinas. Héctor se enfoca tanto en el gimnasio que quiere ver resultados pronto, por eso cuida su alimentación.',
             reverse: false,
             border: '#7D70A9',
             products: [
@@ -45,8 +45,8 @@ export class SolutionDetailComponent implements OnInit {
             solutionImg: 'assets/imgs/Soluciones/ICON_2.png',
             personName: 'Angélica',
             personJob: 'Madre',
-            personAge: 35,
-            description: 'Angélica es madre, tiene 33 años, retomó sus estudios en la universidad. Por todas las labores que tiene (Familia, académicas y laborales del hogar) siente que no rinde lo suficiente. Ella cree que debe mejorar su alimentación porque ahí está la clave para que su cerebro funcione mejor.',
+            personAge: 33,
+            description: 'Angélica retomó sus estudios en la universidad. Por todas las labores que tiene (Familia, académicas y laborales del hogar) siente que no rinde lo suficiente. Ella cree que debe mejorar su alimentación porque ahí está la clave para que su cerebro funcione mejor.',
             reverse: true,
             border: '#7BA9BD',
             products: [
@@ -65,14 +65,14 @@ export class SolutionDetailComponent implements OnInit {
             ]
         },
         {
-            name: 'Sonrisa ideal',
+            name: 'SONRISA IDEAL',
             img: 'assets/imgs/Soluciones/IMG_3.jpg',
             icon: 'assets/imgs/Soluciones/ICON_12.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_7.png',
             personName: 'Hernanado',
             personJob: 'Estudiante universitario',
             personAge: 23,
-            description: 'Hernando está en la universidad, tiene 23 años, está soltero y una de las cosas que más le interesa es tener una buena sonrisa. Va al odontólogo dos veces al año, pero por costumbre no consume alimentos ricos en Calcio.',
+            description: 'Hernando está soltero y una de las cosas que más le interesa es tener una buena sonrisa. Va al odontólogo dos veces al año, pero por costumbre no consume alimentos ricos en Calcio.',
             reverse: false,
             border: '#FF8A5B',
             products: [
@@ -87,14 +87,14 @@ export class SolutionDetailComponent implements OnInit {
             ]
         },
         {
-            name: 'Belleza Integral',
+            name: 'BELLEZA INTEGRAL',
             img: 'assets/imgs/Soluciones/IMG_19.png',
             icon: 'assets/imgs/Soluciones/ICON_13.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_8.png',
             personName: 'Juliana',
             personJob: 'Educadora',
             personAge: 35,
-            description: 'Juliana es una educadora de 35 años, por su trabajo, muchas de sus actividades son al aire libre. Le interesa mucho el bienestar de su piel. Corre una hora,  cuatro veces a la semana. Su almuerzo y refrigerios los toma en el colegio, cree que su alimentación no está balanceada.',
+            description: 'Por su trabajo, muchas de sus actividades son al aire libre. Le interesa mucho el bienestar de su piel. Corre una hora,  cuatro veces a la semana. Su almuerzo y refrigerios los toma en el colegio, cree que su alimentación no está balanceada.',
             reverse: true,
             border: '#E97184',
             products: [
@@ -113,24 +113,24 @@ export class SolutionDetailComponent implements OnInit {
             ]
         },
         {
-            name: 'Actividad diaria',
+            name: 'ACTIVIDAD DIARIA',
             img: 'assets/imgs/Soluciones/IMG_4.png',
             icon: 'assets/imgs/Soluciones/ICON_14.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_9.png',
             personName: 'Enrique',
             personJob: 'Empresario',
             personAge: 50,
-            description: 'Enrique es un empresario de 50 años, está casado y todas las noches, después de trabajar todo el día en ventas, le ayuda a su esposa. No realiza ejercicio regularmente porque no le queda tiempo. Maneja mucho estrés y le preocupa su bienestar cardiovascular.',
+            description: 'Enrique está casado y todas las noches, después de trabajar todo el día en ventas, le ayuda a su esposa. No realiza ejercicio regularmente porque no le queda tiempo. Maneja mucho estrés y le preocupa su bienestar cardiovascular.',
             reverse: false,
             border: '#76C655',
             products: [
                 {
-                    name: 'Cal Mag D (90 tabs)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_9.png'
+                    name: 'Omega 3 Plus (30/60 TAB)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
                     name: 'Proteína Vegetal (450 gr)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_10.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_16.png'
                 },
                 {
                     name: 'B Plus (60 tabs)',
@@ -139,14 +139,14 @@ export class SolutionDetailComponent implements OnInit {
             ]
         },
         {
-            name: 'En la mira',
+            name: 'EN LA MIRA',
             img: 'assets/imgs/Soluciones/IMG_55.png',
             icon: 'assets/imgs/Soluciones/ICON_15.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_10.png',
             personName: 'Marcela',
             personJob: 'Administradora',
             personAge: 45,
-            description: 'Marcela es una administradora de 49 años, trabaja 9 horas frente a un computador. No consume frutas y vegetales de forma regular, pero si le interesan los nutrientes que le ayuden a mejorar su visión ya que lleva muchos años frente al computador. También le interesa saber cómo puede ayudar a la salud visual de sus padres que ya están en la tercera edad.',
+            description: 'Marcela trabaja 9 horas frente a un computador. No consume frutas y vegetales de forma regular, pero si le interesan los nutrientes que le ayuden a mejorar su visión ya que lleva muchos años frente al computador. También le interesa saber cómo puede ayudar a la salud visual de sus padres que ya están en la tercera edad.',
             reverse: true,
             border: '#01AEB0',
             products: [
@@ -161,14 +161,14 @@ export class SolutionDetailComponent implements OnInit {
             ]
         },
         {
-            name: 'Eco activo',
+            name: 'ECO ACTIVO',
             img: 'assets/imgs/Soluciones/IMG_18.png',
             icon: 'assets/imgs/Soluciones/ICON_16.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_11.png',
             personName: 'Pedro',
             personJob: 'Empleado',
             personAge: 40,
-            description: 'Pedro tiene 40 años, es cabeza de familia con dos hijos. Se levanta temprano para preparar alimentos y hacer tareas del hogar. Trabaja de 8 a 5, después cena, limpia y organiza toda la cocina. Estudia inglés una hora y para mantenerse activo toma mucho café. Es también un ecologista comprometido con la salud del ser humano en equilibrio con el medio ambiente.',
+            description: 'Pedro es cabeza de familia con dos hijos. Se levanta temprano para preparar alimentos y hacer tareas del hogar. Trabaja de 8 a.m a 5 p.m, después cena, limpia y organiza toda la cocina. Estudia inglés una hora y para mantenerse activo toma mucho café. Es también un ecologista comprometido con la salud del ser humano en equilibrio con el medio ambiente.',
             reverse: false,
             border: '#FE7E29',
             products: [

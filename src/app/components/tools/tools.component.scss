@@ -20,6 +20,9 @@ h3 {
     margin-bottom: 3rem;
 }
 
+.title-img {
+    width: 33%;
+}
 
 .tools-card {
     background: #e5e5e5;
@@ -62,6 +65,9 @@ h3 {
             margin: 0;
         }
     }
+    .title-img {
+        width: 90%;
+    }
 }
 
 
@@ -77,6 +83,9 @@ h3 {
             height: 140px;
             margin: 0;
         }
+    }
+    .title-img {
+        width: 90%;
     }
 }
 
@@ -103,6 +112,9 @@ h3 {
             margin: 0;
         }
     }
+    .title-img {
+        width: 60%;
+    }
 
 }
 
@@ -112,13 +124,21 @@ h3 {
     .tools-card {
         padding: 2rem;
     }
+    .title-img {
+        width: 45%;
+    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) and (max-width: 1599px) {
-
+    .title-img {
+        width: 44%;
+    }
 }
 
-@media (min-width: 1600px) {
 
+@media (min-width: 1600px) {
+    .general-title {
+        font-size: 48px;
+    }
 }

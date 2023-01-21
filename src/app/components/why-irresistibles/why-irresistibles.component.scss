@@ -31,7 +31,7 @@
     display: flex;
     background: #F4F4F4; 
 
-    img {
+    .img {
         width: 50%;
         object-fit: cover;
     }
@@ -232,7 +232,7 @@
     display: flex; 
     margin-top: 3rem; 
     width: 100%;
-
+    
     img {
         width: 70%;
         object-fit: contain;

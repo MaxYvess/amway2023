@@ -29,7 +29,7 @@ export class IngredientsComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_6.png',
-            name: 'Algas marina calcificadas',
+            name: 'Algas marinas calcificadas',
             description: 'Las algas calcificadas de cultivo en su entorno natural, que se encuentran en la costa de Islandia, son una de las fuentes más concentradas de calcio y magnesio naturales. '
         },
         {
@@ -140,19 +140,19 @@ export class IngredientsComponent implements OnInit {
     public certifications: Array<any> = [
         {
             title: 'Ingredientes con certificación orgánica',
-            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. <br><br> Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. (Aprende más sobre la trazabilidad)'
+            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. <br><br> Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. Conoce más de trazabilidad <b>aquí.<b>'
         },
         {
-            title: '¡Todos nuestros ingredientes naturales tienen certificación de NutriCert!',
+            title: '¡Todos nuestros ingredientes naturales tienen certificación de NutriCert™!',
             description: '<b>NutriCert™</b> es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. <br><br> Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.'
         },
         {
             title: 'Granjas Nutrilite',
-            description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. Es ahí donde nacen todos nuestros ingredientes.'
+            description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. <br><br>Es ahí donde nacen todos nuestros ingredientes.'
         },
         {
             title: 'Ingredientes Botánicos',
-            description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas puras, seguras y efectivas. Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.'
+            description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas <b>puras, seguras y efectivas</b>. <br><br>Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.'
         }
     ];
 

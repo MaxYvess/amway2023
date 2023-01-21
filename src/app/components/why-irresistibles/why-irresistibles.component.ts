@@ -16,21 +16,7 @@ export class WhyIrresistiblesComponent implements OnInit {
             smallTitle: 'Productos en',
             bigTitle: 'Tendencia',
             icon: 'assets/imgs/Por_Que_Naturales/ICON_8.png',
-            description: '5 de cada 10 personas están bastante preocupados por su condición física y salud. <br><br> Nuestros productos responden de manera efectiva a la necesidad del consumidor actual.'
-        },
-        {
-            img: 'assets/imgs/Por_Que_Naturales/IMG_2.png',
-            smallTitle: 'Ingredientes',
-            bigTitle: 'Naturales',
-            icon: 'assets/imgs/Por_Que_Naturales/ICON_7.png',
-            description: 'El poder de la naturaleza está en cada uno de nuestros productos. <br><br>Con el proceso único de trazabilidad garantizamos que los ingredientes sean puros, seguros y efectivos.'
-        },
-        {
-            img: 'assets/imgs/Por_Que_Naturales/IMG_3.png',
-            smallTitle: 'Calidad',
-            bigTitle: 'Certificada',
-            icon: 'assets/imgs/Por_Que_Naturales/ICON_5.png',
-            description: 'Desde la semilla hasta el producto, nos aseguramos de darte lo mejor de la naturaleza y lo mejor de la ciencia. '
+            description: 'El mercado de salud y bienestar ha crecido en toda la región y nuestros productos responden de manera efectiva a ese crecimiento.'
         },
         {
             img: 'assets/imgs/Por_Que_Naturales/IMG_4.png',
@@ -38,7 +24,22 @@ export class WhyIrresistiblesComponent implements OnInit {
             bigTitle: 'Saludable',
             icon: 'assets/imgs/Por_Que_Naturales/ICON_6.png',
             description: 'Nutrilite cuenta con la certificación orgánica de vitaminas y suplementos. Artistry innova en el cuidado de la piel con el poder de los fitonutrientes.'
-        }
+        },
+        {
+            img: 'assets/imgs/Por_Que_Naturales/IMG_2.png',
+            smallTitle: 'Ingredientes',
+            bigTitle: 'Naturales',
+            icon: 'assets/imgs/Por_Que_Naturales/ICON_7.png',
+            description: 'El poder de la naturaleza está en cada uno de nuestros productos. <br><br>Con el proceso único de trazabilidad garantizamos que los ingredientes sean puros, seguros y efectivos. <br><br> Conoce más de nuestros ingredientes <b>aquí.<b>'
+        },
+        {
+            img: 'assets/imgs/Por_Que_Naturales/IMG_3.png',
+            smallTitle: 'Calidad',
+            bigTitle: 'Certificada',
+            icon: 'assets/imgs/Por_Que_Naturales/ICON_5.png',
+            description: 'Desde la semilla hasta el producto, nos aseguramos de darte lo mejor de la naturaleza y lo mejor de la ciencia. <br><br>Conoce nuestros certificados de calidad <b>aquí.<b>'
+        },
+        
     ]
 
     constructor() { }

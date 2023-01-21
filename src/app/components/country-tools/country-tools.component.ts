@@ -13,7 +13,7 @@ export class CountryToolsComponent implements OnInit {
 
     public tools: Array<any> = [
         {
-            name: 'Catálogo irresistible',
+            name: 'Catálogo Irresistible',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
