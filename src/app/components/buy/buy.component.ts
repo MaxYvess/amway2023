@@ -13,19 +13,19 @@ export class BuyComponent implements OnInit {
     public countries: Array<any> = [
         {
             img: 'assets/imgs/Compras/IMG_1.png',
-            link: ''
+            link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdsList&IC=4&C=PO&line=P&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_2.png',
-            link: ''
+            link: 'https://www.amway.com.br/pt/naturalmente-irresistiveis'
         },
         {
             img: 'assets/imgs/Compras/IMG_3.png',
-            link: ''
+            link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdsList&IC=1&C=CV&line=C&NavM=N'
         }, 
         {
             img: 'assets/imgs/Compras/IMG_4.png',
-            link: ''
+            link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdsList&IC=5&C=BQ&line=B&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_5.png',

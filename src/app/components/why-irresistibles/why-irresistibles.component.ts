@@ -30,14 +30,14 @@ export class WhyIrresistiblesComponent implements OnInit {
             smallTitle: 'Ingredientes',
             bigTitle: 'Naturales',
             icon: 'assets/imgs/Por_Que_Naturales/ICON_7.png',
-            description: 'El poder de la naturaleza está en cada uno de nuestros productos. <br><br>Con el proceso único de trazabilidad garantizamos que los ingredientes sean puros, seguros y efectivos. <br><br> Conoce más de nuestros ingredientes <b>aquí.<b>'
+            description: 'El poder de la naturaleza está en cada uno de nuestros productos. <br><br>Con el proceso único de trazabilidad garantizamos que los ingredientes sean puros, seguros y efectivos. <br><br> Conoce más de nuestros ingredientes <a href="http://www.google.com/"><b>aqui.<b></a>'
         },
         {
             img: 'assets/imgs/Por_Que_Naturales/IMG_3.png',
             smallTitle: 'Calidad',
             bigTitle: 'Certificada',
             icon: 'assets/imgs/Por_Que_Naturales/ICON_5.png',
-            description: 'Desde la semilla hasta el producto, nos aseguramos de darte lo mejor de la naturaleza y lo mejor de la ciencia. <br><br>Conoce nuestros certificados de calidad <b>aquí.<b>'
+            description: 'Desde la semilla hasta el producto, nos aseguramos de darte lo mejor de la naturaleza y lo mejor de la ciencia. <br><br>Conoce nuestros certificados de calidad <a href="http://www.google.com/"><b>aqui.<b></a>'
         },
         
     ]
