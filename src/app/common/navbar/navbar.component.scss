@@ -54,6 +54,13 @@
 }
 
 
+.ingre {
+    --bs-dropdown-link-active-color: #212529 !important;
+    --bs-dropdown-link-active-bg: #eee !important;
+    
+    transform: translate(0px, 80px) !important;
+}
+
 .active-route {
     background: #eee !important;
 }
@@ -94,6 +101,14 @@
   
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
+}
+
+
+.navbar-btn {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
 }
 
 // extra Small devices (smartphones, 576px and down)

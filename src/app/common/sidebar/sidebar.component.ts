@@ -11,6 +11,7 @@ export class SidebarComponent implements OnInit {
     @Output() public closeSidebar = new EventEmitter<any>();
 
     public isOpenSubMenu: boolean = false;
+    public isOpenSubMenu2: boolean = false;
 
     constructor() { }
 
@@ -19,6 +20,10 @@ export class SidebarComponent implements OnInit {
 
     toggle(){
         this.isOpenSubMenu = !this.isOpenSubMenu;
+    }
+
+    toggle2(){
+        this.isOpenSubMenu2 = !this.isOpenSubMenu2;
     }
 
     close() {

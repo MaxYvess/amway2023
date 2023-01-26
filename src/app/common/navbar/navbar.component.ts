@@ -12,14 +12,18 @@ export class NavbarComponent implements OnInit {
 
     @Output() public isOpenSidebar = new EventEmitter<any>();
     @Input() public isOpen: boolean = false;
-    public dropdown: any = null;
+    public productsDropdown: any = null;
+    public ingredientsDropdown: any = null;
     public isOpenSubMenu: boolean = false;
 
     constructor() { }
 
     ngOnInit(): void {
-        let dropdownEl = $('.dropdown-menu')[0]; 
-        this.dropdown = new bootstrap.Dropdown(dropdownEl);
+        let dropdownEl = $('#productsDropdown')[0]; 
+        this.productsDropdown = new bootstrap.Dropdown(dropdownEl);
+
+        let dropdownEl2 = $('#ingredientsDropdown')[0]; 
+        this.ingredientsDropdown = new bootstrap.Dropdown(dropdownEl2);
     }
 
     toggle(){
@@ -27,12 +31,20 @@ export class NavbarComponent implements OnInit {
         this.isOpenSidebar.next(this.isOpen);
     }
 
-    openSubMenu(){
-        this.dropdown.show();
+    openSubMenu1(){
+        this.productsDropdown.show();
     }
 
-    closeSubMenu(){
-        this.dropdown.hide();
+    closeSubMenu1(){
+        this.productsDropdown.hide();
+    }
+
+    openSubMenu2(){
+        this.ingredientsDropdown.show();
+    }
+
+    closeSubMenu2(){
+        this.ingredientsDropdown.hide();
     }
 
 }

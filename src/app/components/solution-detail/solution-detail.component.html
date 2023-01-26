@@ -1,4 +1,4 @@
-<div class="solution" style="position: relative; width: 100vw; overflow-x: hidden;" >
+<div class="solution" style="position: relative; width: 100vw; overflow-x: hidden; overflow-y: hidden;" >
     
     <div class="solution-card" [ngClass]="{ 'reverse': solution.reverse }" >
         <img [src]="solution.img" draggable="false" alt="">
@@ -12,16 +12,18 @@
 
             <h4 class="general-text mb3">{{ solution.description }}</h4>
 
-            <h1 class="general-subtitle">¿Conoces a alguien como {{ solution.personName }}? A esa persona le puedes ofrecer esta solución.</h1>
+            <h1 class="general-subtitle mb3">¿Conoces a alguien como {{ solution.personName }}? A esa persona le puedes ofrecer esta solución.</h1>
 
             <div class="link">
-                <!--<div class="custom-link" (click)="toggle()">
-                    <h3 class="general-subtitle normal-text mb0" >
-                        Haz clic en la pestaña para conocer la solución
-                    </h3>
+                <div class="custom-link" (click)="navigateTo(['solutions'])">
                     <img src="assets/imgs/next_icon.png" draggable="false" alt="">
+                    
+                    <h3 class="general-subtitle normal-text mb0" >
+                        Regresar a los perfiles
+                    </h3>
                 </div>
-            </div>-->
+            </div>
+
         </div>
     </div>
 
@@ -30,9 +32,14 @@
 
         <img [src]="solution.solutionImg" (click)="toggle()" draggable="false" class="solution-img" alt="">
 
-        <h1 class="general-subtitle text-center" style="margin-bottom: 5rem;">
+        <!--h1 class="general-subtitle text-center" style="margin-bottom: 5rem;">
             A esta persona le puedes ofrecer estos productos
-        </h1>
+        </h1-->
+
+        <div class="title-solution">
+            <img [src]="solution.icon" draggable="false" alt="" >
+            <h1 class="general-subtitle mb0">{{ solution.name }}</h1>
+        </div>
 
         <div class="row">
             <div class="col-12 col-lg-4">

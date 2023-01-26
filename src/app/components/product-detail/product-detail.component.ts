@@ -24,6 +24,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Daily_Plus/ICON_7.png',
             footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: false, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=117548&C=KQ&Brand=',
             color: '#f97c22',
             imgs: [
                 'assets/imgs/Daily_Plus/ICON_8.png',
@@ -41,6 +42,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Cal_Mag_D/ICON_4.png',
             footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2013-0002850 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: true, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110609&C=KQ&Brand=',
             color: '#6e6697',
             imgs: [
                 'assets/imgs/Cal_Mag_D/ICON_5.png',
@@ -58,6 +60,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Proteina_Vegetal/ICON_4.png',
             footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO RSIA01I304. ESTE PRODUCTO ES UN ALIMENTO. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110415&C=KQ&Brand=',
             color: '#0b7c15',
             imgs: [
                 'assets/imgs/Proteina_Vegetal/ICON_8.png',
@@ -75,6 +78,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Omega_3_Plus/ICON_4.png',
             footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004198 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110415&C=KQ&Brand=',
             color: '#275994',
             imgs: [
                 'assets/imgs/Omega_3_Plus/ICON_6.png',
@@ -92,6 +96,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/C_Plus/ICON_4.png',
             footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2012-0002338 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: false, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=122173&C=KQ&Brand=',
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/C_Plus/ICON_6.png',
@@ -101,7 +106,7 @@ export class ProductDetailComponent implements OnInit {
             ]
         },
         { 
-            id: 6, name: 'B Plus', 
+            id: 6, name: ' B Plus / ' + ' B Complex Dual Release', 
             slogan: 'Con 8 vitaminas del complejo B', 
             modeOfUse: 'Adultos: Tomar una tableta con alimentos preferiblemente. No masticar, romper o triturar. Verifica el modo de uso en la página web de tu país.',
             description: 'Con <span class="green">tecnología bicapa</span> de liberación prolongada, <span class="green">B complex</span> de Nutrilite, es un suplemento alimentario con <span class="green">8 vitaminas</span> del <span class="green">complejo</span> accesible a tu bolsillo.', 
@@ -109,6 +114,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/B_Plus/ICON_4.png',
             footer: '',
             reverse: true, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170',
             color: '#0b7c15',
             imgs: [
                 'assets/imgs/B_Plus/ICON_6.png',
@@ -126,6 +132,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/HSN/ICON_4.png',
             footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170',
             color: '#b83b61',
             imgs: [
                 'assets/imgs/HSN/ICON_8.png',
@@ -143,6 +150,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Agua_Micelar/ICON_4.png',
             footer: '',
             reverse: true, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=123791&C=KQ&Brand=',
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/Agua_Micelar/ICON_8.png',
@@ -155,17 +163,18 @@ export class ProductDetailComponent implements OnInit {
             id: 9, name: 'Pasta de Dientes',
             slogan: 'Consigue una sonrisa radiante donde quiera que vayas', 
             modeOfUse: 'Coloca un poco de pasta sobre tu cepillo dental, lávate los dientes, enjuaga. Lávate los dientes después de cada comida.',
-            description: 'Con su fórmula REMINACT™, <span class="orange">fortalecerás tus dientes</span>, aportando el <span class="orange">calcio</span> y el <span class="orange">fósforo</span> que han perdido, además de reparar el esmalte. Su boquilla es 44% más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el <span class="orange">pulir</span> suavemente los dientes, <span class="orange">limpieza efectiva</span> y ayuda a mantener el tono natural de tus dientes.', 
+            description: 'Con su fórmula REMINACT™, <span class="purple">fortalecerás tus dientes</span>, aportando el <span class="purple">calcio</span> y el <span class="purple">fósforo</span> que han perdido, además de reparar el esmalte. Su boquilla es 44% más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el <span class="purple">pulir</span> suavemente los dientes, <span class="purple">limpieza efectiva</span> y ayuda a mantener el tono natural de tus dientes.', 
             img: 'assets/imgs/Pasta_de_dientes/ICON_5.png',
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
             reverse: false, 
-            color: '#f97c22',
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=6833&C=KQ&Brand=',
+            color: '#6e6697',
             imgs: [
-                'assets/imgs/Pasta_de_dientes/ICON_6.png',
-                'assets/imgs/Pasta_de_dientes/ICON_7.png',
-                'assets/imgs/Pasta_de_dientes/ICON_6.png',
-                'assets/imgs/Pasta_de_dientes/ICON_8.png'
+                'assets/imgs/Pasta_de_dientes/ICON_9.png',
+                'assets/imgs/Pasta_de_dientes/ICON_11.png',
+                'assets/imgs/Pasta_de_dientes/ICON_10.png',
+                'assets/imgs/Pasta_de_dientes/ICON_12.png'
             ]
         },
         { 
@@ -177,12 +186,13 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_4.png',
             footer: '',
             reverse: true, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=0001&C=KQ&Brand=',
             color: '#265894',
             imgs: [
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png',
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_9.png',
-                'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_6.png',
-                'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png'
+                'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png',
+                'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_6.png'
             ]
         }
     ];
@@ -212,6 +222,10 @@ export class ProductDetailComponent implements OnInit {
     ngOnDestroy() {
         window.removeEventListener("mousemove", this.mouseAnimations);
         window.removeEventListener('scroll', this.scrollAnimations, true);
+    }
+
+    openLink(link: string){
+        window.open(link, '_blank');
     }
 
     openModal(){

@@ -42,6 +42,18 @@
 }
 
 
+.go-to-top {
+    position: fixed; 
+    bottom: 2rem; 
+    right: 0;
+    z-index: 6;
+    background: #f36c5d;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
 .fixed-btn {
     position: fixed;  
     top: 50%; 

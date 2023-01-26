@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, RouterModule } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
 import { SwiperModule } from 'swiper/angular';
 
@@ -137,30 +137,72 @@ export class IngredientsComponent implements OnInit {
         },  
         
     ];
+    public ingredients3: Array<any> = [
+        {
+            img: 'assets/imgs/Ingredientes/IMG_22.png',
+            name: 'REMINACT™',
+            description: 'Ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.'
+        },
+        {
+            
+            img: 'assets/imgs/Ingredientes/IMG_23.png',
+            name: 'Fórmula BIOQUEST',
+            description: 'Incluye ingredientes derivados de fuentes naturales como el aceite de coco, provee un alto desempeño siendo biodegradable.'
+        },
+    ];
     public certifications: Array<any> = [
         {
             title: 'Ingredientes con certificación orgánica',
-            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. <br><br> Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. Conoce más de trazabilidad <b>aquí.<b>'
+            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. <br><br> Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. Conoce más de trazabilidad <b>aquí.<b>',
+            route: ['tool', 7],
         },
         {
             title: '¡Todos nuestros ingredientes naturales tienen certificación de NutriCert™!',
-            description: '<b>NutriCert™</b> es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. <br><br> Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.'
+            description: '<b>NutriCert™</b> es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. <br><br> Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.',
+            route: null,
         },
         {
             title: 'Granjas Nutrilite',
-            description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. <br><br>Es ahí donde nacen todos nuestros ingredientes.'
+            description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. <br><br>Es ahí donde nacen todos nuestros ingredientes.',
+            route: null,
         },
         {
             title: 'Ingredientes Botánicos',
-            description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas <b>puras, seguras y efectivas</b>. <br><br>Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.'
+            description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas <b>puras, seguras y efectivas</b>. <br><br>Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.',
+            route: null,
         }
     ];
+    public certifications2: Array<any> = [
+    {
+        title: 'Ingredientes Amway Home y Cuidado Personal',
+        description: '<b>REMINACT:</b> ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.',
+        route: null,
+    },
+    {
+        title: 'Ingredientes cuidado personal y Amway Home',
+        description: '<b>Fórmula BIOQUEST:</b> incluye ingredientes derivados de fuentes naturales como el aceite de coco, provee un alto desempeño siendo biodegradable.',
+        route: null,
+    },
+    ];
+
 
     public tab: number = 1;
+    public view: number = 1;
 
-    constructor() { }
+    constructor(private router: Router,
+                private route: ActivatedRoute) { }
 
     ngOnInit(): void {
+        this.route.params.subscribe((params) => {
+            if(params && params['id']){
+                this.view = params['id'];
+            }
+        });
+    }
+
+    navigateTo(route: any){
+        if(route)
+            this.router.navigate(route);
     }
 
     ngAfterViewInit(){

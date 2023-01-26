@@ -1,5 +1,5 @@
 <div class="element-style">
-    <img src="assets/imgs/Productos/IMG_61.png" draggable="false" style="width: 100%;" alt="">
+    <img src="assets/imgs/Productos/img 11.jpg" draggable="false" style="width: 100%;" alt="">
 <div class="why-irresistible" >
     
     <div class="custom-container" style="position: relative;">
@@ -31,7 +31,8 @@
                             <div class="irresistible-detail-card">
                                 <img [src]="item.icon" draggable="false" alt="">
                                 
-                                <h6 class="general-small-text" [innerHtml]="item.description"></h6>
+                                <h6 class="general-small-text" (click)="goToSection(item.goTo)" [innerHtml]="item.description"></h6>
+                                
                             </div>
                         </div>
                     </div>
@@ -43,7 +44,7 @@
     </div>
 </div>
 
-<div class="natural-ingredients">
+<div id="naturalIngredients" class="natural-ingredients">
     <img src="assets/imgs/Por_Que_Naturales/IMG_5.jpg" class="img" draggable="false" alt="">
     <div class="content">
 
@@ -71,7 +72,7 @@
 </div>
 
 
-<div class="why-irresistible2" >
+<div id="certificateQuality" class="why-irresistible2" >
     <div class="custom-container">
 
         <div class="text-center">

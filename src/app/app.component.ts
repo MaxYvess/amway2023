@@ -29,6 +29,12 @@ export class AppComponent {
     navigateTo(route: Array<any>){
         this.router.navigate(route);
     }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
+    }
 }
 
 

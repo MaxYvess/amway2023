@@ -42,16 +42,32 @@
     }
 }
 
+.title-solution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+    img {
+        width: 80px;
+    }
+}
+
+
 .link {
-    text-align: right;
     margin-top: 2rem;
 
     .custom-link {
-        width: 70%; 
+        width: 100%; 
         display: inline-flex; 
         align-items: center;
         gap: 1rem;
         cursor: pointer;
+
+        img {
+            transform: rotate(180deg);
+        }
     
         h3 {
             display: inline-block;
@@ -68,9 +84,8 @@
         padding-left: calc(8% + 2rem);
     }
 }
-
+/**
 .reverse .link {
-    text-align: left;
 
     .custom-link {
         flex-direction: row-reverse;
@@ -80,26 +95,31 @@
         }
     }
 }
+*/
 
 
 
 .solution-detail-card {
     min-height: 100%; 
-    width: 58%; 
+    width: 59%; 
     background: #fff; 
     padding: 3rem; 
     border: 1px solid #9b3c9b; 
     position: absolute; 
-    right: -53%; 
-    top: 0px;
+    /*right: -53%;
+    top: 0px;*/
+    right: 0;
+    top: 95%;
     transition: .4s linear;
     /*overflow-y: auto;*/
 
 
     .solution-img {
         position: absolute; 
-        left: -2%; 
-        top: calc(50% - 120px); 
+        left: calc(50% - 70px);
+        top: -14%;
+        width: 70px;
+        transform: rotate(90deg);
         cursor: pointer;
         width: 70px;
     }
@@ -107,23 +127,23 @@
 
 
 .solution-detail-card.reverse {
-    left: -53%;
-
+    left: 0%;
 
     >.solution-img {
-        left: 96%; 
-        top: 55%;
+        left: calc(50% - 70px);
+        top: -14%;
+        transform: rotate(-90deg);
     }
 }
 
 
 .solution-detail-card.open {
-    right: 0;
+    top: 3%;
     transition: .4s linear;
 }
 
 .solution-detail-card.reverse.open {
-    left: 0;
+    top: 3%;
     transition: .4s linear;
 }
 
@@ -149,7 +169,8 @@
     
         .solution-detail {
             width: 100%;
-            padding-right: calc(4% + 2rem);
+            padding-right: 2rem;
+            padding-bottom: 7rem;
         }
     }   
 
@@ -160,28 +181,29 @@
 
         .solution-detail {
             width: 100%;
-            padding-left: calc(4% + 2rem);
+            padding-left: 2rem;
+            padding-bottom: 7rem;
         }
     }
         
     .solution-detail-card {
-        width: 100%; 
-        right: -95%; 
+        width: 100%;
         padding: 2rem;
 
         .solution-img { 
-            transition: .3s linear;
-            left: -4%; 
+            top: -9%;
+            left: calc(50% - 25px);
             width: 50px;
         }
     }
 
 
     .solution-detail-card.reverse {
-        left: -95%;
-
+       
         >.solution-img { 
-            left: 92%; 
+            top: -8%;
+            left: calc(50% - 25px);
+            width: 50px;
         }
     }
 
@@ -191,11 +213,8 @@
         }
     }
 
-
-    .link {
-        .custom-link {
-            width: 100%; 
-        }
+    .title-solution {
+        gap: 1rem;
     }
 
 }
@@ -211,9 +230,9 @@
     
         .solution-detail {
             width: 100%;
-            padding-right: calc(4% + 2rem);
+            padding-right: 2rem;
+            padding-bottom: 7rem;
         }
-
     }   
 
     
@@ -224,29 +243,28 @@
 
         .solution-detail {
             width: 100%;
-            padding-left: calc(4% + 2rem);
+            padding-left: 2rem;
+            padding-bottom: 7rem;
         }
     }
         
     .solution-detail-card {
         width: 100%; 
-        right: -95%; 
         padding: 2rem;
 
-
         .solution-img { 
-            transition: .3s linear;
-            left: -4%; 
+            top: -8%;
+            left: calc(50% - 25px);
             width: 50px;
         }
     }
 
     .solution-detail-card.reverse {
-        left: -95%;
-    
-
+       
         >.solution-img { 
-            left: 92%; 
+            top: -8%;
+            left: calc(50% - 25px);
+            width: 50px;
         }
     }
 
@@ -256,47 +274,57 @@
         }
     }
 
-
-    .link {
-        .custom-link {
-            width: 100%; 
-        }
+    .title-solution {
+        gap: 1rem;
     }
-
 }
 
 // Medium devices (tablets, 768px and down)
 @media (min-width: 577px) and (max-width: 768px) {
     .solution-card {
         .solution-detail {
-            padding-right: calc(4% + 2rem);
+            padding-right: 2rem;
+        }
+    }   
+
+    .solution-card.reverse {
+        .solution-detail {
+            padding-left: 2rem;
         }
     }   
         
     .solution-detail-card { 
         padding: 2rem;
+        padding-top: 4rem;
 
         .solution-img { 
-            left: -4%; 
+            top: -11%;
+            left: calc(50% - 30px);
             width: 60px;
         }
     }
 
 
     .solution-detail-card.reverse {
+        padding-top: 4rem;
 
         .solution-img { 
-            left: 91%; 
+            top: -11%;
+            left: calc(50% - 30px);
             width: 60px;
         }
     }
 
+    .title-solution {
+        gap: 1rem;
+    }
 
+    /*
     .link {
         .custom-link {
             width: 100%; 
         }
-    }
+    }*/
 }
 
 
@@ -305,7 +333,8 @@
     .solution-detail-card { 
 
         .solution-img { 
-            left: -3%; 
+            top: -18%;
+            left: calc(50% - 30px);
             width: 60px;
         }
     }
@@ -314,17 +343,17 @@
     .solution-detail-card.reverse {
 
         >.solution-img { 
-            left: 93%; 
-            top: 40%;
+            top: -18%;
+            left: calc(50% - 30px);
             width: 60px;
         }
     }
 
-    .link {
+    /*.link {
         .custom-link {
             width: 80%; 
         }
-    }
+    }*/
 
 }
 
@@ -349,8 +378,9 @@
         padding: 3rem;
 
         .solution-img { 
-            left: -3%; 
-            width: 70px;
+            top: -15%;
+            left: calc(50% - 30px);
+            width: 60px;
         }
     }
 
@@ -359,17 +389,17 @@
         padding: 3rem;
 
         >.solution-img { 
-            left: 94%; 
-            top: 50%;
-            width: 70px;
+            top: -15%;
+            left: calc(50% - 30px);
+            width: 60px;
         }
     }
 
-    .link {
+    /*.link {
         .custom-link {
             width: 80%; 
         }
-    }
+    }*/
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
@@ -377,7 +407,7 @@
     .solution-card {
         .solution-detail {
             padding: 3rem;
-            padding-right: calc(8% + 2rem);
+            padding-right: calc(8% + 3rem);
         }
     }
 
@@ -385,7 +415,7 @@
     
         .solution-detail {
             padding: 3rem;
-            padding-left: calc(8% + 2rem);
+            padding-left: calc(8% + 3rem);
         }
     }
 
@@ -393,27 +423,28 @@
         padding: 4rem;
 
         .solution-img { 
-            left: -3%; 
-            width: 70px;
+            top: -14%;
+            left: calc(50% - 32px);
+            width: 65px;
         }
     }
 
-
+    
     .solution-detail-card.reverse {
         padding: 4rem;
 
         >.solution-img { 
-            left: 94%; 
-            top: 50%;
-            width: 70px;
+            top: -14%;
+            left: calc(50% - 32px);
+            width: 65px;
         }
     }
 
-    .link {
+    /*.link {
         .custom-link {
             width: 80%; 
         }
-    }
+    }*/
 
 }
 
@@ -422,7 +453,7 @@
     .solution-card {
         .solution-detail {
             padding: 4rem;
-            padding-right: calc(8% + 2rem);
+            padding-right: calc(8% + 3rem);
         }
     }
 
@@ -430,7 +461,7 @@
     
         .solution-detail {
             padding: 4rem;
-            padding-left: calc(8% + 2rem);
+            padding-left: calc(8% + 3rem);
         }
     }
 
@@ -438,7 +469,8 @@
         padding: 4.5rem;
 
         .solution-img { 
-            left: -2%; 
+            top: -14%;
+            left: calc(50% - 40px);
             width: 80px;
         }
     }
@@ -448,14 +480,15 @@
         padding: 4.5rem;
 
         >.solution-img { 
-            left: 95%; 
+            top: -15%;
+            left: calc(50% - 40px);
             width: 80px;
         }
     }
 
-    .link {
+    /*.link {
         .custom-link {
             width: 80%; 
         }
-    }
+    }*/
 }

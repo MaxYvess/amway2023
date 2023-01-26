@@ -15,7 +15,7 @@ const routes: Routes = [
         loadComponent: () => import('./components/why-irresistibles/why-irresistibles.component').then(c => c.WhyIrresistiblesComponent)
     },
     {
-        path: 'ingredients',
+        path: 'ingredients/:id',
         loadComponent: () => import('./components/ingredients/ingredients.component').then(c => c.IngredientsComponent)
     },
     {
@@ -33,6 +33,10 @@ const routes: Routes = [
     {
         path: 'tool/:id',
         loadComponent: () => import('./components/country-tools/country-tools.component').then(c => c.CountryToolsComponent)
+    },
+    {
+        path: 'sponsors',
+        loadComponent: () => import('./components/sponsor/sponsor.component').then(c => c.SponsorComponent)
     },
     {
         path: 'buy',

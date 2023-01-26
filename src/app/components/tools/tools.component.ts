@@ -32,7 +32,7 @@ export class ToolsComponent implements OnInit {
         },
         {
             id: 4,
-            img: 'assets/imgs/Herramientas/ICON_4.png',
+            img: 'assets/imgs/Herramientas/ICON_7.png',
             name: 'INFOGRAFÍAS IRRESISTIBLES',
             description: 'Vuélvete experto con los beneficios de los ingredientes de los Naturalmente Irresistibles.'
         },

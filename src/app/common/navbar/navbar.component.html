@@ -4,30 +4,42 @@
         <img src="assets/imgs/logo.png" [routerLink]="['/why-irresistible']" draggable="false" alt="" class="logo">
         
         <div class="menu" style="position: relative;">
-            <div  (mouseleave)="closeSubMenu()">
-                <button class="general-small-text mb0" (click)="closeSubMenu()" [routerLink]="['/products']" routerLinkActive="active-route" id="productsMenu" (mouseenter)="openSubMenu()" 
+            <div (mouseleave)="closeSubMenu1()">
+                <button class="general-small-text mb0" (click)="closeSubMenu1()" [routerLink]="['/products']" routerLinkActive="active-route" id="productsMenu" (mouseenter)="openSubMenu1()" 
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     PRODUCTOS
                 </button>
-                <div class="dropdown-menu"  aria-labelledby="productsMenu">
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/1']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Daily Plus</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/2']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Cal Mag D</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/3']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Proteína Vegetal</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/4']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Omega 3 Plus</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/5']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>C Plus</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/6']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>B Plus</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/7']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>HSN</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/8']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Agua Micelar Artistry Skin Nutrition</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/9']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Glister Pasta de Dientes</b></a>
-                    <a (click)="closeSubMenu()" [routerLink]="['/product/10']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>L.O.C. Limpiador Multiusos</b></a>
+                <div class="dropdown-menu" id="productsDropdown" aria-labelledby="productsMenu">
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/1']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Daily Plus</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/2']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Cal Mag D</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/3']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Proteína Vegetal</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/4']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Omega 3 Plus</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/5']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>C Plus</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/6']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>B Plus / B Complex Dual Release</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/7']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>HSN</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/8']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Agua Micelar Artistry Skin Nutrition</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/9']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Glister Pasta de Dientes</b></a>
+                    <a (click)="closeSubMenu1()" [routerLink]="['/product/10']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>L.O.C. Limpiador Multiusos</b></a>
                 </div>
             </div>
         
-            <button class="general-small-text mb0" [routerLink]="['/ingredients']" routerLinkActive="active-route" type="button">INGREDIENTES</button>
+            <div (mouseleave)="closeSubMenu2()" style="position: relative;">
+                <button class="general-small-text mb0" (click)="closeSubMenu2()" [routerLink]="['/ingredients/1']" routerLinkActive="active-route" id="ingredientsMenu" (mouseenter)="openSubMenu2()" 
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INGREDIENTES
+                </button>
+                <div class="dropdown-menu ingre" id="ingredientsDropdown" aria-labelledby="ingredientsMenu">
+                    <a (click)="closeSubMenu2()" [routerLink]="['/ingredients/1']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Productos Naturales y Belleza</b></a>
+                    <a (click)="closeSubMenu2()" [routerLink]="['/ingredients/2']" routerLinkActive="active-route" class="dropdown-item" href="javascript:void(0)"><b>Productos para el Cuidado Personal y Amway Home</b></a>
+                </div>
+            </div>
+            <!--button class="general-small-text mb0" [routerLink]="['/ingredients']" routerLinkActive="active-route" type="button">INGREDIENTES</button-->
             <button class="general-small-text mb0" [routerLink]="['/solutions']" routerLinkActive="active-route" type="button">SOLUCIONES</button>
             <button class="general-small-text mb0" [routerLink]="['/tools']" routerLinkActive="active-route" type="button">HERRAMIENTAS</button>
-            <button class="general-small-text mb0" type="button">AUSPICIA</button>
-            <button class="general-small-text mb0" [routerLink]="['/buy']" routerLinkActive="active-route" type="button">COMPRAR</button>
+            <button class="general-small-text mb0" [routerLink]="['/sponsors']" routerLinkActive="active-route" type="button">AUSPICIA</button>
+            <button class="general-small-text mb0" [routerLink]="['/buy']" routerLinkActive="active-route" type="button">
+                <span class="navbar-btn">COMPRAR</span>
+            </button>
         </div>
         <button type="button" (click)="toggle()" class="toggle-btn" [ngClass]="{ 'change': isOpen }">
             <div class="bar1"></div>

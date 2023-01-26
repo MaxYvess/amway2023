@@ -16,41 +16,46 @@ export class BuyComponent implements OnInit {
             link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdsList&IC=4&C=PO&line=P&NavM=N'
         },
         {
-            img: 'assets/imgs/Compras/IMG_2.png',
-            link: 'https://www.amway.com.br/pt/naturalmente-irresistiveis'
-        },
-        {
             img: 'assets/imgs/Compras/IMG_3.png',
             link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdsList&IC=1&C=CV&line=C&NavM=N'
         }, 
+        {
+            img: 'assets/imgs/Compras/IMG_12.png',
+            link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CA&line=C&NavM=N'
+        },
         {
             img: 'assets/imgs/Compras/IMG_4.png',
             link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdsList&IC=5&C=BQ&line=B&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_5.png',
-            link: ''
+            link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdsList&IC=5&C=OU&line=O&NavM=N'
+        },
+        {
+            img: 'assets/imgs/Compras/IMG_13.png',
+            link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CU&line=C&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_6.png',
-            link: ''
+            link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CT&line=C&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_7.png',
-            link: ''
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdsList&IC=5&C=KQ&line=K&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_8.png',
-            link: ''
+            link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdsList&IC=5&C=BO&line=B&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_9.png',
-            link: ''
+            link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdsList&IC=2&C=FV&line=F&NavM=N'
         },
         {
             img: 'assets/imgs/Compras/IMG_10.png',
-            link: ''
+            link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdsList&IC=2&C=AZ&line=A&NavM=N'
         }
+        
     ]
 
     constructor() { }
