@@ -14,7 +14,7 @@
                 <img [src]="product.icon" id="icon" (click)="openModal()" draggable="false" alt="">
             </div>
             <div class="detail">
-                <h1 class="general-title" [style.color]="product.color" >{{ product.name }}<br><small>{{ product.smallName }}</small></h1>
+                <h1 class="general-title" [style.color]="product.color" >{{ product.name }}<br>{{ product.smallName }}</h1>
                 <h2 class="general-subtitle">{{ product.slogan }}</h2>
                 <h5 class="general-text bold-text mb0">MODO DE USO</h5>
                 <p class="general-text">{{ product.modeOfUse }}</p>

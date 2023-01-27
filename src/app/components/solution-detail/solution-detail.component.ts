@@ -2,6 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
+declare var bootstrap: any;
+
 @Component({
   standalone: true,
   imports: [CommonModule, RouterModule],
@@ -96,7 +98,7 @@ export class SolutionDetailComponent implements OnInit {
             personAge: 35,
             description: 'Por su trabajo, muchas de sus actividades son al aire libre. Le interesa mucho el bienestar de su piel. Corre una hora,  cuatro veces a la semana. Su almuerzo y refrigerios los toma en el colegio, cree que su alimentación no está balanceada.',
             reverse: true,
-            border: '#E97184',
+            border: '#b55afe',
             products: [
                 {
                     name: 'Daily Plus (30/90 tabs)',
@@ -191,6 +193,7 @@ export class SolutionDetailComponent implements OnInit {
 
     public solution: any = {};
 
+    public modal: any;
 
     constructor(private router: Router,
                 private route: ActivatedRoute) { }
@@ -204,6 +207,19 @@ export class SolutionDetailComponent implements OnInit {
             }
         });
     }
+
+    ngAfterContentInit(): void {
+        this.modal = new bootstrap.Modal(document.getElementById('solution-detail'), {});
+    }
+
+    openModal(){
+        this.modal.show();
+    }
+
+    closeModal(){
+        this.modal.hide();
+    }
+
 
     toggle(){
         let solutionCard: any = document.getElementById('solution_detail_card');

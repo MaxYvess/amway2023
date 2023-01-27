@@ -19,6 +19,20 @@
 }
 
 
+
+.country-flags {
+    padding: 2rem; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.custom-row {
+    width: 70%;
+}
+
+
 // extra Small devices (smartphones, 576px and down)
 @media (min-width: 250px) and (max-width: 374px) { 
     .country-img {
@@ -41,5 +55,13 @@
     .country-img {
         margin: 0;
         margin-bottom: 2rem;
+    }
+}
+
+
+
+@media (min-width: 1600px) {
+    .custom-row {
+        width: 70%;
     }
 }

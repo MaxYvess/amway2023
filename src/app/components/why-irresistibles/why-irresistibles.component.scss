@@ -3,6 +3,12 @@
     background: #F4F4F4;
 }
 
+.banner-img {
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+}
+
 .why-irresistible {
     position: relative;
     background: #F4F4F4; 
@@ -273,7 +279,7 @@
         height: auto; 
         flex-wrap: wrap;
     
-        img {
+        .img {
             width: 100%;
             height: 40%;
             object-fit: cover;
@@ -316,6 +322,13 @@
 
 }
 
+.img-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
 
 // Small devices (smartphones, 576px and down)
 @media (min-width: 375px) and (max-width: 576px) { 
@@ -347,7 +360,7 @@
         height: auto; 
         flex-wrap: wrap;
     
-        img {
+        .img {
             width: 100%;
             height: 40%;
             object-fit: cover;
@@ -441,6 +454,9 @@
 
 // Large devices (desktops, 992px and dpwn)
 @media (min-width: 769px) and (max-width: 1024px) { 
+    .banner-img {
+        max-height: 350px;
+    }
     .irresistible-card {
         img {
             height: 250px;
@@ -474,6 +490,10 @@
 
 // X-Large devices (large desktops, 1399px and down)
 @media (min-width: 1025px) and (max-width: 1399px) {
+    .banner-img {
+        max-height: 500px;
+    }
+
     .irresistible-card {
         img {
             height: 300px;
@@ -497,6 +517,10 @@
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) and (max-width: 1599px) {
   
+    .banner-img {
+        max-height: 550px;
+    }
+
     .irresistible-card {
         img {
             height: 300px;
@@ -521,5 +545,9 @@
 @media (min-width: 1600px) {
     .logos-icon {
         height: 250px; 
+    }
+
+    .banner-img {
+        max-height: 700px;
     }
 }

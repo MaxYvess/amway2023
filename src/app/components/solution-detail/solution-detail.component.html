@@ -14,6 +14,9 @@
 
             <h1 class="general-subtitle mb3">¿Conoces a alguien como {{ solution.personName }}? A esa persona le puedes ofrecer esta solución.</h1>
 
+
+            <button (click)="openModal()" class="general-btn" [style.background]="solution.border">CONOCE LA SOLUCIÓN</button>
+
             <div class="link">
                 <div class="custom-link" (click)="navigateTo(['solutions'])">
                     <img src="assets/imgs/next_icon.png" draggable="false" alt="">
@@ -28,13 +31,9 @@
     </div>
 
 
-    <div id="solution_detail_card" class="solution-detail-card" [ngClass]="{ 'reverse': solution.reverse }" [style.border]="'1px solid ' + solution.border" >
+    <!--div id="solution_detail_card" class="solution-detail-card" [ngClass]="{ 'reverse': solution.reverse }" [style.border]="'1px solid ' + solution.border" >
 
         <img [src]="solution.solutionImg" (click)="toggle()" draggable="false" class="solution-img" alt="">
-
-        <!--h1 class="general-subtitle text-center" style="margin-bottom: 5rem;">
-            A esta persona le puedes ofrecer estos productos
-        </h1-->
 
         <div class="title-solution">
             <img [src]="solution.icon" draggable="false" alt="" >
@@ -60,6 +59,44 @@
             <button class="general-btn">
                 Comprar ahora
             </button>
+        </div>
+    </div-->
+</div>
+
+
+<div id="solution-detail" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-body" style="padding: 2rem; padding-bottom: 4rem;">
+                <div class="mb4" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="title-solution mb0">
+                        <img [src]="solution.icon" draggable="false" alt="" >
+                        <h1 class="general-subtitle mb0">{{ solution.name }}</h1>
+                    </div>
+                    <img src="assets/imgs/Daily_Plus/ICON_1.png" (click)="closeModal()" style="width: 50px;" alt="">
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-5" style="display: flex; align-items: center;">
+                        <ol class="solution-list">
+                            <li *ngFor="let product of solution.products; let i = index">
+                                <h5 class="general-subtitle normal-text">{{ (i + 1) }}. Nutrilite™ {{product.name }}</h5>
+                            </li> 
+                        </ol>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div style="display: flex;">
+                            <img *ngFor="let product of solution.products;" [src]="product.img" draggable="false" style="width: 33%" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center" style="margin-top: 3rem;">
+                    <button class="general-btn">
+                        Comprar ahora
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </div>

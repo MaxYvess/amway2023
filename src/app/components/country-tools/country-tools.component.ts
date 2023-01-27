@@ -382,6 +382,112 @@ export class CountryToolsComponent implements OnInit {
                     link: 'https://traceability.amwayglobal.com/es-ve/'
                 }
             ]
+        },
+        {
+            name: 'KIT DE INICIO',
+            countries: [
+                {
+                    img: 'assets/imgs/Compras/IMG_1.png',
+                    link: 'https://traceability.amwayglobal.com/es-ar/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_2.png',
+                    link: 'http://www.portalnutrilite.com.br/rastreabilidade/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_3.png',
+                    link: 'https://traceability.amwayglobal.com/es-cl/'
+                }, 
+                {
+                    img: 'assets/imgs/Compras/IMG_12.png',
+                    link: 'https://traceability.amwayglobal.com/es-co/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_4.png',
+                    link: 'https://traceability.amwayglobal.com/es-cr/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_5.png',
+                    link: 'https://traceability.amwayglobal.com/es-sv/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_13.png',
+                    link: 'https://traceability.amwayglobal.com/es-gt/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_6.png',
+                    link: 'https://traceability.amwayglobal.com/es-hn/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_7.png',
+                    link: 'https://traceability.amwayglobal.com/es-mx/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_8.png',
+                    link: 'https://traceability.amwayglobal.com/es-pa/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_9.png',
+                    link: 'https://traceability.amwayglobal.com/es-uy/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_10.png',
+                    link: 'https://traceability.amwayglobal.com/es-ve/'
+                }
+            ]
+        },
+        {
+            name: 'PARA EMPEZAR GANANDO',
+            countries: [
+                {
+                    img: 'assets/imgs/Compras/IMG_1.png',
+                    link: 'https://traceability.amwayglobal.com/es-ar/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_2.png',
+                    link: 'http://www.portalnutrilite.com.br/rastreabilidade/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_3.png',
+                    link: 'https://traceability.amwayglobal.com/es-cl/'
+                }, 
+                {
+                    img: 'assets/imgs/Compras/IMG_12.png',
+                    link: 'https://traceability.amwayglobal.com/es-co/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_4.png',
+                    link: 'https://traceability.amwayglobal.com/es-cr/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_5.png',
+                    link: 'https://traceability.amwayglobal.com/es-sv/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_13.png',
+                    link: 'https://traceability.amwayglobal.com/es-gt/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_6.png',
+                    link: 'https://traceability.amwayglobal.com/es-hn/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_7.png',
+                    link: 'https://traceability.amwayglobal.com/es-mx/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_8.png',
+                    link: 'https://traceability.amwayglobal.com/es-pa/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_9.png',
+                    link: 'https://traceability.amwayglobal.com/es-uy/'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_10.png',
+                    link: 'https://traceability.amwayglobal.com/es-ve/'
+                }
+            ]
         }
     ];
 

@@ -1,17 +1,17 @@
 <div class="sponsor">
 
     
-    <img src="assets/imgs/Auspicia/IMG_12.jpg" draggable="false" style="width: 100%; height: 1000px; object-fit: cover; object-position: 50% 20%;" alt="">
+    <img src="assets/imgs/Auspicia/IMG_12.jpg" draggable="false" style="width: 100%;" alt="">
 
     <div class="custom-container">
 
 
-        <div style="padding: 4rem;" class="text-center">
-            <h1 class="general-subtitle normal-text">¡Actualizamos nuestro Kit de inicio para hacerlo cada vez más ganador! </h1>
+        <div style="padding: 5rem;" class="text-center">
+            <h1 class="general-subtitle normal-text"><b>¡Actualizamos nuestro Kit de inicio para hacerlo cada vez más ganador! </b></h1>
 
             <h5 class="general-text mb3">Ahora los Nuevos Empresarios recibirán su <b>Kit de inicio con productos Irresistibles</b> y otros productos de nuestro portafolio para que  conozcan sus atributos y puedan ganar más  al venderlos desde el comienzo.</h5>
 
-            <button (click)="openLink()" class="general-btn" style="background: #85BE00;">Auspiciar</button>
+            <button (click)="navigateTo(['tool', '8'])" class="general-btn" style="background: #85BE00;">Auspiciar</button>
 
            
         </div>
@@ -19,7 +19,55 @@
             <h1 class="general-subtitle normal-text"><b>Beneficios para empezar ganando</b></h1>
         <h5 class="general-text mb3">Lo primero que te recomendamos para empezar a ganar con Amway es que conozcas todos los beneficios que tenemos para tus nuevos Empresarios en sus primeros 90 días:</h5>
 
-        <button (click)="openLink()" class="general-btn" style="background: #85BE00;">Conoce más</button>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="text-center" style="padding: 2rem;">
+                    <img src="assets/imgs/Auspicia/descuento.png" class="mb1" style="width: 50%" alt="">
+                    <div class="general-text">
+                        30% de <b class="bold-text">DESCUENTO</b> inmediato en todas tus compras
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center" style="padding: 2rem;">
+                    <img src="assets/imgs/Auspicia/carrito.png" class="mb1" style="width: 50%" alt="">
+                    <div class="general-text">
+                        3 fletes <b class="bold-text">GRATIS</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center" style="padding: 2rem;">
+                    <img src="assets/imgs/Auspicia/cascos.png" class="mb1" style="width: 50%" alt="">
+                    <div class="general-text">
+                        Atención <b class="bold-text">PRIORITARIA</b> en Servicio al Cliente
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="justify-content: center;">
+            <div class="col-12 col-md-4">
+                <div class="text-center" style="padding: 2rem;">
+                    <img src="assets/imgs/Auspicia/aprendizaje.png" class="mb1" style="width: 50%" alt="">
+                    <div class="general-text">
+                        Ruta de <b class="bold-text">APRENDIZAJE</b> con INA “La Ruta del Nuevo”
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="text-center" style="padding: 2rem;">
+                    <img src="assets/imgs/Auspicia/iniciaganando.png" class="mb1" style="width: 50%" alt="">
+                    <div class="general-text">
+                        <b class="bold-text">DESCUENTOS</b> inmediatos con el programa “Inicia ganando Ilimitado”
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button (click)="navigateTo(['tool', '9'])" class="general-btn" style="background: #85BE00;">Conoce más</button>
         <div style="padding: 4rem;" class="text-center"></div>
     </div>
 

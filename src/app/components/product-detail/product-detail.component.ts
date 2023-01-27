@@ -106,7 +106,7 @@ export class ProductDetailComponent implements OnInit {
             ]
         },
         { 
-            id: 6, name: ' B Plus / ' + ' B Complex Dual Release', 
+            id: 6, name: ' B Plus /', smallName: 'B Complex Dual Release',
             slogan: 'Con 8 vitaminas del complejo B', 
             modeOfUse: 'Adultos: Tomar una tableta con alimentos preferiblemente. No masticar, romper o triturar. Verifica el modo de uso en la página web de tu país.',
             description: 'Con <span class="green">tecnología bicapa</span> de liberación prolongada, <span class="green">B complex</span> de Nutrilite, es un suplemento alimentario con <span class="green">8 vitaminas</span> del <span class="green">complejo</span> accesible a tu bolsillo.', 
@@ -207,7 +207,6 @@ export class ProductDetailComponent implements OnInit {
         this.route.params.subscribe((params) => {
             if(params && params['id']){
                 this.product = this.products[params['id'] - 1];
-                this.modal = new bootstrap.Modal(document.getElementById('product-detail'), {});
             }else {
                 this.navigateTo(['products']);
             }
@@ -215,6 +214,7 @@ export class ProductDetailComponent implements OnInit {
     }
 
     ngAfterViewInit(){
+        this.modal = new bootstrap.Modal(document.getElementById('product-detail'), {});
         window.addEventListener("mousemove", this.mouseAnimations);
         window.addEventListener('scroll', this.scrollAnimations, true);
     }

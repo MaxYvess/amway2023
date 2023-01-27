@@ -32,7 +32,8 @@
                 "src/styles.scss",
                 "node_modules/bootstrap/dist/css/bootstrap.min.css",
                 "node_modules/swiper/swiper-bundle.css",
-                "node_modules/animate.css/animate.min.css"
+                "node_modules/animate.css/animate.min.css",
+                "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": [
                 "node_modules/jquery/dist/jquery.min.js",
@@ -113,6 +114,6 @@
     }
   },
   "cli": {
-    "analytics": "f1119ee6-dd48-4621-a3cf-8e2d3c743642"
+    "analytics": "b15baa04-225c-4ad1-ae05-8a3ac6f989bb"
   }
 }

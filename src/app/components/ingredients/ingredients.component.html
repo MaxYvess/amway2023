@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div *ngIf="view == 2" class="custom-center" style="background: #f1f1f1; padding: 2rem 0 5rem; min-height: calc(100vh - 80px); position: relative; ">
+    <div *ngIf="view == 2" class="custom-center" style="background: #f1f1f1; min-height: 100vh; position: relative; ">
         
         <img id="parallax1" src="assets/imgs/Ingredientes/ICON_3.png" class="parallax1" alt="image">
     
@@ -86,20 +86,18 @@
     </div>
 
 
-    <div class="custom-center" style="background: #fff; padding: 3rem 0; min-height: calc(100vh - 80px); align-items: flex-start;">
+    <div *ngIf="view == 1" class="custom-center" style="background: #fff; padding: 3rem 0; min-height: calc(100vh - 80px); align-items: flex-start;">
         <div id="content2" class="custom-container" style="z-index: 2">   
         
 
-        <div *ngIf="view == 1">
-
-            <div class="custom-tabs">
-                <button (click)="tab = 1" [ngClass]="{ 'active': tab == 1 }">
-                    <h3 class="general-text mb0">Ingredientes Nutrilite™</h3>
-                </button>
-                <button (click)="tab = 2" [ngClass]="{ 'active': tab == 2 }">
-                    <h3 class="general-text mb0">Ingredientes Artistry™</h3>
-                </button>
-            </div>
+        <div class="custom-tabs">
+            <button (click)="tab = 1" [ngClass]="{ 'active': tab == 1 }">
+                <h3 class="general-text mb0">Ingredientes Nutrilite™</h3>
+            </button>
+            <button (click)="tab = 2" [ngClass]="{ 'active': tab == 2 }">
+                <h3 class="general-text mb0">Ingredientes Artistry™</h3>
+            </button>
+        </div>
 
             <div *ngIf="tab == 1">
                 <div class="custom-row">
@@ -145,6 +143,5 @@
                 </div>
             </div>
 
-        </div>
 
 </div>

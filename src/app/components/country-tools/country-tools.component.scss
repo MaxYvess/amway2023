@@ -4,7 +4,6 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -13,6 +12,20 @@
     margin: 2rem; 
     cursor: pointer;
 }
+
+
+.country-flags {
+    padding: 2rem; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.custom-row {
+    width: 100%;
+}
+
 
 .background {
     background: #f4f4f4;
@@ -44,5 +57,13 @@
     .country-img {
         margin: 0;
         margin-bottom: 2rem;
+    }
+}
+
+
+
+@media (min-width: 1600px) {
+    .custom-row {
+        width: 70%;
     }
 }
