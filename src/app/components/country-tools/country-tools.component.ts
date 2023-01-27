@@ -17,51 +17,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: ''
-                },
-                {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/argentina/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/chile/naturalmente-irresistibles/naturalmente-irresisitibles/'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/colombia/naturalmente-irresisitibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/costa-rica/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/el-salvador/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/guatemala/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/honduras/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/mexico/naturalmente-irresistibles/naturalmente-irresistibles/?page=1'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/panama/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/uruguay/naturalmente-irresistibles/naturalmente-irresistibles/'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: ''
+                    link: 'https://viewer.ipaper.io/amway-latam/venezuela/publicaciones-amway/'
                 }
             ]
         },
@@ -71,10 +67,6 @@ export class CountryToolsComponent implements OnInit {
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
                     link: 'https://www.amway.com.mx/downloads/run-local/Material-Irresistibles-ES.zip'
-                },
-                {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: 'https://www.amway.com.mx/downloads/run-local/Material-irresistibles-BR.zip'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
@@ -126,10 +118,6 @@ export class CountryToolsComponent implements OnInit {
                     link: 'https://www.amway.com.ar/Novedades/category.aspx?catid=1&subCatID=118'
                 },
                 {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: 'https://www.amway.com.mx/downloads/AmwayBrasil/Infografia_Perfis_BR_2_3.pdf?'
-                },
-                {
                     img: 'assets/imgs/Compras/IMG_3.png',
                     link: 'https://www.amway.cl/Novedades/category.aspx?catid=1&subCatID=118'
                 }, 
@@ -179,10 +167,6 @@ export class CountryToolsComponent implements OnInit {
                     link: ''
                 },
                 {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: ''
-                },
-                {
                     img: 'assets/imgs/Compras/IMG_3.png',
                     link: ''
                 }, 
@@ -229,51 +213,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: ''
-                },
-                {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: ''
+                    link: 'https://www.amway.com.ar/Novedades/ContenidoEditorial.aspx?postId=4229'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: ''
+                    link: 'https://www.amway.cl/Novedades/ContenidoEditorial.aspx?postId=4776'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: ''
+                    link: 'https://www.amway.com.co/Novedades/ContenidoEditorial.aspx?postId=2867'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: ''
+                    link: 'https://www.amway.co.cr/Novedades/ContenidoEditorial.aspx?postId=4723'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: ''
+                    link: 'https://www.amway.com.sv/Novedades/ContenidoEditorial.aspx?postId=4721'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: ''
+                    link: 'https://www.amway.com.gt/Novedades/ContenidoEditorial.aspx?postId=2841'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: ''
+                    link: 'https://www.amway.com.hn/Novedades/ContenidoEditorial.aspx?postId=4722'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: ''
+                    link: 'https://www.amway.com.mx/Novedades/ContenidoEditorial.aspx?postId=2627'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: ''
+                    link: 'https://www.amway.com.pa/Novedades/ContenidoEditorial.aspx?postId=3703'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: ''
+                    link: 'https://www.amway.com.uy/Novedades/ContenidoEditorial.aspx?postId=4777'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: ''
+                    link: 'https://www.amway.com.ve/Novedades/ContenidoEditorial.aspx?postId=3109'
                 }
             ]
         },
@@ -283,10 +263,6 @@ export class CountryToolsComponent implements OnInit {
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
                     link: 'https://www.amway.com.mx/downloads/misc/Calendario_Integrado_INA_LATAM.pdf'
-                },
-                {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: 'https://www.amway.com.mx/downloads/AmwayBrasil/Calendario_Integrado_BR.pdf'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
@@ -338,10 +314,6 @@ export class CountryToolsComponent implements OnInit {
                     link: 'https://traceability.amwayglobal.com/es-ar/'
                 },
                 {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: 'http://www.portalnutrilite.com.br/rastreabilidade/'
-                },
-                {
                     img: 'assets/imgs/Compras/IMG_3.png',
                     link: 'https://traceability.amwayglobal.com/es-cl/'
                 }, 
@@ -388,51 +360,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://traceability.amwayglobal.com/es-ar/'
-                },
-                {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: 'http://www.portalnutrilite.com.br/rastreabilidade/'
+                    link: 'https://www.amway.com.ar/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://traceability.amwayglobal.com/es-cl/'
+                    link: 'https://www.amway.cl/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://traceability.amwayglobal.com/es-co/'
+                    link: 'https://www.amway.com.co/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://traceability.amwayglobal.com/es-cr/'
+                    link: 'https://www.amway.co.cr/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://traceability.amwayglobal.com/es-sv/'
+                    link: 'https://www.amway.com.sv/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://traceability.amwayglobal.com/es-gt/'
+                    link: 'https://www.amway.com.gt/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://traceability.amwayglobal.com/es-hn/'
+                    link: 'https://www.amway.com.hn/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://traceability.amwayglobal.com/es-mx/'
+                    link: 'https://www.amway.com.mx/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://traceability.amwayglobal.com/es-pa/'
+                    link: 'https://www.amway.com.pa/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://traceability.amwayglobal.com/es-uy/'
+                    link: 'https://www.amway.com.uy/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://traceability.amwayglobal.com/es-ve/'
+                    link: 'https://www.amway.com.ve/Content/page_Content.aspx?Dest=/Main/Menu_2.0/NuevosEmpresarios/Inicio/GanaconAmway'
                 }
             ]
         },
@@ -441,51 +409,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://traceability.amwayglobal.com/es-ar/'
-                },
-                {
-                    img: 'assets/imgs/Compras/IMG_2.png',
-                    link: 'http://www.portalnutrilite.com.br/rastreabilidade/'
+                    link: 'https://www.amway.com.ar/IRENew/Kit.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://traceability.amwayglobal.com/es-cl/'
+                    link: 'https://www.amway.cl/IRENew/Reg.aspx'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://traceability.amwayglobal.com/es-co/'
+                    link: 'https://www.amway.com.co/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://traceability.amwayglobal.com/es-cr/'
+                    link: 'https://www.amway.co.cr/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://traceability.amwayglobal.com/es-sv/'
+                    link: 'https://www.amway.cl/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://traceability.amwayglobal.com/es-gt/'
+                    link: 'https://www.amway.com.gt/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://traceability.amwayglobal.com/es-hn/'
+                    link: 'https://www.amway.com.hn/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://traceability.amwayglobal.com/es-mx/'
+                    link: 'https://www.amway.com.mx/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://traceability.amwayglobal.com/es-pa/'
+                    link: 'https://www.amway.com.pa/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://traceability.amwayglobal.com/es-uy/'
+                    link: 'https://www.amway.com.uy/IRENew/Reg.aspx'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://traceability.amwayglobal.com/es-ve/'
+                    link: 'https://www.amway.com.ve/IRENew/Reg.aspx'
                 }
             ]
         }

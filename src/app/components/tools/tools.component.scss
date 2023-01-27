@@ -7,6 +7,14 @@
     justify-content: center;
 }
 
+.tools2 {
+    background: #fff; 
+    padding: 3rem 1rem;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .title {
     text-align: center;
     color: #444;
@@ -56,7 +64,37 @@ h3 {
     }
 }
 
+.tools-card2 {
+    background: #e5e5e5;
+    text-align: center;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    height: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    img {
+        width: 50%;
+        height: 150px;
+        object-fit: contain;
+        margin-bottom: 1rem;
+    }
+
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            small {
+                display: block;
+            }
+        }
+    }
+}
 
 
 
