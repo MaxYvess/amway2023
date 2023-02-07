@@ -405,7 +405,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'PARA EMPEZAR GANANDO',
+            name: 'NUEVO EMPRESARIO',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',

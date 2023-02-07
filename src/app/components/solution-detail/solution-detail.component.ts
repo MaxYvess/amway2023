@@ -24,7 +24,7 @@ export class SolutionDetailComponent implements OnInit {
             personAge: 35,
             description: 'Héctor trabaja en una trasnacional 8 horas al día. Se levanta para ir al gimnasio mínimo 1 hora, dice que le da energía para empezar sus labores. Sus rutinas se enfocan en volumen muscular y cardio. Desayuna una hora después de haber terminado sus rutinas. Héctor se enfoca tanto en el gimnasio que quiere ver resultados pronto, por eso cuida su alimentación.',
             reverse: false,
-            border: '#7D70A9',
+            border: '#e16f64',
             products: [
                 {
                     name: 'Daily Plus (90 tabs)',
@@ -50,7 +50,7 @@ export class SolutionDetailComponent implements OnInit {
             personAge: 33,
             description: 'Angélica retomó sus estudios en la universidad. Por todas las labores que tiene (Familia, académicas y laborales del hogar) siente que no rinde lo suficiente. Ella cree que debe mejorar su alimentación porque ahí está la clave para que su cerebro funcione mejor.',
             reverse: true,
-            border: '#7BA9BD',
+            border: '#b55afe',
             products: [
                 {
                     name: 'Omega 3 Plus (90 tabs)',
@@ -76,7 +76,7 @@ export class SolutionDetailComponent implements OnInit {
             personAge: 23,
             description: 'Hernando está soltero y una de las cosas que más le interesa es tener una buena sonrisa. Va al odontólogo dos veces al año, pero por costumbre no consume alimentos ricos en Calcio.',
             reverse: false,
-            border: '#FF8A5B',
+            border: '#539cf8',
             products: [
                 {
                     name: 'Cal Mag D (90 tabs)',
@@ -150,7 +150,7 @@ export class SolutionDetailComponent implements OnInit {
             personAge: 45,
             description: 'Marcela trabaja 9 horas frente a un computador. No consume frutas y vegetales de forma regular, pero si le interesan los nutrientes que le ayuden a mejorar su visión ya que lleva muchos años frente al computador. También le interesa saber cómo puede ayudar a la salud visual de sus padres que ya están en la tercera edad.',
             reverse: true,
-            border: '#01AEB0',
+            border: '#ff7062',
             products: [
                 {
                     name: 'Omega 3 Plus (90 tabs)',
@@ -172,7 +172,7 @@ export class SolutionDetailComponent implements OnInit {
             personAge: 40,
             description: 'Pedro es cabeza de familia con dos hijos. Se levanta temprano para preparar alimentos y hacer tareas del hogar. Trabaja de 8 a.m a 5 p.m, después cena, limpia y organiza toda la cocina. Estudia inglés una hora y para mantenerse activo toma mucho café. Es también un ecologista comprometido con la salud del ser humano en equilibrio con el medio ambiente.',
             reverse: false,
-            border: '#FE7E29',
+            border: '#4e9efb',
             products: [
                 {
                     name: 'B Plus (60 tabs)',
