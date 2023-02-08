@@ -9,6 +9,8 @@ import { Router, RouterModule } from '@angular/router';
 // install Swiper modules
 SwiperCore.use([Navigation, Autoplay]);
 
+declare var $: any;
+
 @Component({
   standalone: true,
   imports: [ CommonModule, SwiperModule, RouterModule ],
@@ -79,6 +81,12 @@ export class SolutionsComponent implements OnInit {
 
     navigateTo(route: Array<any>){
         this.router.navigate(route);
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 
 }

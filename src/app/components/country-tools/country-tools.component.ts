@@ -2,6 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
+declare var $: any;
+
 @Component({
     standalone: true,
     imports: [ CommonModule, RouterModule ],
@@ -62,7 +64,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'Looks irresistibles',
+            name: 'Looks Irresistibles',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -111,7 +113,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'Perfiles irresistibles',
+            name: 'Perfiles Irresistibles',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -160,7 +162,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'Infografías irresistible',
+            name: 'Infografías Irresistible',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -476,6 +478,12 @@ export class CountryToolsComponent implements OnInit {
 
     navigateTo(route: Array<string>){
         this.router.navigate(route);
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 
 }

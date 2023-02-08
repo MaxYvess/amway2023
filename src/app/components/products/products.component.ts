@@ -9,6 +9,8 @@ import SwiperCore, { Navigation } from 'swiper';
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
+declare var $: any;
+
 @Component({
   standalone: true,
   imports: [CommonModule, RouterModule, SwiperModule],
@@ -57,6 +59,12 @@ export class ProductsComponent implements OnInit {
     
     navigateTo(route: Array<any>){
         this.router.navigate(route);
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 
 }

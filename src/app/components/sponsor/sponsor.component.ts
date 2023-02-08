@@ -2,6 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
+declare var $: any;
+
 @Component({
   standalone: true,
   imports: [ CommonModule, RouterModule ],
@@ -22,6 +24,12 @@ export class SponsorComponent implements OnInit {
 
   navigateTo(route: Array<string>){
     this.router.navigate(route);
+  }
+
+  goTo(){
+    $('html, body').animate({
+        scrollTop: $("body").offset().top
+    }, 500);
   }
 
 }

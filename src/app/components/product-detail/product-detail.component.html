@@ -20,13 +20,19 @@
                 <p class="general-text">{{ product.modeOfUse }}</p>
 
                 <small class="general-small-text mb2" style="color: #777; display: block;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
-                
-                <button (click)="openLink(product.link)" class="general-btn" type="button">Comprar ahora</button>
+                <button (click)="navigateTo(['tool', '9'])" class="general-btn">Comprar ahora</button>
             </div>
         </div>
 
         
     </div> 
+
+    
+    <div style="width: 100%; text-align: end;">
+        <button (click)="goTo()" class="go-to-top">
+            <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">
+        </button>
+    </div>
 
 </div>
 
@@ -37,6 +43,8 @@
         </div>
     </div>
 </div>
+
+
 
 <div id="product-detail" class="modal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-lg">

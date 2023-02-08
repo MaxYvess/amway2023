@@ -3,20 +3,22 @@
     <div class="solution-card" [ngClass]="{ 'reverse': solution.reverse }" >
         <img [src]="solution.img" draggable="false" alt="">
         <div class="solution-detail" >
-            <div class="title">
-                <img [src]="solution.icon" draggable="false" alt="" >
-                <h1 class="general-subtitle mb0">{{ solution.name }}</h1>
+            <div class="content">
+                <div class="title">
+                    <img [src]="solution.icon" draggable="false" alt="" >
+                    <h1 class="general-subtitle mb0">{{ solution.name }}</h1>
+                </div>
+                <h1 class="general-subtitle mb0">{{ solution.personName }}</h1>
+                <h1 class="general-subtitle normal-text">{{ solution.personJob }}, {{ solution.personAge }} años</h1>
+    
+                <h4 class="general-text mb3">{{ solution.description }}</h4>
+    
+                <h1 class="general-subtitle mb3">¿Conoces a alguien como {{ solution.personName }}? A esa persona le puedes ofrecer esta solución.</h1>
+    
+    
+                <button (click)="openModal()" class="general-btn" [style.background]="solution.border">CONOCE LA SOLUCIÓN</button>
+    
             </div>
-            <h1 class="general-subtitle mb0">{{ solution.personName }}</h1>
-            <h1 class="general-subtitle normal-text">{{ solution.personJob }}, {{ solution.personAge }} años</h1>
-
-            <h4 class="general-text mb3">{{ solution.description }}</h4>
-
-            <h1 class="general-subtitle mb3">¿Conoces a alguien como {{ solution.personName }}? A esa persona le puedes ofrecer esta solución.</h1>
-
-
-            <button (click)="openModal()" class="general-btn" [style.background]="solution.border">CONOCE LA SOLUCIÓN</button>
-
             <div class="link">
                 <div class="custom-link" (click)="navigateTo(['solutions'])">
                     <img src="assets/imgs/next_icon.png" draggable="false" alt="">
@@ -61,11 +63,13 @@
             </button>
         </div>
     </div-->
+
+
 </div>
 
 
 <div id="solution-detail" class="modal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-body" style="padding: 2rem; padding-bottom: 4rem;">
                 <div class="mb4" style="display: flex; justify-content: space-between; align-items: center;">
@@ -95,6 +99,7 @@
                     <button class="general-btn">
                         Comprar ahora
                     </button>
+                    <small class="general-small-text mb2" style="color: #777; display: block; margin-top: 3rem;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
 declare var bootstrap: any;
+declare var $: any;
 
 @Component({
   standalone: true,
@@ -229,6 +230,12 @@ export class SolutionDetailComponent implements OnInit {
 
     navigateTo(route: Array<string>){
         this.router.navigate(route);
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 
 }

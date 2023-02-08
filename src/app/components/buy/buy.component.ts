@@ -1,6 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
+declare var $: any;
+
 @Component({
   standalone: true,
   imports: [ CommonModule ],
@@ -65,6 +67,12 @@ export class BuyComponent implements OnInit {
 
     openLink(link: string){
         window.open(link, '_blank');
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 
 }

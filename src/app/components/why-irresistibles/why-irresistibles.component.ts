@@ -60,5 +60,11 @@ export class WhyIrresistiblesComponent implements OnInit {
         }, 500);
     }
 
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
+    }
+
    
 }

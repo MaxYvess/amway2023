@@ -2,7 +2,7 @@
     <div class="custom-container">
     
         <div class="text-center">
-            <h2 class="general-title mb0">Conoce las herramientas</h2>
+            <h2 class="general-title mb0">Conoce las Herramientas</h2>
             <img src="assets/imgs/Productos/Titulo_4.png" class="title-img mb4" draggable="false">
             <h3 class="general-text">
                 Te ofrecemos todas estas herramientas para que hagas crecer tu negocio con los productos Naturalmente Irresistibles.
@@ -67,11 +67,17 @@
                             <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
                             <small class="general-small-text mb2">{{ tool.description }}</small>
                         </div>
-                        <button (click)="navigateTo(['tool', tool.id])" class="general-btn" >{{ tool.btn }}</button>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Descargar</button>
                     </div>
                 </div>
             </div>
+        </div>
     </div> 
-    
+
+    <div style="width: 100%; text-align: end;">
+        <button (click)="goTo()" class="go-to-top">
+            <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">
+        </button>
+    </div>
 
 </div>

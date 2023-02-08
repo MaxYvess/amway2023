@@ -1,7 +1,7 @@
 .solution {
     display: flex;
     justify-content: center;
-    height: calc(100% - 80px);
+    min-height: calc(100% - 80px);
     background: #e6e6e4;
 }
 
@@ -26,19 +26,25 @@
         padding: 2rem;
         padding-right: calc(8% + 2rem);
 
-        .title {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
-            img {
-                width: 80px;
+        .content {
+            .title {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                margin-bottom: 2rem;
+    
+                img {
+                    width: 80px;
+                }
             }
-        }
-
-        h4 {
-            margin-bottom: 2rem;
+    
+            h4 {
+                margin-bottom: 2rem;
+            }
         }
     }
 }
@@ -57,7 +63,7 @@
 
 
 .link {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 10%;
     margin-top: 2rem;
 
@@ -334,6 +340,10 @@
 
 // Large devices (desktops, 992px and dpwn)
 @media (min-width: 769px) and (max-width: 1024px) { 
+
+    .solution {
+        min-height: 100%;
+    }
     .solution-detail-card { 
 
         .solution-img { 

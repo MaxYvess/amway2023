@@ -9,8 +9,7 @@ import SwiperCore, { Navigation, Mousewheel, Virtual } from 'swiper';
 // install Swiper modules
 SwiperCore.use([Navigation, Mousewheel, Virtual ]);
 
-declare var simpleParallax: any;
- 
+declare var $: any;
 
 @Component({
   standalone: true,
@@ -270,5 +269,11 @@ export class IngredientsComponent implements OnInit {
             parallax2.style.top = + y + 'px';
             parallax4.style.bottom = + y + 'px'; //
         }
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 }

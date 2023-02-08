@@ -3,6 +3,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
 declare var bootstrap: any;
+declare var $: any;
 
 @Component({
   standalone: true,
@@ -135,7 +136,7 @@ export class ProductDetailComponent implements OnInit {
             link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170',
             color: '#b83b61',
             imgs: [
-                'assets/imgs/HSN/ICON_8.png',
+                'assets/imgs/HSN/ICON_7.png',
                 'assets/imgs/HSN/ICON_9.png',
                 'assets/imgs/HSN/ICON_7.png',
                 'assets/imgs/HSN/ICON_6.png'
@@ -293,6 +294,12 @@ export class ProductDetailComponent implements OnInit {
             parallax2.style.top = + y + 'px';
             parallax4.style.bottom = + y + 'px'; //
         }
+    }
+
+    goTo(){
+        $('html, body').animate({
+            scrollTop: $("body").offset().top
+        }, 500);
     }
 
 }
