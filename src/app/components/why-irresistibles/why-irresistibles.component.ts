@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Router, RouterModule } from '@angular/router';
 
 declare var $: any;
 
 @Component({
   standalone: true,
-  imports: [CommonModule],
+  imports: [ CommonModule, RouterModule ],
   selector: 'app-why-irresistibles',
   templateUrl: './why-irresistibles.component.html',
   styleUrls: ['./why-irresistibles.component.scss']
@@ -48,7 +49,7 @@ export class WhyIrresistiblesComponent implements OnInit {
         
     ]
 
-    constructor() { }
+    constructor(private router: Router) { }
 
     ngOnInit(): void {
 
@@ -59,6 +60,10 @@ export class WhyIrresistiblesComponent implements OnInit {
             scrollTop: $("#" + section).offset().top
         }, 500);
     }
+
+    navigateTo(route: Array<string>){
+        this.router.navigate(route);
+      }
 
     goTo(){
         $('html, body').animate({
