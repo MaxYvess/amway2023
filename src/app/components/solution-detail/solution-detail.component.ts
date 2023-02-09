@@ -229,9 +229,9 @@ export class SolutionDetailComponent implements OnInit {
     }
 
     navigateTo(route: Array<string>){
+        this.closeModal();
         this.router.navigate(route);
-    }
-
+}
     goTo(){
         $('html, body').animate({
             scrollTop: $("body").offset().top
