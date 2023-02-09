@@ -204,6 +204,10 @@ export class CountryToolsComponent implements OnInit {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
                 },
+                {
+                    img: 'assets/imgs/Compras/IMG_10.png',
+                    link: 'https://www.amway.com.ve/downloads/misc/Infografia_Perfiles_irresistibles_VE.pdf'
+                },
             ]
         },
         {
