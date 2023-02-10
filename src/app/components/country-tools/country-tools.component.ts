@@ -260,7 +260,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'ENTRENAMIENTOS IRRESISTIBLES',
+            name: 'Entrenamientos Irresistibles',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -309,7 +309,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'TRAZABILIDAD',
+            name: 'Trazabilidad',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -358,7 +358,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'KIT DE INICIO',
+            name: 'Kit De Inicio',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -407,7 +407,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'NUEVO EMPRESARIO',
+            name: 'Nuevo Empresario',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',

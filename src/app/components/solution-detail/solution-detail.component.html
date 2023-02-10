@@ -79,13 +79,17 @@
                     </div>
                     <img src="assets/imgs/Daily_Plus/ICON_1.png" (click)="closeModal()" style="width: 50px;" alt="">
                 </div>
-
+                <div class="text-center" style="margin-top: 3rem;">
+                
+                </div>
                 <div class="row">
                     <div class="col-12 col-lg-5" style="display: flex; align-items: center;">
                         <ol class="solution-list">
+                            
                             <li *ngFor="let product of solution.products; let i = index">
-                                <h5 class="general-subtitle normal-text">{{ (i + 1) }}. Nutrilite™ {{product.name }}</h5>
+                                <h5 class="">{{ (i + 1) }}. Nutrilite™ {{product.name }}</h5>
                             </li> 
+                            <small class="general-small-text mb2" style="color: #777; display: block; margin-top: 3rem;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
                         </ol>
                     </div>
                     <div class="col-12 col-lg-7">
@@ -97,7 +101,7 @@
 
                 <div class="text-center" style="margin-top: 3rem;">
                     <button class="general-btn" (click)="navigateTo(['buy'])"> Comprar ahora </button>
-                    <small class="general-small-text mb2" style="color: #777; display: block; margin-top: 3rem;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
+                    
                 </div>
             </div>
         </div>

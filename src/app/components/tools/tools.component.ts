@@ -45,7 +45,7 @@ export class ToolsComponent implements OnInit {
         {
             id: 4,
             img: 'assets/imgs/Herramientas/ICON_7.png',
-            name: 'Infrografías Irresistibles',
+            name: 'Infografías Irresistibles',
             btn: 'Descargar',
             description: 'Vuélvete experto con los beneficios de los ingredientes de los Naturalmente Irresistibles.'
         }
