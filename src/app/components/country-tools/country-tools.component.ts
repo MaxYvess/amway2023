@@ -460,43 +460,43 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=117548&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=117548&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=117549&C=BQ&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=117549&C=BQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=117549&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=117549&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CU&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CU&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CT&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=117549&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=117548&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=117548&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=117549&C=BO&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=117549&C=BO&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=117549&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=117549&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-daily'
                 }
             ]
         },
@@ -505,47 +505,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=110609&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=110609&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&line=B&NavM=N&BC=110609'
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&line=B&NavM=N&BC=110609&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=110609&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=110609&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CU&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CU&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CT&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110609&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110609&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110609&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=110609&C=BO&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=110609&C=BO&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=110609&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=110609&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=110609&C=AZ&Brand='
+                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=110609&C=AZ&Brand=&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=irresistibles-CalMagD'
                 }
             ]
         },
@@ -554,47 +554,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=110415&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=110415&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110415&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110415&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110415&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110415&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&line=B&NavM=N&BC=110415'
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&line=B&NavM=N&BC=110415&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=110415&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=110415&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&line=C&NavM=N&BC=110415'
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&line=C&NavM=N&BC=110415&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110415&C=CT&Brand='
+                    link: 'https://amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110415&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110415&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110415&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=110415&C=BO&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=110415&C=BO&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=110415&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=110415&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=110415&C=AZ&Brand='
+                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=110415&C=AZ&Brand=&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=irresistibles-proteina'
                 }
             ]
         },
@@ -603,47 +603,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=122173&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=122173&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=122173&C=BQ&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=122173&C=BQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=122173&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=122173&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CU&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CU&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CT&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=122173&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=122173&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=122173&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=122173&C=BO&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=122173&C=BO&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=122173&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=122173&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=100107&C=AZ&Brand='
+                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=100107&C=AZ&Brand=&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=irresistibles-omega'
                 }
             ]
         },
@@ -652,43 +652,43 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=109741&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=109741&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=109741&C=BQ&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=109741&C=BQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=109741&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=109741&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CU&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CU&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CT&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=109741&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=109741&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=109741&C=BO&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=109741&C=BO&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=109741&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=109741&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 }
             ]
         },
@@ -697,39 +697,39 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=110178&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=110178&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110181&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110181&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110170&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110170&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=110170&C=BQ&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=110170&C=BQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=110170&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=110170&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110170&C=CU&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=109741&C=CU&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-Cplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110170&C=CT&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=110170&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170'
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&line=F&NavM=N&BC=110178'
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&line=F&NavM=N&BC=110178&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-Bplus'
                 }
             ]
         },
@@ -738,31 +738,31 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=106678&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=106678&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=106678&C=BQ&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=106678&C=BQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=106678&C=OU&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=O&BC=106678&C=OU&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=106678&C=CU&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=106678&C=CU&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=106678&C=CT&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=106678&C=CT&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=106678&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=106678&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=106678&C=BO&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=106678&C=BO&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-HSN'
                 }
             ]
         },
@@ -771,43 +771,43 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=123791&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=123791&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=123791&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=123791&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=123791&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=123791&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=123791&C=AF&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=123791&C=AF&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=N&BC=123791&C=NE&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=N&BC=123791&C=NE&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=123791&C=BI&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=123791&C=BI&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=123791&C=BF&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=123791&C=BF&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=123791&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=123791&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=123791&C=AG&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=123791&C=AG&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=123791&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=123791&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-agua-micelar'
                 }
             ]
         },
@@ -816,47 +816,47 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=6833&C=PO&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=6833&C=PO&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=0001&C=CV&Brand='
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=0001&C=CV&Brand=&utm_source=site&utm_medium=home&utm_campaign=cl_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=6833&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=6833&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=124106&C=DT&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=124106&C=DT&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=Q&BC=6833&C=QB&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=Q&BC=6833&C=QB&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=E&BC=6833&C=ER&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=E&BC=124106&C=ER&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=E&BC=6833&C=ET&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=E&BC=124106&C=ET&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=6833&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=L&BC=124106&C=LV&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=6833&C=DS&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=6833&C=DS&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=6833&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=6833&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=6833&C=AZ&Brand='
+                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=6833&C=AZ&Brand=&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 }
             ]
         },
@@ -865,39 +865,39 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=R&BC=0001&C=RB&Brand='
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=R&BC=0001&C=RB&Brand=&utm_source=site&utm_medium=home&utm_campaign=ar_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=0001&C=CA&Brand='
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=0001&C=CA&Brand=&utm_source=site&utm_medium=home&utm_campaign=co_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FO&Brand='
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FO&Brand=&utm_source=site&utm_medium=home&utm_campaign=cr_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=S&BC=0001&C=SQ&Brand='
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=S&BC=0001&C=SQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=G&BC=0001&C=GM&Brand='
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=G&BC=0001&C=GM&Brand=&utm_source=site&utm_medium=home&utm_campaign=gt_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=G&BC=0001&C=GP&Brand='
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=G&BC=0001&C=GP&Brand=&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=0001&C=KQ&Brand='
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=0001&C=KQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=mx_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FQ&Brand='
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FQ&Brand=&utm_source=site&utm_medium=home&utm_campaign=pa_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FV&Brand='
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 }
             ]
         }
