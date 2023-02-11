@@ -365,7 +365,8 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'Kit De Inicio',
+            subtitle: 'Selecciona la bandera de tu país para accesar al sitio.',
+            name: 'Nuevo Empresario',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
