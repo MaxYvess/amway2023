@@ -15,6 +15,7 @@ export class CountryToolsComponent implements OnInit {
 
     public tools: Array<any> = [
         {
+            subtitle: 'Selecciona la bandera de tu país para accesar al material.',
             name: 'Catálogo Irresistible',
             countries: [
                 {
@@ -64,6 +65,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para accesar al material.',
             name: 'Looks Irresistibles',
             countries: [
                 {
@@ -113,6 +115,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para accesar al material.',
             name: 'Perfiles Irresistibles',
             countries: [
                 {
@@ -162,6 +165,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para accesar al material.',
             name: 'Infografías Irresistible',
             countries: [
                 {
@@ -211,6 +215,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para accesar al material.',
             name: 'Repositorio',
             countries: [
                 {
@@ -260,6 +265,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para accesar al material.',
             name: 'Entrenamientos Irresistibles',
             countries: [
                 {
@@ -309,6 +315,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+           
             name: 'Trazabilidad',
             countries: [
                 {
@@ -407,7 +414,8 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            name: 'Nuevo Empresario',
+            subtitle: 'Selecciona la bandera de tu país para auspiciar.',
+            name: 'Auspicia',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
@@ -456,6 +464,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'Daily Plus',
             countries: [
                 {
@@ -501,6 +510,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'Cal Mag D',
             countries: [
                 {
@@ -550,6 +560,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'Proteína Vegetal',
             countries: [
                 {
@@ -599,6 +610,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'Omega 3 Plus',
             countries: [
                 {
@@ -648,6 +660,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'C Plus',
             countries: [
                 {
@@ -693,6 +706,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'B Plus / B Complex Dual Release',
             countries: [
                 {
@@ -734,6 +748,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'HSN',
             countries: [
                 {
@@ -767,6 +782,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'Agua Micelar',
             countries: [
                 {
@@ -812,6 +828,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'Glister Pasta de Dientes',
             countries: [
                 {
@@ -861,6 +878,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
             name: 'L.O.C.Limpiador Multiusos',
             countries: [
                 {
@@ -900,9 +918,10 @@ export class CountryToolsComponent implements OnInit {
                     link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 }
             ]
-        }
+        }  
     ]
     ;
+
 
     public tool: any = {};
 
