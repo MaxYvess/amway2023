@@ -31,7 +31,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_5.png',
-            link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdsList&IC=5&C=OU&line=O&NavM=N&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=Top&line=O&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_13.png',
@@ -39,7 +39,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_6.png',
-            link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CT&line=C&NavM=N&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=Top&line=C&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_7.png',
@@ -55,7 +55,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_10.png',
-            link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdsList&IC=2&C=AZ&line=A&NavM=N&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=Top&line=A&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=boton_comprar'
         }
         
     ]
