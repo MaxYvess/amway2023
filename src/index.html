@@ -10,6 +10,24 @@
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 </head>
 <body>
+  <script type="text/javascript">
+    //Tealium integration
+    (function(a,b,c,d) {
+        a='https://tags.tiqcdn.com/utag/amway/latam/dev/utag.js';
+        b=document;
+        c='script';
+        d=b.createElement(c);
+        d.src=a;
+        d.type='text/java'+c;
+        d.async=true;
+        a=b.getElementsByTagName(c)[0];
+        a.parentNode.insertBefore(d,a);
+    })();
+    
+    //Tealium data layer
+    window.utag_data = { }
+    window.utag_cfg_ovrd.noview = true;
+</script>
   <app-root></app-root>
 </body>
 </html>

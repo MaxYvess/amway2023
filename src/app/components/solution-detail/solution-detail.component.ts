@@ -1,9 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 declare var bootstrap: any;
 declare var $: any;
+declare var utag: any;
 
 @Component({
   standalone: true,
@@ -199,15 +201,40 @@ export class SolutionDetailComponent implements OnInit {
     constructor(private router: Router,
                 private route: ActivatedRoute) { }
 
-    ngOnInit(): void {
-        this.route.params.subscribe((params) => {
-            if(params && params['id']){
-                this.solution = this.solutions[params['id'] - 1];
-            }else {
-                this.navigateTo(['solutions']);
-            }
-        });
-    }
+                ngOnInit(): void {
+                    this.route.params.subscribe((params) => {
+                        if(params && params['id']){
+                            let hostname = window.location.hostname;
+                            let hostSplit = hostname.split('.');
+                            let code = hostSplit[hostSplit.length - 1];
+                            
+                            this.solution = this.solutions[params['id'] - 1];
+                            let utag_data = environment.utagInfo.solution[params['id'] - 1];
+                            utag_data.site_webProperty_mod = hostname + ' | ecommerce';
+                            utag_data.site_country = code;
+                            utag_data.site_currencyCode = this.getCurrencyCode(code);
+                            
+                            utag.view(utag_data);
+                        }else {
+                            this.navigateTo(['solutions']);
+                        }
+                    });
+                }
+
+                getCurrencyCode(code: string){
+                    if(code == 'mx') return 'mxn';
+                    else if(code == 'gt') return 'gtq';
+                    else if(code == 'sv') return 'svc';
+                    else if(code == 'hn') return 'hnl';
+                    else if(code == 'pa') return 'pab';
+                    else if(code == 'cr') return 'crc';
+                    else if(code == 'ar') return 'ars';
+                    else if(code == 'cl') return 'clp';
+                    else if(code == 'uy') return 'uyu';
+                    else if(code == 'co') return 'cop';
+                    else if(code == 've') return 'vef';
+                    else return '';
+                }
 
     ngAfterContentInit(): void {
         this.modal = new bootstrap.Modal(document.getElementById('solution-detail'), {});
