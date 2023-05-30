@@ -76,7 +76,7 @@ export class BuyComponent implements OnInit {
         utag_data.site_currencyCode = this.getCurrencyCode(code);
         
         window.utag_data = Object.assign(window.utag_data, utag_data);
-        //utag.view(utag_data);
+        utag.view(window.utag_data);
     }
 
     getCurrencyCode(code: string){
