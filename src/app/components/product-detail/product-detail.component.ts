@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
 declare var bootstrap: any;
 declare var $: any;
 declare var utag: any;
+declare var window: any;
 
 @Component({
   standalone: true,
@@ -229,8 +230,9 @@ export class ProductDetailComponent implements OnInit {
                             utag_data.site_country = code;
                             utag_data.site_currencyCode = this.getCurrencyCode(code);
                             
+                            window.utag_data = Object.assign(window.utag_data, utag_data);
                             console.log(utag_data);
-                            utag.view(utag_data);
+                            //utag.view(utag_data);
                         }else {
                             this.navigateTo(['products']);
                         }
