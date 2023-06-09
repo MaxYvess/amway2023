@@ -85,7 +85,7 @@ export class ToolsComponent implements OnInit {
         utag_data.site_currencyCode = this.getCurrencyCode(code);
 
         window.utag_data = Object.assign(window.utag_data, utag_data);
-        utag.view(window.utag_data);
+        setTimeout(() => { utag.view(window.utag_data);  }, 1000)
     }
 
     getCurrencyCode(code: string){

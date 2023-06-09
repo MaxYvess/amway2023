@@ -232,7 +232,7 @@ export class ProductDetailComponent implements OnInit {
                             
                             window.utag_data = Object.assign(window.utag_data, utag_data);
                             //console.log(utag_data);
-                            utag.view(window.utag_data);
+                            setTimeout(() => { utag.view(window.utag_data);  }, 1000)
                         }else {
                             this.navigateTo(['products']);
                         }
