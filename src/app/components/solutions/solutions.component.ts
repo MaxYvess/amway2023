@@ -12,6 +12,7 @@ SwiperCore.use([Navigation, Autoplay]);
 
 declare var $: any;
 declare var utag: any;
+declare var window: any;
 
 @Component({
   standalone: true,
@@ -88,7 +89,8 @@ export class SolutionsComponent implements OnInit {
         utag_data.site_country = code;
         utag_data.site_currencyCode = this.getCurrencyCode(code);
         
-        utag.view(utag_data);
+        window.utag_data = Object.assign(window.utag_data, utag_data);
+        setTimeout(() => { utag.view(window.utag_data);  }, 1000)
     }
 
     getCurrencyCode(code: string){

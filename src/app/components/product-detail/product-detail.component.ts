@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
 declare var bootstrap: any;
 declare var $: any;
 declare var utag: any;
+declare var window: any;
 
 @Component({
   standalone: true,
@@ -172,7 +173,7 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:18,
-            id: 9, name: 'Pasta de Dientes',
+            id: 9, name: 'Creme Dental',
             slogan: 'Consiga um sorriso radiante onde quer que vá', 
             modeOfUse: 'Aplique o creme dental na escova de dentes e escove os dentes por, pelo menos, 1 minuto. Usar na escovação regular. Manter fora do alcance de crianças menores de 6 anos de idade. Em caso de ingestão, procure imediatamente um médico.',
             description: 'Com sua fórmula REMINACT™, você<span class="purple"> fortalecerá seus dentes</span>, fornecendo o <span class="purple">cálcio</span> e o <span class="purple">fósforo</span> que eles perderam, além de reparar o esmalte. Seu bocal é 44% menor em relação a outras pastas, assim você economiza na hora de usar.<br><br> Entre seus benefícios está o <span class="purple">polimento</span> suave dos dentes, a <span class="purple">limpeza eficaz</span> e ajuda a manter o tom natural dos dentes.', 
@@ -229,13 +230,16 @@ export class ProductDetailComponent implements OnInit {
                     utag_data.site_country = code;
                     utag_data.site_currencyCode = this.getCurrencyCode(code);
                     
-                    console.log(utag_data);
-                    utag.view(utag_data);
+                    window.utag_data = Object.assign(window.utag_data, utag_data);
+                    //console.log(utag_data);
+                    setTimeout(() => { utag.view(window.utag_data);  }, 1000)
                 }else {
                     this.navigateTo(['products']);
                 }
             });
         }
+
+
 
         getCurrencyCode(code: string){
             if(code == 'mx') return 'mxn';

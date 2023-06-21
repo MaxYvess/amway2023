@@ -5,6 +5,8 @@ import { environment } from 'src/environments/environment';
 
 declare var $: any;
 declare var utag: any;
+declare var window: any;
+
 
 @Component({
     standalone: true,
@@ -930,25 +932,29 @@ export class CountryToolsComponent implements OnInit {
     constructor(private router: Router,
         private route: ActivatedRoute) { }
 
-ngOnInit(): void {
-this.route.params.subscribe((params) => {
-    if(params && params['id']){
-        let hostname = window.location.hostname;
-        let hostSplit = hostname.split('.');
-        let code = hostSplit[hostSplit.length - 1];
-        
-        this.tool = this.tools[params['id'] - 1];
-        let utag_data = environment.utagInfo.country[params['id'] -1];
-        utag_data.site_webProperty_mod = hostname + ' | ecommerce';
-        utag_data.site_country = code;
-        utag_data.site_currencyCode = this.getCurrencyCode(code);
-        
-        utag.view(utag_data);
-    }else {
-        this.navigateTo(['tools']);
-    }
-});
-}
+
+        ngOnInit(): void {
+            this.route.params.subscribe((params) => {
+                if(params && params['id']){
+                    let hostname = window.location.hostname;
+                    let hostSplit = hostname.split('.');
+                    let code = hostSplit[hostSplit.length - 1];
+                    
+                    this.tool = this.tools[params['id'] - 1];
+                    let utag_data = environment.utagInfo.country[params['id'] -1];
+                    utag_data.site_webProperty_mod = hostname + ' | ecommerce';
+                    utag_data.site_country = code;
+                    utag_data.site_currencyCode = this.getCurrencyCode(code);
+                    
+                    window.utag_data = Object.assign(window.utag_data, utag_data);               
+                    setTimeout(() => { utag.view(window.utag_data);  }, 1000)
+                }else {
+                    this.navigateTo(['tools']);
+                }
+            });
+        }
+    
+    
 
 getCurrencyCode(code: string){
 if(code == 'mx') return 'mxn';

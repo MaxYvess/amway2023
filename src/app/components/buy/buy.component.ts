@@ -6,7 +6,6 @@ declare var $: any;
 declare var utag: any;
 declare var window: any;
 
-
 @Component({
   standalone: true,
   imports: [ CommonModule ],
@@ -35,7 +34,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_5.png',
-            link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdsList&IC=5&C=OU&line=O&NavM=N&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=Top&line=O&utm_source=site&utm_medium=home&utm_campaign=sv_es&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_13.png',
@@ -43,7 +42,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_6.png',
-            link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CT&line=C&NavM=N&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=Top&line=C&utm_source=site&utm_medium=home&utm_campaign=hn_es&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_7.png',
@@ -59,7 +58,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_10.png',
-            link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdsList&IC=2&C=AZ&line=A&NavM=N&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=Top&line=A&utm_source=site&utm_medium=home&utm_campaign=ve_es&utm_content=cta_compra&utm_term=boton_comprar'
         }
         
     ]
@@ -67,7 +66,7 @@ export class BuyComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
-           let hostname = window.location.hostname;
+        let hostname = window.location.hostname;
         let hostSplit = hostname.split('.');
         let code = hostSplit[hostSplit.length - 1];
 
@@ -79,6 +78,9 @@ export class BuyComponent implements OnInit {
         window.utag_data = Object.assign(window.utag_data, utag_data);
         setTimeout(() => { utag.view(window.utag_data);  }, 1000)
     }
+
+
+
 
     getCurrencyCode(code: string){
         if(code == 'mx') return 'mxn';
@@ -94,7 +96,6 @@ export class BuyComponent implements OnInit {
         else if(code == 've') return 'vef';
         else return '';
     }
-
 
     openLink(link: string){
         window.open(link, '_blank');

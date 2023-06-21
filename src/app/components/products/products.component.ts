@@ -12,6 +12,7 @@ SwiperCore.use([Navigation]);
 
 declare var $: any;
 declare var utag: any;
+declare var window: any;
 
 @Component({
   standalone: true,
@@ -48,6 +49,8 @@ export class ProductsComponent implements OnInit {
 
     constructor(private router: Router) { }
 
+
+
     ngOnInit(): void {
         let hostname = window.location.hostname;
         let hostSplit = hostname.split('.');
@@ -58,9 +61,10 @@ export class ProductsComponent implements OnInit {
         utag_data.site_country = code;
         utag_data.site_currencyCode = this.getCurrencyCode(code);
         
-        utag.view(utag_data);
+        window.utag_data = Object.assign(window.utag_data, utag_data);
+        setTimeout(() => { utag.view(window.utag_data);  }, 1000)
     }
-
+    
     getCurrencyCode(code: string){
         if(code == 'mx') return 'mxn';
         else if(code == 'gt') return 'gtq';

@@ -6,7 +6,7 @@ export const environment = {
     production: false,
     utagInfo: {
         whyIrresistibles: {
-            page_category: 'home | irresistibles',  
+            page_category: 'home | irresistíveis',  
             page_name: 'home',
             page_section: 'home',
             page_subCategory: 'home',
@@ -22,7 +22,7 @@ export const environment = {
             site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
         },
         products: {
-            page_category: 'products | irresistibles',  
+            page_category: 'products | irresistíveis',  
             page_name: 'products',
             page_section: 'products',
             page_subCategory: 'products',
@@ -39,7 +39,7 @@ export const environment = {
         },
         product: [
             {
-                page_category: 'products | irresistibles',  
+                page_category: 'products | irresistíveis',  
                 page_name: 'Daily Plus',
                 page_section: 'Daily Plus',
                 page_subCategory: 'product',
@@ -55,7 +55,7 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-                page_category: 'products | irresistibles',  
+                page_category: 'products | irresistíveis',  
                 page_name: 'Cal Mag D',
                 page_section: 'Cal Mag D',
                 page_subCategory: 'product',
@@ -71,7 +71,7 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-                page_category: 'products | irresistibles',  
+                page_category: 'products | irresistíveis',  
                 page_name: 'Proteína Vegetal',
                 page_section: 'Proteína Vegetal',
                 page_subCategory: 'product',
@@ -87,7 +87,7 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             }, 
             {
-              page_category: 'products | irresistibles',  
+              page_category: 'products | irresistíveis',  
               page_name: 'Omega 3 Plus',
               page_section: 'Omega 3 Plus',
               page_subCategory: 'product',
@@ -103,7 +103,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           }, 
           {
-              page_category: 'products | irresistibles',  
+              page_category: 'products | irresistíveis',  
               page_name: 'C Plus',
               page_section: 'C Plus',
               page_subCategory: 'product',
@@ -119,7 +119,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           }, 
           {
-              page_category: 'products | irresistibles',  
+              page_category: 'products | irresistíveis',  
               page_name: 'B Plus / B Complex Dual Release',
               page_section: 'B Plus / B Complex Dual Release',
               page_subCategory: 'product',
@@ -135,7 +135,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           }, 
           {
-              page_category: 'products | irresistibles',  
+              page_category: 'products | irresistíveis',  
               page_name: 'HSN',
               page_section: 'HSN',
               page_subCategory: 'product',
@@ -151,9 +151,9 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           }, 
           {
-              page_category: 'products | irresistibles',  
-              page_name: 'Agua Micelar',
-              page_section: 'Agua Micelar',
+              page_category: 'products | irresistíveis',  
+              page_name: 'Água Micelar',
+              page_section: 'Água Micelar',
               page_subCategory: 'product',
               site_country: '',
               site_currencyCode: '',  
@@ -167,7 +167,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           }, 
           {
-              page_category: 'products | irresistibles',  
+              page_category: 'products | irresistíveis',  
               page_name: 'Pasta de Dientes',
               page_section: 'Pasta de Dientes',
               page_subCategory: 'product',
@@ -183,9 +183,9 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           }, 
           {
-              page_category: 'products | irresistibles',  
-              page_name: 'L.O.C. Limpiador Multiusos',
-              page_section: 'L.O.C. Limpiador Multiusos',
+              page_category: 'products | irresistíveis',  
+              page_name: 'L.O.C. Limpador Multiuso',
+              page_section: 'L.O.C. Limpador Multiuso',
               page_subCategory: 'product',
               site_country: '',
               site_currencyCode: '',  
@@ -201,10 +201,10 @@ export const environment = {
         ],
         ingredients: [ 
           {
-              page_category: 'ingredients | irresistibles',  
+              page_category: 'ingredients | irresistíveis',  
               page_name: 'ingredients',
               page_section: 'ingredients',
-              page_subCategory: 'Productos Naturales y Belleza',
+              page_subCategory: 'Produtos naturais e beleza',
               site_country: '',
               site_currencyCode: '',  
               site_language: 'pt',  
@@ -217,10 +217,10 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'products | irresistibles',  
+              page_category: 'products | irresistíveis',  
               page_name: 'ingredients',
               page_section: 'ingredients',
-              page_subCategory: 'Productos para el Cuidado Personal y Amway Home',
+              page_subCategory: 'Produtos de cuidados pessoais e Amway Home',
               site_country: '',
               site_currencyCode: '',  
               site_language: 'pt',  
@@ -234,10 +234,10 @@ export const environment = {
           },  
         ],
         solutions: {
-            page_category: 'solutions | irresistibles',  
+            page_category: 'solutions | irresistíveis',  
             page_name: 'solutions',
             page_section: 'solutions',
-            page_subCategory: 'El camino IRRESISTIBLE',
+            page_subCategory: 'O Caminho IRRESISTÍVEI',
             site_country: '',
             site_currencyCode: '',  
             site_language: 'pt',  
@@ -251,7 +251,7 @@ export const environment = {
         },
         solution: [
             {
-                page_category: 'solutions | irresistibles',  
+                page_category: 'solutions | irresistíveis',  
                 page_name: 'MOVIMIENTO CONSTANTE',
                 page_section: 'MOVIMIENTO CONSTANTE',
                 page_subCategory: 'solutions',
@@ -267,9 +267,9 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-                page_category: 'solutions | irresistibles',  
-                page_name: 'DESAFÍA TUS IDEAS',
-                page_section: 'DESAFÍA TUS IDEAS',
+                page_category: 'solutions | irresistíveis',  
+                page_name: 'DESAFIE SUAS IDEIAS',
+                page_section: 'DESAFIE SUAS IDEIAS',
                 page_subCategory: 'solutions',
                 site_country: '',
                 site_currencyCode: '',  
@@ -283,9 +283,9 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-                page_category: 'solutions | irresistibles',  
-                page_name: 'SONRISA IDEAL',
-                page_section: 'SONRISA IDEAL',
+                page_category: 'solutions | irresistíveis',  
+                page_name: 'SORRISO IDEAL',
+                page_section: 'SORRISO IDEAL',
                 page_subCategory: 'solutions',
                 site_country: '',
                 site_currencyCode: '',  
@@ -299,9 +299,9 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-              page_category: 'solutions | irresistibles',  
-              page_name: 'BELLEZA INTEGRAL',
-              page_section: 'BELLEZA INTEGRAL',
+              page_category: 'solutions | irresistíveis',  
+              page_name: 'BELEZA INTEGRAL',
+              page_section: 'BELEZA INTEGRAL',
               page_subCategory: 'solutions',
               site_country: '',
               site_currencyCode: '',  
@@ -315,9 +315,9 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'solutions | irresistibles',  
-              page_name: 'ACTIVIDAD DIARIA',
-              page_section: 'ACTIVIDAD DIARIA',
+              page_category: 'solutions | irresistíveis',  
+              page_name: 'ATIVIDADE DIÁRIA',
+              page_section: 'ATIVIDADE DIÁRIA',
               page_subCategory: 'solutions',
               site_country: '',
               site_currencyCode: '',  
@@ -331,9 +331,9 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'solutions | irresistibles',  
-              page_name: 'EN LA MIRA',
-              page_section: 'EN LA MIRA',
+              page_category: 'solutions | irresistíveis',  
+              page_name: 'NA MIRA',
+              page_section: 'NA MIRA',
               page_subCategory: 'solutions',
               site_country: '',
               site_currencyCode: '',  
@@ -347,9 +347,9 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'solutions | irresistibles',  
-              page_name: 'ECO ACTIVO',
-              page_section: 'ECO ACTIVO',
+              page_category: 'solutions | irresistíveis',  
+              page_name: 'ECOATIVO',
+              page_section: 'ECOATIVO',
               page_subCategory: 'solutions',
               site_country: '',
               site_currencyCode: '',  
@@ -364,10 +364,10 @@ export const environment = {
           }
         ],
         tools: {
-            page_category: 'tools | irresistibles',  
+            page_category: 'tools | irresistíveis',  
             page_name: 'tools',
             page_section: 'tools',
-            page_subCategory: 'Conoce las Herramientas IRRESISTIBLES',
+            page_subCategory: 'Conheça as ferramentas IRRESITÍVEIS',
             site_country: '',
             site_currencyCode: '',  
             site_language: 'pt',  
@@ -381,10 +381,10 @@ export const environment = {
         },
         country: [
             {
-                page_category: 'tools | irresistibles',  
+                page_category: 'tools | irresistíveis',  
                 page_name: 'tools',
                 page_section: 'tools',
-                page_subCategory: 'Catálogo Irresistibles',
+                page_subCategory: 'Catálogo irresistíveis',
                 site_country: '',
                 site_currencyCode: '',  
                 site_language: 'pt',  
@@ -397,10 +397,10 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-                page_category: 'tools | irresistibles',  
+                page_category: 'tools | irresistíveis',  
                 page_name: 'tools',
                 page_section: 'tools',
-                page_subCategory: 'Looks Irresistibles',
+                page_subCategory: 'Looks irresistíveis',
                 site_country: '',
                 site_currencyCode: '',  
                 site_language: 'pt',  
@@ -413,10 +413,10 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-                page_category: 'tools | irresistibles',  
+                page_category: 'tools | irresistíveis',  
                 page_name: 'tools',
                 page_section: 'tools',
-                page_subCategory: 'Perfiles Irresistibles',
+                page_subCategory: 'Perfil irresistíveis',
                 site_country: '',
                 site_currencyCode: '',  
                 site_language: 'pt',  
@@ -429,10 +429,10 @@ export const environment = {
                 site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
             },
             {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
-              page_subCategory: 'Infografías Irresistibles',
+              page_subCategory: 'Infografías irresistíveis',
               site_country: '',
               site_currencyCode: '',  
               site_language: 'pt',  
@@ -445,10 +445,10 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
-              page_subCategory: 'Repositorio',
+              page_subCategory: 'Repositório',
               site_country: '',
               site_currencyCode: '',  
               site_language: 'pt',  
@@ -461,10 +461,10 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
-              page_subCategory: 'Entrenamientos Irresistibles',
+              page_subCategory: 'Treinamentos irresistíveis',
               site_country: '',
               site_currencyCode: '',  
               site_language: 'pt',  
@@ -477,7 +477,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Trazabilidad',
@@ -493,7 +493,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Nuevo Empresario',
@@ -509,7 +509,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Auspicia',
@@ -525,7 +525,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Daily Plus',
@@ -541,7 +541,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Cal Mag D',
@@ -557,7 +557,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Proteína Vegetal',
@@ -573,7 +573,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Omega 3 Plus',
@@ -589,7 +589,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'C Plus',
@@ -605,7 +605,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'B Plus / B Complex Dual Release',
@@ -621,7 +621,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'HSN',
@@ -637,7 +637,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Agua Micelar',
@@ -653,7 +653,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'Glister Pasta de Dientes',
@@ -669,7 +669,7 @@ export const environment = {
               site_webProperty_mod: 'www.irresistiveis.amway.com.br  | ecommerce', 
           },
           {
-              page_category: 'tools | irresistibles',  
+              page_category: 'tools | irresistíveis',  
               page_name: 'tools',
               page_section: 'tools',
               page_subCategory: 'L.O.C.Limpiador Multiusos',
