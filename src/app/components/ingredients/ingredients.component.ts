@@ -6,10 +6,12 @@ import { SwiperModule } from 'swiper/angular';
 
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Mousewheel, Virtual } from 'swiper';
+import { environment } from 'src/environments/environment';
 // install Swiper modules
 SwiperCore.use([Navigation, Mousewheel, Virtual ]);
 
 declare var $: any;
+declare var utag: any;
 
 @Component({
   standalone: true,
@@ -24,92 +26,92 @@ export class IngredientsComponent implements OnInit {
         {
             img: 'assets/imgs/Ingredientes/IMG_14.png',
             name: 'Alfalfa',
-            description: 'Contiene vitamina A la cual es liposoluble y contribuye a la formación y mantenimiento de dientes, tejidos, membranas y piel sanos, además de tener importantes funciones en la vista.'
+            description: 'Contém vitamina A, a qual é lipossolúvel e contribui para a formação e manutenção dos dentes, tecidos, membranas e pele saudáveis, além de ter importantes funções para a vista.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_6.png',
-            name: 'Algas marinas calcificadas',
-            description: 'Las algas calcificadas de cultivo en su entorno natural, que se encuentran en la costa de Islandia, son una de las fuentes más concentradas de calcio y magnesio naturales. '
+            name: 'Algas marinhas calcificadas',
+            description: 'As algas calcificadas de cultivo em ambiente natural, que se encontram no litoral da Islândia, são uma das fontes mais concentradas de cálcio e magnésio naturais.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_4.png',
-            name: 'Arándano',
-            description: 'Contiene ácido elágico que contribuye a la restauración del sistema celular y antocinidina el cual es un grupo de fitonutrientes que tiene fuertes propiedades antioxidantes que contribuyen a la salud del corazón. '
+            name: 'Mirtilo',
+            description: 'Contém ácido elágico que contribui para a restauração do sistema celular e antocinidina, que consiste em um grupo de fitonutrientes que possui potentes propriedades antioxidantes que favorecem a saúde do coração.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_15.png',
-            name: 'Berro',
-            description: 'Contiene fitonutrientes como Isotiocianato, luteína, zeaxantina, isoflavonas y EGCG, los cuales entre otras cosas ayudan a mantener saludables los niveles de colesterol en la sangre y favorece la función vascular y un saludable crecimiento celular.'
+            name: 'Agrião',
+            description: 'Contém fitonutrientes como isotiocianato, luteína, zeaxantina, isoflavonas e EGCG, os quais, entre outras coisas, ajudam a manter níveis saudáveis de colesterol e favorecem a função vascular e o crescimento celular saudável.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_10.png',
-            name: 'Cereza Acerola',
-            description: 'Cultivado en la Fazenda Amway Nutrilite™ do Brasil. Estas cerezas crean un extracto excepcionalmente rico en antioxidantes, vitamina C y otros fitonutrientes. Entre sus beneficios está la reducción de fatiga, formación de colágeno, apoya en la cicatrización y ayuda a regular el estrés.'
+            name: 'Acerola',
+            description: 'Cultivada na Fazenda Amway Nutrilite™ do Brasil. As acerolas dão origem a um extrato excepcionalmente rico em antioxidantes, vitamina C e outros fitonutrientes. Entre os seus benefícios, encontra-se a redução da fadiga e a formação de colágeno, além de apoiar a cicatrização e ajudar a regular o estresse.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_1.png',
-            name: 'Espinaca',
-            description: 'La espinaca contiene una mezcla rica en nutrientes de carotenoides, vitamina C, vitamina K, ácido fólico, hierro y calcio, así como luteína, kaempferol, nitratos y otros compuestos vegetales para apoyar una salud óptima.'
+            name: 'Espinafre',
+            description: 'O espinafre contém uma combinação rica de nutrientes como carotenoides, vitamina C, vitamina K, ácido fólico, ferro e cálcio, além de luteína, kaempferol, nitratos e outros compostos vegetais que contribuem para a saúde ideal.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_9.png',
             name: 'Espirulina',
-            description: 'Alga microscópica que posee forma de espiral, de color azul verdoso, es rica en proteínas y hierro por lo que es ideal para vegetarianos, además de su alto contenido en vitamina B12, Betacaroteno, Calcio, Fosforo y Vitamina E.'
+            description: 'Alga microscópica que possui uma forma de espiral, azul esverdeada, rica em proteínas e ferro que, portanto, é ideal para vegetarianos. Além disso, contém um alto teor de vitamina B12, betacaroteno, cálcio, fósforo e vitamina E.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_17.png',
-            name: 'Extracto de semilla de uva',
-            description: 'Contiene altos niveles de fitonutrientes y son ricas en ingredientes antioxidantes que ayudan a proteger a tu cuerpo de los radicales libres, además contienen resveratrol que contribuye a la salud del corazón.'
+            name: 'Extrato de semente de uva',
+            description: 'Contém altos níveis de fitonutrientes e é rico em compostos antioxidantes que ajudam a proteger o corpo contra os radicais livres, além de conter resveratrol, que contribui para a saúde do coração.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_8.png',
-            name: 'L-Cisteína',
-            description: 'Aminoácido presente en la proteína que ayuda a la formación de la piel y es básico en los procesos de desintoxicación.'
+            name: 'L-cisteína',
+            description: 'Aminoácido presente na proteína que contribui para a formação da pele e é básico nos processos de desintoxicação.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_21.png',
-            name: 'Levadura de cerveza',
-            description: 'Es una de las mejores fuentes naturales de vitaminas del complejo B, ayudaa en el funcionamiento del sistema nervioso. Interviene en el metabolismo y en el crecimiento ymantenimiento de la piel.'
+            name: 'Levedura de cerveja',
+            description: 'É uma das melhores fontes naturais de vitaminas do complexo B e contribui para o funcionamento do sistema nervoso. Intervém no metabolismo, no crescimento e na manutenção da pele.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_20.png',
-            name: 'Limón',
-            description: 'Contiene fitonutrientes como el betacaroteno y el alfacaroteno los cuáles contribuyen a la salud de la visión, ayudan a mantener la hidratación de la piel y favorecen un saludable funcionamiento del sistema inmunológico.'
+            name: 'Limão',
+            description: 'Contém fitonutrientes como o betacaroteno e o alfacaroteno, os quais contribuem para a saúde da vista, ajudam a manter a hidratação da pele e favorecem o funcionamento do sistema imunológico.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_19.png',
-            name: 'Mandarina',
-            description: 'Contiene Hesperidina la cual es parte de la familia de los Fitonutrientes conocidos como flavonoides y favorece el buen funcionamiento del sistema cardiovascular.'
+            name: 'Tangerina',
+            description: 'Contém hesperidina, que faz parte da família de fitonutrientes conhecidos como flavonoides e favorece o bom funcionamento do sistema cardiovascular.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_16.png',
-            name: 'Perejil',
-            description: 'Entre sus fitonutrientes encontramos isoflavonas los cuales tienen propiedades antioxidantes muy importantes y ayudan a la salud del corazón, de los huesos y al crecimiento celular.'
+            name: 'Salsinha',
+            description: 'Entre os seus fitonutrientes, encontramos as isoflavonas, que possuem propriedades antioxidantes muito importantes e contribuem para a saúde do coração e dos ossos e para o crescimento celular.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_2.png',
-            name: 'Rábano',
-            description: 'El rábano es rico en vitamina C, potasio y una poderosa fuente de fibra, al contener vitamina nos ayuda a protegernos de los radicales libres. '
+            name: 'Rabanete',
+            description: 'O rabanete é rico em vitamina C e potássio, além de ser uma poderosa fonte de fibra. Devido ao seu teor de vitamina, contribui para a proteção contra os radicais livres. '
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_7.png',
-            name: 'Sierra, Anchoa y Sardina',
-            description: 'Estos peces de agua fría encuentras ácidos grasos con EPA y DHA los cuales contribuyen al funcionamiento normal del corazón, además la sustitución de grasas saturadas por grasas insaturadas en la dieta contribuye a mantener niveles normales de colesterol sanguíneo poliinsaturados son grasas.'
+            name: 'Peixe-serra, anchova e sardinha',
+            description: 'Nestes peixes de água fria encontram-se ácidos graxos como EPA e DHA, os quais contribuem para o funcionamento normal do coração. Além disso, substituir as gorduras saturadas pelas insaturadas na alimentação contribui para manter os níveis normais de colesterol no sangue.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_5.png',
-            name: 'Soya, Trigo y Gisantes',
-            description: 'Al combinarse estos tres ingredientes pueden formar una proteína de alto valor biológico, con el beneficio extra de ser libres de grasas saturadas y colesterol y de fácil digestión.'
+            name: 'Soja, trigo e ervilha',
+            description: 'Ao combinar estes três ingredientes, é possível formar uma proteína de alto valor biológico, com o benefício extra de não conter gorduras saturadas nem colesterol e ser de fácil digestão.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_18.png',
-            name: 'Toronja',
-            description: 'Contiene licopeno el cual ofrece importantes beneficios antioxidante y ayuda a mejorar la salud hepática.'
+            name: 'Toranja',
+            description: 'Contém licopeno que oferece importantes benefícios antioxidantes e ajuda a melhorar a saúde hepática.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_3.png',
-            name: 'Zanahoria',
-            description: 'La zanahoria es una hortaliza que destaca por su contenido en vitamina A, la cual contribuye a la salud de la vista y ayuda a mantener la hidratación de la piel. '
+            name: 'Cenoura',
+            description: 'A cenoura é uma hortaliça que se destaca por seu teor de vitamina A, a qual contribui para a saúde da vista e ajuda a manter a hidratação da pele.'
         },
         
         
@@ -121,18 +123,18 @@ export class IngredientsComponent implements OnInit {
         {
             img: 'assets/imgs/Ingredientes/IMG_13.png',
             name: 'Micelas',
-            description: 'Moléculas similares a un imán que atraen y eliminan las impurezas.'
+            description: 'Moléculas parecidas a um ímã que atraem e eliminam as impurezas.'
         },
         {
             
             img: 'assets/imgs/Ingredientes/IMG_11.png',
-            name: 'Sandía',
-            description: 'Un extracto de fruta que ayuda a proteger la piel de los daños causados por los radicales libres.'
+            name: 'Melancia',
+            description: 'Um extrato de frutas que ajuda a proteger a pele contra os danos causados pelos radicais livres.'
         },
         {
             img: 'assets/imgs/Ingredientes/IMG_12.png',
-            name: 'Semilla de chía blanca',
-            description: 'Cultivada en el Rancho El Petacal, México. Uno de los superalimentos más ricos de la naturaleza y el ingrediente héroe en los productos de Artistry™. Sus fitonutrientes ayudan a nutrir y proteger visiblemente la belleza cuidada de la piel.'
+            name: 'Semente de chia branca',
+            description: 'Cultivada na fazenda Nutrilite™ El Petacal, no México. Um dos superalimentos mais ricos da natureza e o ingrediente herói nos produtos Artistry™. Seus fitonutrientes ajudam a nutrir e proteger visivelmente a beleza da pele.'
         },  
         
     ];
@@ -151,23 +153,23 @@ export class IngredientsComponent implements OnInit {
     ];
     public certifications: Array<any> = [
         {
-            title: 'Ingredientes con certificación orgánica',
-            description: 'Estos extraordinarios fitonutrientes provienen de plantas cultivadas en granjas Nutrilite™ con certificación orgánica en todo el mundo. <br><br> Cada uno de ellos es totalmente rastreable desde la semilla hasta el producto. Conoce más de trazabilidad <b>aquí.<b>',
+            title: 'Ingredientes com certificação orgânica',
+            description: 'Esses extraordinários fitonutrientes vêm de plantas cultivadas nas fazendas Nutrilite™ com certificação orgânica ao redor do mundo. <br><br>Cada um deles é totalmente rastreável, da semente até o produto. Saiba mais sobre a rastreabilidade <b>aqui<b>.',
             route: ['tool', 7],
         },
         {
-            title: '¡Todos nuestros ingredientes naturales tienen certificación de NutriCert™!',
-            description: '<b>NutriCert™</b> es nuestro programa de certificación agrícola que garantiza que las granjas asociadas cumplan con los mismos estándares de calidad (pureza, seguridad y efectividad) que cumplimos en nuestras propias granjas. <br><br> Requiere que sean rastreables, ecológicamente sostenibles y socialmente responsables. Controlando todo el proceso, desde la semilla hasta el complemento, asegurando que solo los ingredientes de la más alta calidad se utilicen en los productos Nutrilite™.',
+            title: 'Todos os nossos ingredientes naturais possuem NutriCert™!',
+            description: '<b>NutriCert™</b> é o nosso programa de certificação agrícola que garante que as fazendas parceiras cumprem os mesmos padrões de qualidade (pureza, segurança e eficácia) que nós cumprimos nas nossas próprias fazendas. <br><br>Exige que sejam rastreáveis, ecologicamente sustentáveis e socialmente responsáveis. Controlando todo o processo, da semente até o suplemente, garantindo que sejam utilizados somente os ingredientes da mais alta qualidade nos produtos Nutrilite™.',
             route: null,
         },
         {
-            title: 'Granjas Nutrilite',
-            description: 'Las Granjas Nutrilite cuentan con certificación orgánica y están distribuidas en más de 26 millones de metros cuadrados de tierra en Estados Unidos, México y Brasil. <br><br>Es ahí donde nacen todos nuestros ingredientes.',
+            title: 'Fazendas Nutrilite',
+            description: 'As fazendas Nutrilite contam com certificação orgânica e estão distribuídas em mais de 26 milhões de metros quadrados nos Estados Unidos, México e Brasil.<br><br>É aí onde nascem todos os nossos ingredientes.',
             route: null,
         },
         {
-            title: 'Ingredientes Botánicos',
-            description: 'Usar los recursos de la naturaleza a la hora de crear nuestros productos es la mejor forma de asegurar fórmulas <b>puras, seguras y efectivas</b>. <br><br>Nuestros fitonutrientes de origen botánico provienen de lo mejor de la naturaleza; las plantas y merecen tu mayor confianza.',
+            title: 'Ingredientes Botânicos',
+            description: 'Usar os recursos da natureza na hora de criar os nossos produtos é a melhor forma de garantir fórmulas  <b>puras, seguras e eficazes.</b><br><br>Os nossos fitonutrientes de origem botânica vêm do melhor da natureza: as plantas. E merecem a sua confiança.',
             route: null,
         }
     ];
@@ -189,15 +191,40 @@ export class IngredientsComponent implements OnInit {
     public view: number = 1;
 
     constructor(private router: Router,
-                private route: ActivatedRoute) { }
+        private route: ActivatedRoute) { }
 
-    ngOnInit(): void {
-        this.route.params.subscribe((params) => {
-            if(params && params['id']){
-                this.view = params['id'];
-            }
-        });
-    }
+        ngOnInit(): void {
+            this.route.params.subscribe((params) => {
+                if(params && params['id']){
+                    let hostname = window.location.hostname;
+                    let hostSplit = hostname.split('.');
+                    let code = hostSplit[hostSplit.length - 1];
+    
+                    this.view = params['id'];
+                    let utag_data = environment.utagInfo.ingredients[params['id'] - 1];
+                    utag_data.site_webProperty_mod = hostname + ' | ecommerce';
+                    utag_data.site_country = code;
+                    utag_data.site_currencyCode = this.getCurrencyCode(code);
+                    
+                    utag.view(utag_data);
+                }
+            });
+        }
+
+        getCurrencyCode(code: string){
+            if(code == 'mx') return 'mxn';
+            else if(code == 'gt') return 'gtq';
+            else if(code == 'sv') return 'svc';
+            else if(code == 'hn') return 'hnl';
+            else if(code == 'pa') return 'pab';
+            else if(code == 'cr') return 'crc';
+            else if(code == 'ar') return 'ars';
+            else if(code == 'cl') return 'clp';
+            else if(code == 'uy') return 'uyu';
+            else if(code == 'co') return 'cop';
+            else if(code == 've') return 'vef';
+            else return '';
+        }
 
     navigateTo(route: any){
         if(route)
@@ -276,4 +303,7 @@ export class IngredientsComponent implements OnInit {
             scrollTop: $("body").offset().top
         }, 500);
     }
+    openLink(){
+        window.open('http://www.portalnutrilite.com.br/rastreabilidade/', '_blank');
+      }
 }

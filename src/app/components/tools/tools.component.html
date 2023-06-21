@@ -2,10 +2,10 @@
     <div class="custom-container">
     
         <div class="text-center">
-            <h2 class="general-title mb0">Conoce las Herramientas</h2>
+            <h2 class="general-title mb0">Conheça as ferramentas</h2>
             <img src="assets/imgs/Productos/Titulo_4.png" class="title-img mb4" draggable="false">
             <h3 class="general-text">
-                Te ofrecemos todas estas herramientas para que hagas crecer tu negocio con los productos Naturalmente Irresistibles.
+                Oferecemos todas estas ferramentas para ajudar no crescimento do seu negócio com os produtos Naturalmente Irresistíveis.
             </h3>
         </div>
         
@@ -18,7 +18,7 @@
                             <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
                             <small class="general-small-text mb2">{{ tool.description }}</small>
                         </div>
-                        <button (click)="navigateTo(['tool', tool.id])" class="general-btn" >{{ tool.btn }}</button>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Explorar</button>
                     </div>
                 </div>
                 
@@ -31,7 +31,7 @@
                             <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
                             <small class="general-small-text mb2">{{ tool.description }}</small>
                         </div>
-                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Descargar</button>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Baixe</button>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                             <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
                             <small class="general-small-text mb2">{{ tool.description }}</small>
                         </div>
-                        <button (click)="navigateTo(['tool', tool.id])" class="general-btn" >{{ tool.btn }}</button>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Baixe</button>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                             <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
                             <small class="general-small-text mb2">{{ tool.description }}</small>
                         </div>
-                        <button (click)="navigateTo(['tool', tool.id])" class="general-btn" >{{ tool.btn }}</button>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Explorar</button>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                             <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
                             <small class="general-small-text mb2">{{ tool.description }}</small>
                         </div>
-                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Descargar</button>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Baixe</button>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 declare var bootstrap: any;
 declare var $: any;
+declare var utag: any;
 
 @Component({
   standalone: true,
@@ -16,175 +18,171 @@ export class SolutionDetailComponent implements OnInit {
 
     public solutions: Array<any> = [
         {
-            name: 'MOVIMIENTO CONSTANTE',
+            name: 'MOVIMENTO CONSTANTE',
             img: 'assets/imgs/Soluciones/IMG_1.png',
             icon: 'assets/imgs/Soluciones/ICON_6.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_5.png',
-            personName: 'Héctor',
+            personName: 'Heitor',
             personJob: 'Contador',
-            personAge: 35,
-            description: 'Héctor trabaja en una trasnacional 8 horas al día. Se levanta para ir al gimnasio mínimo 1 hora, dice que le da energía para empezar sus labores. Sus rutinas se enfocan en volumen muscular y cardio. Desayuna una hora después de haber terminado sus rutinas. Héctor se enfoca tanto en el gimnasio que quiere ver resultados pronto, por eso cuida su alimentación.',
+            personAge: 42,
+            description: 'Trabalha 8 horas por dia em uma estatal, faz academia todos os días por pelo menos 1 hora, faz treinos para aumento da massa muscular 4 vezes por semana e 3 vezes de cárdio, não consome nenhum alimento antes do treino, toma café da manhã uma hora após o treino.',
             reverse: false,
             border: '#e16f64',
             products: [
                 {
-                    name: 'Daily Plus (90 tabs)',
+                    name: 'Daily Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Cal Mag D (90 tabs)',
+                    name: 'Cal Mag D',
                     img: 'assets/imgs/Soluciones/ELEMENT_2.png'
                 },
                 {
-                    name: 'Proteína Vegetal (450 gr)',
+                    name: 'Proteína vegetal em pó',
                     img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
             ]
         },
         {
-            name: 'DESAFÍA TUS IDEAS',
+            name: 'DESAFIE SUAS IDEIAS',
             img: 'assets/imgs/Soluciones/IMG_2.png',
             icon: 'assets/imgs/Soluciones/ICON_1.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_2.png',
             personName: 'Angélica',
-            personJob: 'Madre',
+            personJob: 'Mãe',
             personAge: 33,
-            description: 'Angélica retomó sus estudios en la universidad. Por todas las labores que tiene (Familia, académicas y laborales del hogar) siente que no rinde lo suficiente. Ella cree que debe mejorar su alimentación porque ahí está la clave para que su cerebro funcione mejor.',
+            description: 'Tem dois filhos gêmeos de 5 anos, voltou a cursar a faculdade de Direito, dorme pouco por causa das suas atividades familiares, acadêmicas e domésticas, não tem hora certa para fazer suas refeições, sente que não rende nas aulas nem nos, trabalhos da faculdade, Acha que deve melhorar a sua alimentação.',
             reverse: true,
             border: '#b55afe',
             products: [
                 {
-                    name: 'Omega 3 Plus (90 tabs)',
+                    name: 'Ômega 3 (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Daily Plus (90 tabs)',
+                    name: 'Daily Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_5.png'
                 },
                 {
-                    name: 'C Plus (60 tabs)',
+                    name: 'Acerola C Mastigável',
                     img: 'assets/imgs/Soluciones/ELEMENT_6.png'
                 }
             ]
         },
         {
-            name: 'SONRISA IDEAL',
+            name: 'SORRISO IDEAL',
             img: 'assets/imgs/Soluciones/IMG_3.jpg',
             icon: 'assets/imgs/Soluciones/ICON_12.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_7.png',
-            personName: 'Hernanado',
-            personJob: 'Estudiante universitario',
+            personName: 'Fernando',
+            personJob: 'Estudante universitário',
             personAge: 23,
-            description: 'Hernando está soltero y una de las cosas que más le interesa es tener una buena sonrisa. Va al odontólogo dos veces al año, pero por costumbre no consume alimentos ricos en Calcio.',
+            description: 'Solteiro, tem interesse em suplementar a alimentação, se preocupa com a saúde dos dentes, Vai ao dentista duas vezes por ano, Não tem o hábito de consumir alimentos que, são fontes de cálcio como leite e derivados.',
             reverse: false,
             border: '#539cf8',
             products: [
                 {
-                    name: 'Cal Mag D (90 tabs)',
+                    name: 'Cal Mag D',
                     img: 'assets/imgs/Soluciones/ELEMENT_8.png'
                 },
                 {
-                    name: 'Glister Pasta de Dientes Multiacción con Fluoruro',
+                    name: 'Glister Multi-Action Creme Dental com Flúor',
                     img: 'assets/imgs/Soluciones/ELEMENT_7.png'
                 }
             ]
         },
         {
-            name: 'BELLEZA INTEGRAL',
+            name: 'BELEZA INTEGRAL',
             img: 'assets/imgs/Soluciones/IMG_19.png',
             icon: 'assets/imgs/Soluciones/ICON_13.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_8.png',
             personName: 'Juliana',
-            personJob: 'Educadora',
+            personJob: 'Professora',
             personAge: 35,
-            description: 'Por su trabajo, muchas de sus actividades son al aire libre. Le interesa mucho el bienestar de su piel. Corre una hora,  cuatro veces a la semana. Su almuerzo y refrigerios los toma en el colegio, cree que su alimentación no está balanceada.',
+            description: 'É professora de pré-escola (crianças de 4 anos), corre durante 1 hora, 4 vezes por semana, faz muitas atividades do trabalho ao ar libre, está interessada na saúde e no bem-estar da pele, almoça e lancha na escola e acha que não tem uma alimentação equilibrada, se preocupa em não estar consumindo os nutrientes necessários para o seu bem-estar.',
             reverse: true,
             border: '#b55afe',
             products: [
                 {
-                    name: 'Daily Plus (30/90 tabs)',
+                    name: 'Daily Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'HSN',
-                    img: 'assets/imgs/Soluciones/ELEMENT_14.png'
-                },
-                {
-                    name: 'Agua Micelar Skin Nutrition',
-                    img: 'assets/imgs/Soluciones/ELEMENT_15.png'
+                    name: 'Água Micelar Demaquilante e Limpador Artisty Skin Nutrition',
+                    img: 'assets/imgs/Soluciones/ELEMENT_100.png'
                 }
             ]
         },
         {
-            name: 'ACTIVIDAD DIARIA',
+            name: 'ATIVIDADE DIÁRIA',
             img: 'assets/imgs/Soluciones/IMG_4.png',
             icon: 'assets/imgs/Soluciones/ICON_14.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_9.png',
-            personName: 'Enrique',
-            personJob: 'Empresario',
+            personName: 'Henrique',
+            personJob: 'Empresário',
             personAge: 50,
-            description: 'Enrique está casado y todas las noches, después de trabajar todo el día en ventas, le ayuda a su esposa. No realiza ejercicio regularmente porque no le queda tiempo. Maneja mucho estrés y le preocupa su bienestar cardiovascular.',
+            description: 'Casado, trabalha com vendas durante o dia, é dono de um restaurante e ajuda a esposa no estabelecimento à noite, não faz exercícios regularmente porque não tem tempo,lida com um alto nível de estresse.',
             reverse: false,
             border: '#76C655',
             products: [
                 {
-                    name: 'Omega 3 Plus (30/60 TAB)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_4.png'
+                    name: 'Ômega 3 (90 tab)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_101.png'
                 },
                 {
-                    name: 'Proteína Vegetal (450 gr)',
+                    name: 'Proteína vegetal em pó',
                     img: 'assets/imgs/Soluciones/ELEMENT_16.png'
                 },
                 {
-                    name: 'B Plus (60 tabs)',
+                    name: 'Vitamina B',
                     img: 'assets/imgs/Soluciones/ELEMENT_11.png'
                 }
             ]
         },
         {
-            name: 'EN LA MIRA',
+            name: 'NA MIRA',
             img: 'assets/imgs/Soluciones/IMG_55.png',
             icon: 'assets/imgs/Soluciones/ICON_15.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_10.png',
             personName: 'Marcela',
-            personJob: 'Administradora',
+            personJob: 'Secretária',
             personAge: 45,
-            description: 'Marcela trabaja 9 horas frente a un computador. No consume frutas y vegetales de forma regular, pero si le interesan los nutrientes que le ayuden a mejorar su visión ya que lleva muchos años frente al computador. También le interesa saber cómo puede ayudar a la salud visual de sus padres que ya están en la tercera edad.',
+            description: 'Trabalha na frente do computador 9 horas por dia, não consome frutas e verduras com regularidade, tem interesse em consumir nutrientes que contribuam para sua vista, já que trabalha com computador há muitos anos.',
             reverse: true,
             border: '#ff7062',
             products: [
                 {
-                    name: 'Omega 3 Plus (90 tabs)',
+                    name: 'Ômega 3 Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Daily Plus (90 tabs)',
+                    name: 'Daily Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_10.png'
                 },
             ]
         },
         {
-            name: 'ECO ACTIVO',
+            name: 'ECOATIVO',
             img: 'assets/imgs/Soluciones/IMG_18.png',
             icon: 'assets/imgs/Soluciones/ICON_16.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_11.png',
             personName: 'Pedro',
-            personJob: 'Empleado',
+            personJob: 'Funcionário',
             personAge: 40,
-            description: 'Pedro es cabeza de familia con dos hijos. Se levanta temprano para preparar alimentos y hacer tareas del hogar. Trabaja de 8 a.m a 5 p.m, después cena, limpia y organiza toda la cocina. Estudia inglés una hora y para mantenerse activo toma mucho café. Es también un ecologista comprometido con la salud del ser humano en equilibrio con el medio ambiente.',
+            description: 'Pai de família, mora com seus dois filhos, Acorda muito cedo para preparar a comida e realizar as tarefas domésticas, leva os filhos à escola, trabalha em uma instituição financeira das 8 às 17 horas, depois do jantar, limpa e arruma a cozinha, estuda inglês 1 hora antes de dormir, para se manter ativo, toma várias xícaras de café, tem notado manchas nos dentes e isso o preocupa, é um ecologista comprometido com a saúde do ser humano em equilíbrio com o meio ambiente.',
             reverse: false,
             border: '#4e9efb',
             products: [
                 {
-                    name: 'B Plus (60 tabs)',
+                    name: 'Vitamina B',
                     img: 'assets/imgs/Soluciones/ELEMENT_12.png'
                 },
                 {
-                    name: 'Glister Pasta de Dientes Multiacción con Fluoruro',
-                    img: 'assets/imgs/Soluciones/ELEMENT_7.png'
+                    name: 'Glister Multi-Action Creme Dental com Flúor',
+                    img: 'assets/imgs/Soluciones/ELEMENT_71.png'
                 },
                 {
-                    name: 'L.O.C Limpiador Multiusos',
+                    name: 'L.O.C Limpador Multiuso',
                     img: 'assets/imgs/Soluciones/ELEMENT_13.png'
                 }
             ]
@@ -197,17 +195,42 @@ export class SolutionDetailComponent implements OnInit {
     public modal: any;
 
     constructor(private router: Router,
-                private route: ActivatedRoute) { }
+        private route: ActivatedRoute) { }
 
-    ngOnInit(): void {
-        this.route.params.subscribe((params) => {
-            if(params && params['id']){
-                this.solution = this.solutions[params['id'] - 1];
-            }else {
-                this.navigateTo(['solutions']);
-            }
-        });
-    }
+        ngOnInit(): void {
+            this.route.params.subscribe((params) => {
+                if(params && params['id']){
+                    let hostname = window.location.hostname;
+                    let hostSplit = hostname.split('.');
+                    let code = hostSplit[hostSplit.length - 1];
+                    
+                    this.solution = this.solutions[params['id'] - 1];
+                    let utag_data = environment.utagInfo.solution[params['id'] - 1];
+                    utag_data.site_webProperty_mod = hostname + ' | ecommerce';
+                    utag_data.site_country = code;
+                    utag_data.site_currencyCode = this.getCurrencyCode(code);
+                    
+                    utag.view(utag_data);
+                }else {
+                    this.navigateTo(['solutions']);
+                }
+            });
+        }
+
+        getCurrencyCode(code: string){
+            if(code == 'mx') return 'mxn';
+            else if(code == 'gt') return 'gtq';
+            else if(code == 'sv') return 'svc';
+            else if(code == 'hn') return 'hnl';
+            else if(code == 'pa') return 'pab';
+            else if(code == 'cr') return 'crc';
+            else if(code == 'ar') return 'ars';
+            else if(code == 'cl') return 'clp';
+            else if(code == 'uy') return 'uyu';
+            else if(code == 'co') return 'cop';
+            else if(code == 've') return 'vef';
+            else return '';
+        }
 
     ngAfterContentInit(): void {
         this.modal = new bootstrap.Modal(document.getElementById('solution-detail'), {});
@@ -220,7 +243,10 @@ export class SolutionDetailComponent implements OnInit {
     closeModal(){
         this.modal.hide();
     }
-
+    
+    openLink(){
+        window.open('https://www.amway.com.br/pt/Nutri%C3%A7%C3%A3o/c/nutricao?utm_source=site&utm_medium=landing_irresistiveis&utm_campaign=br_pt&utm_content=cta_compreja&utm_content=irresistiveis', '_blank');
+      }
 
     toggle(){
         let solutionCard: any = document.getElementById('solution_detail_card');

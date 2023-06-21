@@ -16,11 +16,12 @@
             <div class="detail">
                 <h1 class="general-title" [style.color]="product.color" >{{ product.name }}<br>{{ product.smallName }}</h1>
                 <h2 class="general-subtitle">{{ product.slogan }}</h2>
-                <h5 class="general-text bold-text mb0">MODO DE USO</h5>
+                <h5 class="general-text bold-text mb0">INDICAÇÃO DE USO</h5>
                 <p class="general-text">{{ product.modeOfUse }}</p>
 
-                <small class="general-small-text mb2" style="color: #777; display: block;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
-                <button (click)="navigateTo(['tool', product.productFlag])" class="general-btn">Comprar ahora</button>
+                <small class="general-small-text mb2" style="color: #777; display: block;">*PRODUTO DE REFERÊNCIA, VERIFIQUE A DISPONIBILIDADE NO SEU PAÍS.</small>
+                <button (click)="openLink(product.link)" class="general-btn" type="button">Compre já</button>
+                <!--button (click)="navigateTo(['tool', product.productFlag])" class="general-btn">Compre já</button-->
             </div>
         </div>
 

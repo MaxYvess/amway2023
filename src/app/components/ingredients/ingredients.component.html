@@ -18,8 +18,8 @@
         <div id="content" class="custom-container" style="z-index: 2">   
             
             <div class="text-center">
-                <h1 class="general-subtitle">Nuestros ingredientes</h1>
-                <h4 class="general-text" >Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto.</h4>
+                <h1 class="general-subtitle">Nossos ingredientes</h1>
+                <h4 class="general-text" >Nos esforçamos por utilizar os melhores ingredientes possíveis, já que você merece saber o que cada produto contém.</h4>
             </div>
 
             <swiper
@@ -34,7 +34,7 @@
                             <h4 class="general-text bold-text mb0">{{ certification.title }}</h4>
                             <div>
                                 
-                                <h5 class="general-text" (click)="navigateTo(certification.route)" [innerHtml]="certification.description"></h5>
+                                <h5 class="general-text" (click)="openLink()" [innerHtml]="certification.description"></h5>
 
                                 <!--<div class="text-center">
                                     <button class="general-btn">Leer más</button>
@@ -134,15 +134,14 @@
                 
             </div>
             <div class="text-center">
-                <h1 class="general-subtitle" >Nada que NO quisieras</h1>
-                <h4 class="general-text">Estamos comprometidos con la seguridad de todos los que utilizan nuestros productos Naturalmente Irresistibles. Con el fin de proporcionar fórmulas Clean Beauty Artistry™, lo que queremos es generar productos que sean puros, seguros y efectivos. Por eso elegimos no utilizar ciertos ingredientes y hacemos un seguimiento continuo para mantenernos al tanto de los últimos avances.</h4>
-                <h1 class="general-text"><b>*Creado sin:</b></h1>
+                <h1 class="general-subtitle" >Nada que você NÃO queira</h1>
+                <h4 class="general-text">Estamos comprometidos com a segurança de todas as pessoas que utilizam os nossos produtos Naturalmente Irresistíveis. Para proporcionar fórmulas Clean Beauty Artistry™, queremos criar produtos que sejam puros, seguros e eficazes. Por isso, escolhemos não utilizar certos ingredientes e fazemos um acompanhamento contínuo para nos manter atualizados sobre os últimos avanços.</h4>
+                <h1 class="general-text"><b>*Criado sem:</b></h1>
                 <h4 class="general-text" ><li>Parabenos</li></h4>
                 <h4 class="general-text" ><li>Ftalatos</li></h4>
-                <h4 class="general-text" ><li>Tensioactivos sulfatados (SLS, SLES)</li></h4>
-                <h4 class="general-text" ><li>Aceite mineral</li></h4>
-                <h4 class="general-text" ><li>Ingredientes de origen animal</li></h4>
-                
+                <h4 class="general-text" ><li>Tensoativos sulfatados (SLS e SLES)</li></h4>
+                <h4 class="general-text" ><li>Óleo mineral</li></h4>
+                <h4 class="general-text" ><li>Ingredientes de origem animal</li></h4>
             </div>
 
         </div>

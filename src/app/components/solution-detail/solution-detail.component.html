@@ -9,14 +9,14 @@
                     <h1 class="general-subtitle mb0">{{ solution.name }}</h1>
                 </div>
                 <h1 class="general-subtitle mb0">{{ solution.personName }}</h1>
-                <h1 class="general-subtitle normal-text">{{ solution.personJob }}, {{ solution.personAge }} años</h1>
+                <h1 class="general-subtitle normal-text">{{ solution.personJob }}, {{ solution.personAge }} anos</h1>
     
                 <h4 class="general-text mb3">{{ solution.description }}</h4>
     
-                <h1 class="general-subtitle mb3">¿Conoces a alguien como {{ solution.personName }}? A esa persona le puedes ofrecer esta solución.</h1>
+                <h1 class="general-subtitle mb3">Você conhece alguém como o {{ solution.personName }}? Ofereça esta solução.</h1>
     
     
-                <button (click)="openModal()" class="general-btn" [style.background]="solution.border">CONOCE LA SOLUCIÓN</button>
+                <button (click)="openModal()" class="general-btn" [style.background]="solution.border">Conheça a solução</button>
     
             </div>
             <div class="link">
@@ -24,7 +24,7 @@
                     <img src="assets/imgs/next_icon.png" draggable="false" alt="">
                     
                     <h3 class="general-subtitle normal-text mb0" >
-                        Regresar a los perfiles
+                        Retornar aos perfis
                     </h3>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                             <li *ngFor="let product of solution.products; let i = index">
                                 <h5 class="">{{ (i + 1) }}. Nutrilite™ {{product.name }}</h5>
                             </li> 
-                            <small class="general-small-text mb2" style="color: #777; display: block; margin-top: 3rem;">*PRODUCTO DE REFERENCIA, CONSULTA DISPONIBILIDAD EN TU PAÍS.</small>
+                            <small class="general-small-text mb2" style="color: #777; display: block; margin-top: 3rem;">*PRODUTO DE REFERÊNCIA, VERIFIQUE A DISPONIBILIDADE NO SEU PAÍS.</small>
                         </ol>
                     </div>
                     <div class="col-12 col-lg-7">
@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="text-center" style="margin-top: 3rem;">
-                    <button class="general-btn" (click)="navigateTo(['buy'])"> Comprar ahora </button>
+                    <button class="general-btn" (click)="openLink()"> Compre já </button>
                     
                 </div>
             </div>

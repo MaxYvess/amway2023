@@ -1,7 +1,7 @@
-<div class="sidebar" [ngClass]="{ 'open': isOpen }">uterLink
+<div class="sidebar" [ngClass]="{ 'open': isOpen }">
     <div class="sidebar-items">
-        <button [routerLink]="['/why-irresistible']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">¿POR QUÉ SON IRRESISTIBLES?</h4></button>
-        <button (click)="toggle()" type="button" ><h4 class="general-subtitle mb0">PRODUCTOS</h4></button>
+        <button [routerLink]="['/why-irresistible']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">POR QUE SÃO NATURALMENTE IRRESISTÍVEIS?</h4></button>
+        <button (click)="toggle()" type="button" ><h4 class="general-subtitle mb0">PRODUTOS</h4></button>
         
         <div class="submenu" [ngClass]="{ 'open': isOpenSubMenu }" >
             <!--button (click)="isOpen = false; close();" [routerLink]="['/products']" type="button">Nutrición</button>
@@ -13,25 +13,24 @@
             <button (click)="isOpen = false; close();" [routerLink]="['/product/1']" type="button" class="general-text mb0">Daily Plus</button>
             <button (click)="isOpen = false; close();" [routerLink]="['/product/2']" type="button" class="general-text mb0">Cal Mag D</button>
             <button (click)="isOpen = false; close();" [routerLink]="['/product/3']" type="button" class="general-text mb0">Proteína Vegetal</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/4']" type="button" class="general-text mb0">Omega 3 Plus</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/5']" type="button" class="general-text mb0">C Plus</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/6']" type="button" class="general-text mb0">B Plus / B Complex Dual Release</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/7']" type="button" class="general-text mb0">HSN</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/8']" type="button" class="general-text mb0">Agua Micelar Artistry Skin Nutrition</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/9']" type="button" class="general-text mb0">Glister Pasta de Dientes</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/product/10']" type="button" class="general-text mb0">L.O.C. Limpiador Multiusos</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/product/4']" type="button" class="general-text mb0">Ômega 3</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/product/5']" type="button" class="general-text mb0">Acerola C</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/product/6']" type="button" class="general-text mb0">Vitamina B</button>
+            <!--button (click)="isOpen = false; close();" [routerLink]="['/product/7']" type="button" class="general-text mb0">HSN</button-->
+            <button (click)="isOpen = false; close();" [routerLink]="['/product/8']" type="button" class="general-text mb0">Água Micelar</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/product/9']" type="button" class="general-text mb0">Creme Dental</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/product/10']" type="button" class="general-text mb0">LOC™ Limpador Multiuso</button>
         </div>
         
         <button (click)="toggle2()" type="button" ><h4 class="general-subtitle mb0">INGREDIENTES</h4></button>
 
         <div class="submenu" [ngClass]="{ 'open': isOpenSubMenu2 }" >
-            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/1']" type="button" class="general-text mb0">Productos Naturales y Belleza</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/2']" type="button" class="general-text mb0">Productos para el Cuidado Personal y Amway Home</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/1']" type="button" class="general-text mb0">Produtos naturais e beleza</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/2']" type="button" class="general-text mb0">Produtos de cuidados pessoais e Amway Home</button>
         </div>
-        <button [routerLink]="['/solutions']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">SOLUCIONES</h4></button>
-        <button [routerLink]="['/tools']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">HERRAMIENTAS</h4></button>
-        <button [routerLink]="['/sponsors']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">AUSPICIA</h4></button>
-        <button [routerLink]="['/buy']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">COMPRAR</h4></button>
-
+        <button [routerLink]="['/solutions']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">SOLUÇÕES</h4></button>
+        <button [routerLink]="['/tools']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">FERRAMENTAS</h4></button>
+        <button [routerLink]="['/sponsors']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">CADASTRE-SE</h4></button>
+        <button type="button" (click)="openLink()" ><h4 class="general-subtitle mb0">COMPRE</h4></button>
     </div>
 </div>

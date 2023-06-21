@@ -6,10 +6,12 @@ import { SwiperComponent, SwiperModule } from 'swiper/angular';
 
 // import Swiper core and required modules
 import SwiperCore, { Navigation } from 'swiper';
+import { environment } from 'src/environments/environment';
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
 declare var $: any;
+declare var utag: any;
 
 @Component({
   standalone: true,
@@ -26,13 +28,13 @@ export class ProductsComponent implements OnInit {
         { id: 1, name: 'Daily Plus', img: 'assets/imgs/Productos/IMG_1.jpg' },
         { id: 2, name: 'Cal Mag D', img: 'assets/imgs/Productos/IMG_2.jpg' },
         { id: 3, name: 'Proteína Vegetal', img: 'assets/imgs/Productos/IMG_3.jpg' },
-        { id: 4, name: 'Omega 3 Plus', img: 'assets/imgs/Productos/IMG_4.jpg' },
-        { id: 5, name: 'C Plus', img: 'assets/imgs/Productos/IMG_5.jpg' },
-        { id: 6, name: 'B Plus / B Complex Dual Release', img: 'assets/imgs/Productos/IMG_6.jpg' },
-        { id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
-        { id: 8, name: 'Agua Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
-        { id: 9, name: 'Pasta de Dientes', img: 'assets/imgs/Productos/IMG_9.jpg' },
-        { id: 10, name: 'L.O.C. Limpiador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
+        { id: 4, name: 'Ômega 3', img: 'assets/imgs/Productos/IMG_4.jpg' },
+        { id: 5, name: 'Acerola C', img: 'assets/imgs/Productos/IMG_5.jpg' },
+        { id: 6, name: 'Vitamina B', img: 'assets/imgs/Productos/IMG_6.jpg' },
+        //{ id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
+        { id: 8, name: 'Água Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
+        { id: 9, name: 'Creme Dental', img: 'assets/imgs/Productos/IMG_9.jpg' },
+        { id: 10, name: 'LOC™ Limpador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
     public breakpoints: any = {
@@ -47,7 +49,33 @@ export class ProductsComponent implements OnInit {
     constructor(private router: Router) { }
 
     ngOnInit(): void {
+        let hostname = window.location.hostname;
+        let hostSplit = hostname.split('.');
+        let code = hostSplit[hostSplit.length - 1];
+
+        let utag_data = environment.utagInfo.products;
+        utag_data.site_webProperty_mod = hostname + ' | ecommerce';
+        utag_data.site_country = code;
+        utag_data.site_currencyCode = this.getCurrencyCode(code);
+        
+        utag.view(utag_data);
     }
+
+    getCurrencyCode(code: string){
+        if(code == 'mx') return 'mxn';
+        else if(code == 'gt') return 'gtq';
+        else if(code == 'sv') return 'svc';
+        else if(code == 'hn') return 'hnl';
+        else if(code == 'pa') return 'pab';
+        else if(code == 'cr') return 'crc';
+        else if(code == 'ar') return 'ars';
+        else if(code == 'cl') return 'clp';
+        else if(code == 'uy') return 'uyu';
+        else if(code == 'co') return 'cop';
+        else if(code == 've') return 'vef';
+        else return '';
+    }
+
 
     slideNext(){
         this.swiper.swiperRef.slideNext(600);

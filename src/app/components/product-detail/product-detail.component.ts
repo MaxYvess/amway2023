@@ -1,9 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 declare var bootstrap: any;
 declare var $: any;
+declare var utag: any;
 
 @Component({
   standalone: true,
@@ -19,14 +21,14 @@ export class ProductDetailComponent implements OnInit {
         { 
             productFlag:10,
             id: 1, name: 'Daily Plus', 
-            slogan: 'El poder de las frutas y los vegetales en tu vida', 
-            modeOfUse: 'Tomar una tableta al día. Verifica el modo de uso en la página web de tu país.', 
-            description: 'Un <span class="orange">producto práctico</span> para todas aquellas personas que buscan un suplemento dietario para <span class="orange">complementar</span> sus requerimientos <span class="orange">nutricionales.</span> <br><br> Con cinco <span class="orange">fitonutrientes</span> de la gama de los cinco colores; así como <span class="orange">12 vitaminas</span> y <span class="orange">10 minerales</span> que ayudan a complementar tu alimentación diaria.', 
+            slogan: 'O poder das frutas e dos vegetais na sua vida', 
+            modeOfUse: 'Ingerir um tablete por dia do Nutrilite™ Daily Plus 90 tabletes - Suplemento Alimentar de vitaminas e minerais, junto com uma das refeições principais.', 
+            description: 'Um <span class="orange">produto prático</span> para todos aqueles que procuram <span class="orange">complementar</span> as suas necessidades <span class="orange">nutricionais.</span> <br><br>Com cinco <span class="orange">fitonutrientes</span> da gama das cinco cores; assim como  <span class="orange">12 vitaminas</span> e <span class="orange">10 minerais</span> que ajudam a complementar a sua alimentação diária.', 
             img: 'assets/imgs/Daily_Plus/ELEMENT_2.png',
             icon: 'assets/imgs/Daily_Plus/ICON_7.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: false, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=117548&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/suplemento-daily-plus/p/117549?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-daily',
             color: '#f97c22',
             imgs: [
                 'assets/imgs/Daily_Plus/ICON_8.png',
@@ -38,14 +40,14 @@ export class ProductDetailComponent implements OnInit {
         {
             productFlag:11,
             id: 2, name: 'Cal Mag D', 
-            slogan: 'Dos fuentes de calcio en una tableta', 
-            modeOfUse: 'Se recomienda acompañar una tableta tres veces al día con los alimentos. Verifica el modo de uso en la página web de tu país.',
-            description: 'Este producto de nuestros <span class="purple">naturalmente irresistibles</span> está pensado para ayudar a la retención, absorción y utilización del calcio. <br><br> Aporta dos tipos de calcio importantes para el cuerpo: <span class="purple">El carbonato de calcio</span> y el que se obtiene por medio de <span class="purple">algas marinas</span> calcificadas. <br><br> Dentro de sus componentes está el calcio, la vitamina D, el magnesio y es enriquecido con zinc y manganeso.', 
+            slogan: 'Duas fontes de cálcio em um único tablete', 
+            modeOfUse: 'Ingerir um tablete por dia, junto com uma das refeições.',
+            description: 'Este produto dos nossos <span class="purple">naturalmente irresistíveis</span> foi concebido para ajudar na retenção, absorção e aproveitamento do cálcio. <br><br> Ele fornece dois tipos de cálcio que são importantes para o organismo: <span class="purple">carbonato de cálcio</span> e carbonato de cálcio obtido de <span class="purple">algas marinhas</span> calcificadas. <br><br> Com cálcio, magnésio, zinco, manganês e vitamina D.', 
             img: 'assets/imgs/Cal_Mag_D/ELEMENT_2.png',
             icon: 'assets/imgs/Cal_Mag_D/ICON_4.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2013-0002850 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2013-0002850 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110609&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/Vitamina-D-Calcio-Magnesio/p/110609?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-VitaminaD',
             color: '#6e6697',
             imgs: [
                 'assets/imgs/Cal_Mag_D/ICON_5.png',
@@ -57,14 +59,14 @@ export class ProductDetailComponent implements OnInit {
         { 
             productFlag:12,
             id: 3, name: 'Proteína Vegetal', 
-            slogan: 'La cantidad de Proteína que necesitas', 
-            modeOfUse: 'Añade una cucharada sopera completa (aproximadamente 10 gr.) a un vaso de leche, jugo de fruta, o cualquier alimento. Mezcla o agita vigorosamente. Verifica el modo de uso en la página web de tu país.',
-            description: `Proteína 100% de <span class="green">origen vegetal</span>que contiene proteína aislada de soya, trigo y guisante. La proteína es un <span class="green">macronutriente</span> que nuestro cuerpo necesita diariamente. No tiene sabor así que es ideal para mezclar con cualquier alimento y cada porción contiene <span class="green">8 gramos de proteína</span> y <span class="green">9 aminoácidos esenciales.</span>`, 
+            slogan: 'A porção de proteína que você precisa', 
+            modeOfUse: 'Adicione uma colher de sopa cheia (aproximadamente 10 g) a um copo de leite, suco de frutas ou qualquer alimento. Misturar ou agitar.',
+            description: `Proteína 100% <span class="green">vegetal</span>contendo proteína isolada de soja, trigo e ervilha. A proteína é um <span class="green">macronutriente</span> que nosso corpo precisa diariamente. Não tem sabor por isso é ideal para misturar com qualquer alimento e cada porção contém <span class="green">8 gramas de proteína</span> e <span class="green">9 aminoácidos essenciais.</span>`, 
             img: 'assets/imgs/Proteina_Vegetal/ICON_9.png',
             icon: 'assets/imgs/Proteina_Vegetal/ICON_4.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO RSIA01I304. ESTE PRODUCTO ES UN ALIMENTO. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO RSIA01I304. ESTE PRODUCTO ES UN ALIMENTO. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110415&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/Proteina-Vegetal-em-Po-Nutrilite/p/110415?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-proteina',
             color: '#0b7c15',
             imgs: [
                 'assets/imgs/Proteina_Vegetal/ICON_8.png',
@@ -75,15 +77,15 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:13,
-            id: 4, name: 'Omega 3 Plus',
-            slogan: 'Los ácidos grasos que tu cuerpo necesita', 
-            modeOfUse: 'Tomar de 1 a 3 cápsulas blandas al día, preferiblemente con las comidas. Verifica el modo de uso en la página web de tu país.',
-            description: 'Una persona debería consumir por lo menos dos porciones de <span class="dark-blue">omega 3</span> a la semana. Este se encuentra en pescados y mariscos. <br><br> Con Omega 3 de Nutrilite vas a obtener ácidos grasos con sus ingredientes que se extraen de: <span class="dark-blue">caballa</span>, <span class="dark-blue">sardina</span> y <span class="dark-blue">anchoa.</span> <br><br> Este suplemento contiene una fórmula balanceada con <span class="dark-blue">EPA</span> y <span class="dark-blue">DHA</span>, estos son ácidos grasos esenciales que el cuerpo no produce de manera eficiente y por eso debemos obtenerlos de nuestra dieta.', 
+            id: 4, name: 'Ômega 3',
+            slogan: 'Os ácidos graxos que o seu corpo precisa', 
+            modeOfUse: 'Tomar 3 cápsulas ao dia.',
+            description: 'Uma pessoa deve consumir pelo menos duas porções de <span class="dark-blue">ômega 3</span> por semana. Eles são encontrados em peixes e mariscos.<br><br> Contém óleo de peixe proveniente de peixes de água fria, como <span class="dark-blue">sardinha</span>, <span class="dark-blue">cavalinha</span> e <span class="dark-blue">anchova.</span> <br><br> Oferece <span class="dark-blue">EPA</span> e <span class="dark-blue">DHA</span>, que são os dois ácidos graxos necessários para ajudar o funcionamento do organismo.', 
             img: 'assets/imgs/Omega_3_Plus/ICON_10.png',
             icon: 'assets/imgs/Omega_3_Plus/ICON_4.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004198 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004198 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=110415&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/Omega-3-Nutrilite---Oleo-de-Peixe-em-Capsulas-/p/A8919?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-omega3',
             color: '#275994',
             imgs: [
                 'assets/imgs/Omega_3_Plus/ICON_6.png',
@@ -94,15 +96,15 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:14,
-            id: 5, name: 'C Plus',
-            slogan: '8 horas de vitamina C', 
-            modeOfUse: 'Tomar una tableta al día preferiblemente con alimentos. Verifica el modo de uso en la página web de tu país.',
-            description: 'La <span class="dark-red">vitamina C</span> no es solo un antioxidante, es también un factor fundamental para la formación del colágeno en el cuerpo. <br><br> Con la ingesta  de una tableta al día ayudarás a tus defensas a mantenerse elevadas. <br><br> Está hecho con una fórmula que contiene <span class="dark-red">ingredientes botánicos</span> como el concentrado de <span class="dark-red">cereza acerola.</span>', 
+            id: 5, name: 'Acerola C',
+            slogan: 'Tabletes mastigáveis divertidos que são fonte de Vitamina C', 
+            modeOfUse: 'Para adultos e crianças acima de 4 anos de idade, mastigar um tablete por dia.',
+            description: 'Recomendado para o público adulto e infantil, esse suplemento é fonte de <span class="dark-red">Vitamina C.</span><br><br> A Vitamina C auxilia: No metabolismo de proteínas e gorduras e Na absorção de ferro dos alimentos. <br><br> É feito com uma fórmula que contém vegetais como concentrado de <span class="dark-red">acerola.</span>', 
             img: 'assets/imgs/C_Plus/ICON_9.png',
             icon: 'assets/imgs/C_Plus/ICON_4.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2012-0002338 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2012-0002338 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: false, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=122173&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/vitamina-c-acerola-mastigavel/p/106710?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-acerola',
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/HSN/ICON_7.png',
@@ -113,15 +115,15 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:15,
-            id: 6, name: ' B Plus /', smallName: 'B Complex Dual Release',
-            slogan: 'El lado Bueno de la vida', 
-            modeOfUse: 'Adultos: Tomar una tableta con alimentos preferiblemente. No masticar, romper o triturar. Verifica el modo de uso en la página web de tu país.',
-            description: 'Con <span class="green">tecnología bicapa</span> de liberación prolongada, <span class="green">B complex</span> de Nutrilite, es un suplemento alimentario con <span class="green">8 vitaminas</span> del <span class="green">complejo</span> accesible a tu bolsillo.', 
+            id: 6, name: 'Vitamina B',
+            slogan: 'O lado bom da vida', 
+            modeOfUse: 'Adultos, consumir um tablete por dia junto com uma das refeições.',
+            description: 'Fonte de oito vitaminas do <span class="green">complexo B</span>, entre elas, as Vitaminas B1, B2, B3, B5, B7 e B12, que auxiliam no metabolismo energético, o Vitamina B Nutrilite é um suplemento alimentar com todos os benefícios do complexo B.', 
             img: 'assets/imgs/B_Plus/ICON_9.png',
             icon: 'assets/imgs/B_Plus/ICON_4.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004312 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004312 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170',
+            link: 'https://www.amway.com.br/pt/Vitamina-B-Nutrilite/p/110181?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-VitaminaB',
             color: '#0b7c15',
             imgs: [
                 'assets/imgs/B_Plus/ICON_6.png',
@@ -138,7 +140,7 @@ export class ProductDetailComponent implements OnInit {
             description: 'Este producto contiene 30 mg de <span class="dark-pink">vitamina C</span> que contribuye a la formación de Colágeno. También contiene <span class="dark-pink">L - cisteína</span> un aminoácido que promueve la formación de <span class="dark-pink">queratina.</span> Otros ingredientes importantes son el <span class="dark-pink">colágeno hidrolizado, biotina, extracto de semilla de uva y vitamina c.</span>', 
             img: 'assets/imgs/HSN/ICON_10.png',
             icon: 'assets/imgs/HSN/ICON_4.png',
-            footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
+            //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
             link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=G&NavM=N&BC=110170',
             color: '#b83b61',
@@ -151,15 +153,15 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:17,
-            id: 8, name: 'Agua Micelar',
-            slogan: 'Dale a tu piel lo que se merece', 
-            modeOfUse: 'Para limpiar y desmaquillar la piel, pasa suavemente un algodón húmedo hasta que esté libre de maquillaje e impurezas. Para eliminar el maquillaje de los ojos, mantén un algodón húmedo sobre los ojos cerrados durante unos segundos y límpialo suavemente, sin frotarlo.',
-            description: 'Recomendado para <span class="dark-red">todo tipo de piel, retira el maquillaje, acondiciona y refresca la piel</span>. No deja residuos oleosos y su enjuague es opcional. Ayuda a remover todo tipo de maquillaje, incluyendo los de larga duración y a prueba de agua.<br><br> El <span class="dark-red">agua micelar</span> está compuesta por <span class="dark-red">semilla de chía blanca, extracto de sandía</span> y <span class="dark-red">micelas.</span>', 
+            id: 8, name: 'Água Micelar',
+            slogan: 'Dê à sua pele o que ela merece', 
+            modeOfUse: 'Utilizar o produto para limpar a pele e tirar a maquiagem.',
+            description: 'Recomendado para <span class="dark-red">todos os tipos de pele, remove a maquilhagem, condiciona e refresca a pele.</span> Não deixa resíduo oleoso. Ajuda a remover todos os tipos de maquiagem, inclusive de longa duração e à prova d´água.<br><br> A <span class="dark-red">água micelar</span> é composta por <span class="dark-red">semente de chia branca, extrato de melancia</span> e <span class="dark-red">micelas.</span>', 
             img: 'assets/imgs/Agua_Micelar/ICON_5.png',
             icon: 'assets/imgs/Agua_Micelar/ICON_4.png',
-            footer: 'ARGENTINA, BRASIL, CHILE, COLOMBIA, COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, MÉXICO, PANAMÁ, URUGUAY: *CONSUMER PERCEPTION (MARKETVISION RESEARCH STUDY).',
+            footer: '*CONSUMER PERCEPTION (MARKETVISION RESEARCH STUDY).',
             reverse: true, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=123791&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/Agua-Micelar-Demaquilante-e-Limpador-Artistry-Skin-Nutrition/p/123791?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-agua-micelar',
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/Agua_Micelar/ICON_8.png',
@@ -171,14 +173,14 @@ export class ProductDetailComponent implements OnInit {
         { 
             productFlag:18,
             id: 9, name: 'Pasta de Dientes',
-            slogan: 'Consigue una sonrisa radiante donde quiera que vayas', 
-            modeOfUse: 'Coloca un poco de pasta sobre tu cepillo dental, lávate los dientes, enjuaga. Lávate los dientes después de cada comida.',
-            description: 'Con su fórmula REMINACT™, <span class="purple">fortalecerás tus dientes</span>, aportando el <span class="purple">calcio</span> y el <span class="purple">fósforo</span> que han perdido, además de reparar el esmalte. Su boquilla es 44% más pequeña en comparación que otras pastas, para que ahorres a la hora de usarlo.<br><br> Entre sus beneficios está el <span class="purple">pulir</span> suavemente los dientes, <span class="purple">limpieza efectiva</span> y ayuda a mantener el tono natural de tus dientes.', 
+            slogan: 'Consiga um sorriso radiante onde quer que vá', 
+            modeOfUse: 'Aplique o creme dental na escova de dentes e escove os dentes por, pelo menos, 1 minuto. Usar na escovação regular. Manter fora do alcance de crianças menores de 6 anos de idade. Em caso de ingestão, procure imediatamente um médico.',
+            description: 'Com sua fórmula REMINACT™, você<span class="purple"> fortalecerá seus dentes</span>, fornecendo o <span class="purple">cálcio</span> e o <span class="purple">fósforo</span> que eles perderam, além de reparar o esmalte. Seu bocal é 44% menor em relação a outras pastas, assim você economiza na hora de usar.<br><br> Entre seus benefícios está o <span class="purple">polimento</span> suave dos dentes, a <span class="purple">limpeza eficaz</span> e ajuda a manter o tom natural dos dentes.', 
             img: 'assets/imgs/Pasta_de_dientes/ICON_5.png',
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
             reverse: false, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=6833&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/Glister-200g-Multi-Action-Creme-Dental-com-Fluor/p/E6833?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-creme-dental',
             color: '#6e6697',
             imgs: [
                 'assets/imgs/Pasta_de_dientes/ICON_9.png',
@@ -189,15 +191,15 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:19,
-            id: 10, name: 'L.O.C.', smallName: 'Limpiador Multiusos', 
-            slogan: 'El limpiador de superficies más versátil', 
-            modeOfUse: 'En una cubeta o balde, mezcla 1 ½ tapa ó 30ml aproximadamente en 5 litros de agua.',
-            description: 'Limpiador multiusos que puedes <span class="blue">usar sobre todo tipo de superficies</span> lavables. no necesita enjuagar y se retira fácilmente. Quita <span class="blue">manchas difíciles</span> es <span class="blue">seguro</span> de usar y no daña el planeta.<br><br> Con el podrás limpiar pisos, baños, cocinas, muebles, alfombras, telas y autos. Un solo L.O.C limpiador Multiusos <span class="blue">rinde 10 veces más</span> que un limpiador convencional.', 
+            id: 10, name: 'LOC™', smallName: 'Limpador Multiuso', 
+            slogan: 'O limpador de superfícies mais versátil', 
+            modeOfUse: 'Para limpeza geral com solução menos concentrada: adicione 30 ml (1½ tampa) do produto em um balde com 5 litros de água. Não é necessário enxaguar. Rende até 166 litros de solução.',
+            description: 'Limpador multiusos que pode <span class="blue">utilizar em todo o tipo de superfícies</span> laváveis. não precisa ser enxaguado e é facilmente removido. O <span class="blue">removedor de manchas resistente</span> é <span class="blue">seguro</span> de usar e gentil com o planeta.<br><br> Com ele você pode limpar pisos, banheiros, cozinhas, móveis, tapetes, tecidos e carros. Um único L.O.C All-Purpose Cleaner <span class="blue">faz mais</span> do que um limpador convencional.', 
             img: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_5.png',
             icon: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_4.png',
             footer: '',
             reverse: true, 
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=0001&C=KQ&Brand=',
+            link: 'https://www.amway.com.br/pt/LOC-Limpador-Multiuso-Amway-Home/p/E0001?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-LOC',
             color: '#265894',
             imgs: [
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png',
@@ -212,17 +214,43 @@ export class ProductDetailComponent implements OnInit {
     public modal: any = null;
     
     constructor(private router: Router,
-                private route: ActivatedRoute) { }
+        private route: ActivatedRoute) { }
 
-    ngOnInit(): void {
-        this.route.params.subscribe((params) => {
-            if(params && params['id']){
-                this.product = this.products[params['id'] - 1];
-            }else {
-                this.navigateTo(['products']);
-            }
-        });
-    }
+        ngOnInit(): void {
+            this.route.params.subscribe((params) => {
+                if(params && params['id']){
+                    let hostname = window.location.hostname;
+                    let hostSplit = hostname.split('.');
+                    let code = hostSplit[hostSplit.length - 1];
+                    
+                    this.product = this.products[params['id'] - 1];
+                    let utag_data = environment.utagInfo.product[params['id'] - 1];
+                    utag_data.site_webProperty_mod = hostname + ' | ecommerce';
+                    utag_data.site_country = code;
+                    utag_data.site_currencyCode = this.getCurrencyCode(code);
+                    
+                    console.log(utag_data);
+                    utag.view(utag_data);
+                }else {
+                    this.navigateTo(['products']);
+                }
+            });
+        }
+
+        getCurrencyCode(code: string){
+            if(code == 'mx') return 'mxn';
+            else if(code == 'gt') return 'gtq';
+            else if(code == 'sv') return 'svc';
+            else if(code == 'hn') return 'hnl';
+            else if(code == 'pa') return 'pab';
+            else if(code == 'cr') return 'crc';
+            else if(code == 'ar') return 'ars';
+            else if(code == 'cl') return 'clp';
+            else if(code == 'uy') return 'uyu';
+            else if(code == 'co') return 'cop';
+            else if(code == 've') return 'vef';
+            else return '';
+        }
 
     ngAfterViewInit(){
         this.modal = new bootstrap.Modal(document.getElementById('product-detail'), {});
