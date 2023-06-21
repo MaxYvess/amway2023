@@ -4,6 +4,8 @@ import { environment } from 'src/environments/environment';
 
 declare var $: any;
 declare var utag: any;
+declare var window: any;
+
 
 @Component({
   standalone: true,
@@ -65,7 +67,7 @@ export class BuyComponent implements OnInit {
     constructor() { }
 
     ngOnInit(): void {
-        let hostname = window.location.hostname;
+           let hostname = window.location.hostname;
         let hostSplit = hostname.split('.');
         let code = hostSplit[hostSplit.length - 1];
 
@@ -74,7 +76,8 @@ export class BuyComponent implements OnInit {
         utag_data.site_country = code;
         utag_data.site_currencyCode = this.getCurrencyCode(code);
         
-        utag.view(utag_data);
+        window.utag_data = Object.assign(window.utag_data, utag_data);
+        setTimeout(() => { utag.view(window.utag_data);  }, 1000)
     }
 
     getCurrencyCode(code: string){
