@@ -1,0 +1,51 @@
+
+<div class="solutions" >
+    <div class="custom-container">
+        
+        <div class="text-center">
+            <h2 class="general-title mb0">El Camino</h2>
+            <img src="assets/imgs/Productos/Titulo_3.png" class="title-img" draggable="false">
+            <h5 class="general-text">Este espacio ha sido creado especialmente para ti, que quiere empezar desde ya obteniendo ganancias por la venta de los productos Naturalmente Irresistibles. En este sitio encontrarás la guía necesaria para empezar a venderlos.</h5>
+
+            <h1 class="general-subtitle normal-text">¿A quién <b class="bold-text">Venderle</b>?</h1>
+
+            <h5 class="general-text">Para cada tipo de persona podemos ofrecerle una combinación ideal de productos Irresistibles. Por eso, hemos identificado algunos ejemplos y diseñamos 7 perfiles a los que podrás ofrecerles cierto tipo de productos según sus gustos y necesidades. Para identificarlos pregúntales sobre su estilo de vida ¿Qué hacen? ¿Qué les gusta? ¿Qué les gustaría mejorar en su vida? Respondiendo esto podrás identificarlo fácilmente en alguno de estos.</h5>
+  
+            <div class="text-center">
+                <h5 class="general-text"><b>Haz clic en alguno de los perfiles para saber más.</b></h5>
+            </div>
+        </div>
+       
+
+
+        <swiper 
+            [autoplay]="{ delay: 3000, disableOnInteraction: false }"
+            [loop]="true"
+            [grabCursor]="true"
+            [breakpoints]="breakpoints"
+            [initialSlide]="0" >
+            <ng-template *ngFor="let solution of solutions" swiperSlide >
+                <div class="solution-card">
+                    <img [src]="solution.img" (click)="navigateTo(['solution', solution.id])" draggable="false" alt="">
+                    <!--div (click)="navigateTo(['solution', solution.id])" class="description">
+                        <div>
+                            <div class="{{ solution.icon }}"></div>
+                            <small>{{ solution.name }}</small>
+                        </div>
+                        <span class="number">{{ solution.id }}</span> 
+                    </div-->
+                </div>
+            </ng-template>
+        </swiper>
+        <div class="text-center mt2">
+            <h5 class="general-text">Para que esta información te acompañe a todo lado y conozcas más cómo diseñar un perfil de cliente y la solución de productos Irresistibles que les puedes ofrecer, te invitamos a descargar los perfiles en la sección <b>Herramientas Irresistibles.</b></h5>
+        </div> 
+    </div>
+
+
+    <div style="width: 100%; text-align: end;">
+        <button (click)="goTo()" class="go-to-top">
+            <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">
+        </button>
+    </div>
+</div>

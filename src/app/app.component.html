@@ -1,0 +1,27 @@
+<app-navbar [isOpen]="isOpen" (isOpenSidebar)="toggle($event)"></app-navbar>
+<app-sidebar [isOpen]="isOpen" (closeSidebar)="toggle($event)" ></app-sidebar>
+
+
+<router-outlet></router-outlet>
+
+
+<button type="button" (click)="toggle(null)" class="toggle-btn" [ngClass]="{ 'change': isOpen }">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</button>
+
+
+<img src="assets/imgs/Productos/ICON_1.png" draggable="false" class="fixed-btn"  alt="">
+
+
+<!--div style="width: 100%; text-align: end;">
+    <button (click)="goTo()" class="go-to-top">
+        <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">
+    </button>
+</div-->
+
+<!--button  >
+    <span class="border">NATURALMENTE</span>
+    <span class="bold">IRRESISTIBLES</span>
+</button-->

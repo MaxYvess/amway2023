@@ -1,0 +1,24 @@
+
+<div class="tool">
+    <h2 class="general-subtitle mb0 background">{{ tool.name }}</h2>
+
+    <div class="custom-container">
+
+        <div class="country-flags">
+
+            <h2 class="general-subtitle normal-text">{{ tool.subtitle }}</h2>
+
+            <div class="row custom-row" >
+                <div *ngFor="let country of tool.countries" class="col-12 col-md-4 col-lg-3">
+                    <img [src]="country.img" (click)="openLink(country.link)" draggable="false" class="country-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%; text-align: end;">
+        <button (click)="goTo()" class="go-to-top">
+            <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">
+        </button>
+    </div>
+</div>

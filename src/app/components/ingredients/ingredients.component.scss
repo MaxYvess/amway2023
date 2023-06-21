@@ -1,0 +1,195 @@
+
+
+
+.ingredients { 
+    min-height: 100%;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        text-align: start;
+    }
+}
+
+
+.certifications-card {
+    width: 70%;
+
+    h4 {
+        background: #76c655;
+        font-weight: 600;
+        padding: 2rem;
+        text-align: center;
+        color: #fff;
+    }
+
+    > div {
+        padding: 2rem;
+        background: #fff;
+    }
+}
+
+.ingredients-card {
+    background: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    height: 100%;
+    border-bottom: 1px solid #222;
+
+    img {
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+
+    > div {
+        h6 {
+            text-align: left;
+        }
+    }
+}
+
+
+.custom-tabs {
+    display: flex;
+
+    button {
+        flex: 1;
+        background: #fff;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #222;
+        padding: 2rem 1rem;
+        text-align: center;
+        border-radius: 20px 20px 0 0;
+
+        &:hover, &:active {
+            background: #ededed;
+        }
+    }
+
+    .active {
+        background: #eee;
+    }
+}
+
+
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.custom-col {
+    width: calc(33% - 2rem);
+    margin: 0 1rem 1rem 1rem;
+}
+
+.parallax1 {
+    width: 12%; 
+    z-index: 3; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    transition: .5s linear;
+}
+
+.parallax2 {
+    width: 12%; 
+    z-index: 3; 
+    position: absolute; 
+    right: 0px; 
+    top: 0px; 
+    transition: .5s linear;
+}
+
+.parallax3 {
+    width: 12%; 
+    z-index: 3; 
+    position: absolute; 
+    left: 0px; 
+    bottom: 0px; 
+    transition: .5s linear;
+}
+
+.parallax4 {
+    width: 12%;
+    z-index: 3; 
+    position: absolute; 
+    right: 0px; 
+    bottom: 0px; 
+    transition: .5s linear;
+}
+
+
+// extra Small devices (smartphones, 576px and down)
+@media (min-width: 250px) and (max-width: 374px) { 
+    
+    .certifications-card {
+        width: 80%;
+    }
+
+    .custom-col {
+        width: calc(100% - 2rem);
+    }
+
+    .parallax1, .parallax2, .parallax3, .parallax4 {
+        width: 15%;
+    }
+}
+
+
+// Small devices (smartphones, 576px and down)
+@media (min-width: 375px) and (max-width: 576px) { 
+    
+    .certifications-card {
+        width: 80%;
+    }
+
+    .custom-col {
+        width: calc(100% - 2rem);
+    }
+
+    .parallax1, .parallax2, .parallax3, .parallax4 {
+        width: 15%;
+    }
+}
+
+// Medium devices (tablets, 768px and down)
+@media (min-width: 577px) and (max-width: 768px) {
+    .certifications-card {
+        width: 75%;
+    }
+
+    .custom-col {
+        width: calc(50% - 2rem);
+    }
+
+    .parallax1, .parallax2, .parallax3, .parallax4 {
+        width: 15%;
+    }
+}
+
+
+// Large devices (desktops, 992px and dpwn)
+@media (min-width: 769px) and (max-width: 1024px) { 
+    
+}
+
+// X-Large devices (large desktops, 1399px and down)
+@media (min-width: 1025px) and (max-width: 1399px) {
+   
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  
+}

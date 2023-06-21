@@ -1,0 +1,353 @@
+
+@import "~swiper/css";
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color: #222 !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+}
+
+.custom-container {
+    width: 80%;
+    height: 100%;
+}
+
+
+.no-overflow {
+    overflow-y: hidden;
+}
+
+.custom-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+app-root {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url(assets/fonts/gt-walsheim-regular.ttf) format('truetype');
+    
+}
+
+@font-face {
+    font-family: 'GT Walsheim Bold';
+    src: url(assets/fonts/gt-walsheim-bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+* {
+    font-family: 'GT Walsheim';
+}
+
+.general-title {
+    font-family: 'GT Walsheim Bold';
+    font-size: 32px;
+    margin-bottom: 2rem;
+    line-height: 1;
+
+    small {
+        font-size: 4rem;
+    }
+}
+
+.general-subtitle {
+    font-family: 'GT Walsheim Bold';
+    font-size: 24px;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.general-text {
+    font-family: 'GT Walsheim';
+    font-size: 16px;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+
+.general-text {
+    font-family: 'GT Walsheim';
+    font-size: 20px;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.general-small-text {
+    font-family: 'GT Walsheim';
+    font-size: 12px;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.normal-text {
+    font-family: 'GT Walsheim' !important;
+}
+.bold-text {
+    font-family: 'GT Walsheim Bold' !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+.mb1 {
+    margin-bottom: 1rem !important;
+}
+.mb2 {
+    margin-bottom: 2rem !important;
+}
+.mb3 {
+    margin-bottom: 3rem !important;
+}
+.mb4 {
+    margin-bottom: 4rem !important;
+}
+.mt0 {
+    margin-top: 0 !important;
+}
+.mt1 {
+    margin-top: 1rem !important;
+}
+.mt2 {
+    margin-top: 2rem !important;
+}
+.mt3 {
+    margin-top: 3rem !important;
+}
+.mt4 {
+    margin-top: 4rem !important;
+}
+.general-btn {
+    background: #222;
+    color: #fff;
+    font-family: 'GT Walsheim';
+    font-size: 24px;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+
+    &:active {
+        background: rgba(34, 34, 34, .9);
+    }
+}
+
+
+.go-to-top {
+     
+    bottom: 0; 
+    right: 0;
+    z-index: 6;
+    background: transparent !important;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
+
+// extra Small devices (smartphones, 576px and down)
+@media (min-width: 250px) and (max-width: 374px) { 
+    .custom-container {
+        width: calc(100% - 1.5rem);
+    }
+    .general-btn {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+}
+
+
+// Small devices (smartphones, 576px and down)
+@media (min-width: 375px) and (max-width: 576px) { 
+    .custom-container {
+        width: calc(100% - 1.5rem);
+    }
+
+    .general-title {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-subtitle {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-text {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-small-text {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-btn {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+}
+
+// Medium devices (tablets, 768px and down)
+@media (min-width: 577px) and (max-width: 768px) {
+    .custom-container {
+        width: calc(100% - 1.5rem);
+    }
+
+    .general-title {
+        font-size: 3.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-subtitle {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-text {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-small-text {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-btn {
+        font-size: 20px;
+        padding: 1rem 2rem;
+    }
+}
+
+// Large devices (desktops, 992px and dpwn)
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .general-title {
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-subtitle {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-text {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-small-text {
+        font-size: .8rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-btn {
+        font-size: 14px;
+        padding: 1rem 2rem;
+    }
+}
+
+// X-Large devices (large desktops, 1399px and down)
+@media (min-width: 1025px) and (max-width: 1399px) {
+    .general-title {
+        font-size: 5.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-subtitle {
+        font-size: 1.9rem;
+        margin-bottom: 2rem;
+    }
+    
+    .general-text {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-small-text {
+        font-size: .9rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-btn {
+        font-size: 16px;
+        padding: 1rem 2rem;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .general-title {
+        font-size: 5.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-subtitle {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .general-text {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-small-text {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-btn {
+        font-size: 20px;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (min-width: 1600px) {
+    .general-title {
+        font-size: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .general-subtitle {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .general-text {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .general-small-text {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .general-btn {
+        font-size: 26px;
+        padding: 1rem 2rem;
+    }
+}
+
+

@@ -1,0 +1,125 @@
+
+    <img src="assets/imgs/Productos/img 11.jpg" draggable="false" class="banner-img" alt="">
+
+<div class="why-irresistible" >
+    
+    <div class="custom-container" style="position: relative;">
+        
+        <div class="text-center">
+            <h1 class="general-subtitle normal-text" >¿Qué son los productos <b class="bold-text">Naturalmente Irresistibles</b>?</h1>
+        
+            <h4 class="general-text" >Es una selección de productos de nuestro portafolio que te ayuda a conectar con las necesidades de tus <b class="blue">clientes</b> para que <b class="blue">vendas</b> y <b class="blue">ganes más</b>.</h4>
+            
+            <h1 class="general-subtitle normal-text">¿Por qué son <b class="bold-text">Naturalmente Irresistibles</b>?</h1>    
+        </div>
+
+        <div class="row" style="position: relative;">
+            <div *ngFor="let item of whyIrresistibles" class="col-12 col-md-6 col-lg-3">
+                
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="irresistible-card" >
+                                <div>
+                                    <h5>{{ item.smallTitle }}</h5>
+                                    <h2>{{ item.bigTitle }}</h2>
+                                </div>
+                                
+                                <img [src]="item.img" draggable="false" alt="">
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="irresistible-detail-card">
+                                <img [src]="item.icon" draggable="false" alt="">
+                                
+                                <h6 class="general-small-text" (click)="goToSection(item.goTo)" [innerHtml]="item.description"></h6>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="naturalIngredients" class="natural-ingredients">
+    <img src="assets/imgs/Por_Que_Naturales/IMG_5.jpg" class="img" draggable="false" alt="">
+    <div class="content">
+
+        <h1 class="general-subtitle normal-text text-center">
+            <img src="assets/imgs/Por_Que_Naturales/ICON_7.png" draggable="false" class="title-icon" alt=""> Ingredientes <b class="bold-text" style="margin-left: 5px; "> Naturales</b>
+        </h1>
+
+        <h3 class="general-text">El poder de la naturaleza está en cada uno de nuestros productos. <br><br>Con el proceso único de <b class="bold-text">trazabilidad</b> garantizamos que los ingredientes sean <b class="bold-text">puros, seguros y efectivos.</b> <br> <br>Conoce más del proceso en esta infografía.</h3>
+    
+        <a href="https://www.amway.com.mx/downloads/misc/Nut_Trace_Pictohistoria.pdf">
+            <button class="general-btn">Descargar</button>
+          </a> 
+
+        <div class="row mt2" style="width: 100%;">
+            <div class="col-12 col-md-6 text-center">
+                <img class="mb2" style="width: 100%;" src="assets/imgs/Por_Que_Naturales/IMG_8.png"  alt="">
+                <button class="general-btn" [routerLink]="['/ingredients/1']">Conoce más</button>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <img class="mb2" style="width: 100%;" src="assets/imgs/Por_Que_Naturales/IMG_9.png"  alt="">
+                <button class="general-btn"  [routerLink]="['/ingredients/1']">Conoce más</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="certificateQuality" class="why-irresistible2" >
+    <div class="custom-container">
+
+        <div class="text-center">
+            <h1 class="general-subtitle flex-center">
+                <img src="assets/imgs/Por_Que_Naturales/ICON_5.png" draggable="false" class="title-icon" alt=""> Productos con alta calidad</h1>
+        
+            <h4 class="general-text normal-text">Lo mejor de la naturaleza y lo mejor de la ciencia con <span class="bold-text">calidad garantizada</span> desde la semilla hasta el producto.</h4>
+        </div>
+    </div>
+
+    <div class="logos-section">
+        <div class="custom-container">
+            <div class="row" style="justify-content: center;" >
+                <div class="col-12 col-md-6" style="padding: 2rem;">
+                    <div class="text-center img-card">
+                        <img src="assets/imgs/Por_Que_Naturales/ICON_1.png" class="logos-icon" draggable="false" alt="">
+                        <br>
+                        <button (click)="navigateTo(['tool', '7'])" class="general-btn mb1">Conoce más</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6" style="padding: 2rem;">
+                    <div class="text-center img-card">
+                        <img src="assets/imgs/Por_Que_Naturales/ICON_2.png" class="logos-icon" draggable="false" alt="">
+                        <br>
+                        <a href="https://www.artistry.lat/">
+                            <button class="general-btn mb1" type="button">Conoce más</button>
+                          </a> 
+                    </div>
+                </div>
+                <div class="col-12 col-md-6" style="padding: 2rem;" >
+                    <div class="text-center img-card">
+                        <img src="assets/imgs/Por_Que_Naturales/ICON_3.png" class="logos-icon" draggable="false" alt="">
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div style="width: 100%; text-align: end;">
+        <button (click)="goTo()" class="go-to-top">
+            <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">
+        </button>
+    </div>
+
+</div>
+
