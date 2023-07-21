@@ -54,26 +54,26 @@ export class IngredientsComponent implements OnInit {
             name: 'Espinafre',
             description: 'O espinafre contém uma combinação rica de nutrientes como carotenoides, vitamina C, vitamina K, ácido fólico, ferro e cálcio, além de luteína, kaempferol, nitratos e outros compostos vegetais que contribuem para a saúde ideal.'
         },
-        {
+/*         {
             img: 'assets/imgs/Ingredientes/IMG_9.png',
             name: 'Espirulina',
             description: 'Alga microscópica que possui uma forma de espiral, azul esverdeada, rica em proteínas e ferro que, portanto, é ideal para vegetarianos. Além disso, contém um alto teor de vitamina B12, betacaroteno, cálcio, fósforo e vitamina E.'
-        },
-        {
+        }, */
+/*         {
             img: 'assets/imgs/Ingredientes/IMG_17.png',
             name: 'Extrato de semente de uva',
             description: 'Contém altos níveis de fitonutrientes e é rico em compostos antioxidantes que ajudam a proteger o corpo contra os radicais livres, além de conter resveratrol, que contribui para a saúde do coração.'
-        },
-        {
+        }, */
+/*         {
             img: 'assets/imgs/Ingredientes/IMG_8.png',
             name: 'L-cisteína',
             description: 'Aminoácido presente na proteína que contribui para a formação da pele e é básico nos processos de desintoxicação.'
-        },
-        {
+        }, */
+/*         {
             img: 'assets/imgs/Ingredientes/IMG_21.png',
             name: 'Levedura de cerveja',
             description: 'É uma das melhores fontes naturais de vitaminas do complexo B e contribui para o funcionamento do sistema nervoso. Intervém no metabolismo, no crescimento e na manutenção da pele.'
-        },
+        }, */
         {
             img: 'assets/imgs/Ingredientes/IMG_20.png',
             name: 'Limão',

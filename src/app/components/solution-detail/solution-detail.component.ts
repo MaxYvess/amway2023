@@ -31,15 +31,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#e16f64',
             products: [
                 {
-                    name: 'Daily Plus (90 tab)',
+                    name: 'Nutrilite™ Daily Plus (45 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Cal Mag D',
+                    name: 'Nutrilite™ Cal Mag D',
                     img: 'assets/imgs/Soluciones/ELEMENT_2.png'
                 },
                 {
-                    name: 'Proteína vegetal em pó',
+                    name: 'Nutrilite™ Proteína vegetal em pó',
                     img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
             ]
@@ -57,15 +57,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#b55afe',
             products: [
                 {
-                    name: 'Ômega 3 (90 tab)',
+                    name: 'Nutrilite™ Ômega 3 (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Daily Plus (90 tab)',
+                    name: 'Nutrilite™ Daily Plus (45 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_5.png'
                 },
                 {
-                    name: 'Acerola C Mastigável',
+                    name: 'Nutrilite™ Acerola C Mastigável',
                     img: 'assets/imgs/Soluciones/ELEMENT_6.png'
                 }
             ]
@@ -83,7 +83,7 @@ export class SolutionDetailComponent implements OnInit {
             border: '#539cf8',
             products: [
                 {
-                    name: 'Cal Mag D',
+                    name: 'Nutrilite™ Cal Mag D',
                     img: 'assets/imgs/Soluciones/ELEMENT_8.png'
                 },
                 {
@@ -105,11 +105,11 @@ export class SolutionDetailComponent implements OnInit {
             border: '#b55afe',
             products: [
                 {
-                    name: 'Daily Plus (90 tab)',
+                    name: 'Nutrilite™ Daily Plus (45 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Água Micelar Demaquilante e Limpador Artisty Skin Nutrition',
+                    name: 'Nutrilite™ Água Micelar Demaquilante e Limpador Artisty Skin Nutrition',
                     img: 'assets/imgs/Soluciones/ELEMENT_100.png'
                 }
             ]
@@ -127,17 +127,14 @@ export class SolutionDetailComponent implements OnInit {
             border: '#76C655',
             products: [
                 {
-                    name: 'Ômega 3 (90 tab)',
+                    name: 'Nutrilite™ Ômega 3 (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_101.png'
                 },
                 {
-                    name: 'Proteína vegetal em pó',
+                    name: 'Nutrilite™ Proteína vegetal em pó',
                     img: 'assets/imgs/Soluciones/ELEMENT_16.png'
                 },
-                {
-                    name: 'Vitamina B',
-                    img: 'assets/imgs/Soluciones/ELEMENT_11.png'
-                }
+       
             ]
         },
         {
@@ -153,11 +150,11 @@ export class SolutionDetailComponent implements OnInit {
             border: '#ff7062',
             products: [
                 {
-                    name: 'Ômega 3 Plus (90 tab)',
+                    name: 'Nutrilite™ Ômega 3 Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Daily Plus (90 tab)',
+                    name: 'Nutrilite™ Daily Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_10.png'
                 },
             ]
@@ -174,16 +171,13 @@ export class SolutionDetailComponent implements OnInit {
             reverse: false,
             border: '#4e9efb',
             products: [
-                {
-                    name: 'Vitamina B',
-                    img: 'assets/imgs/Soluciones/ELEMENT_12.png'
-                },
+
                 {
                     name: 'Glister Multi-Action Creme Dental com Flúor',
-                    img: 'assets/imgs/Soluciones/ELEMENT_71.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_17.png'
                 },
                 {
-                    name: 'L.O.C Limpador Multiuso',
+                    name: 'Nutrilite™ L.O.C Limpador Multiuso',
                     img: 'assets/imgs/Soluciones/ELEMENT_13.png'
                 }
             ]

@@ -76,6 +76,16 @@ export class ToolsComponent implements OnInit {
             description: 'Saber vender é algo que se aprende e pratica. Para você se preparar, temos os Treinamentos INA. Baixe o calendário com os próximos eventos e participe.'
         }
     ]
+    public tools6: Array<any> = [
+        {
+            id: 7,
+            img: 'assets/imgs/Herramientas/ICON_8.png',
+            name: 'Dr. Glister',
+            btn: 'Baixe',
+            link: 'https://www.amway.com.mx/downloads/AmwayBrasil/Calendario_Integrado_BR.pdf',
+            description: 'Diga-me como é sua rotina de cuidados bucais e eu lhe direi quais produtos você deve usar. Dr. Glister chegou para ajudar você a seguir a rotina ideal e conquitar um sorriso radiante. '
+        }
+    ]
     constructor(private router: Router) { }
 
     ngOnInit(): void {

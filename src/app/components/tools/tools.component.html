@@ -71,6 +71,18 @@
                     </div>
                 </div>
             </div>
+            <div *ngFor="let tool of tools6" class="col-12 col-md-4">
+                <div class="tools-card">
+                    <img [src]="tool.img" draggable="false" alt="">
+                    <div class="content">
+                        <div>
+                            <h6 class="general-small-text bold-text" >{{ tool.name }}</h6>
+                            <small class="general-small-text mb2">{{ tool.description }}</small>
+                        </div>
+                        <button (click)="openLink(tool.link)" class="general-btn" type="button">Ir a Dr. Glister</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div> 
 

@@ -23,8 +23,8 @@ export class ProductDetailComponent implements OnInit {
             productFlag:10,
             id: 1, name: 'Daily Plus', 
             slogan: 'O poder das frutas e dos vegetais na sua vida', 
-            modeOfUse: 'Ingerir um tablete por dia do Nutrilite™ Daily Plus 90 tabletes - Suplemento Alimentar de vitaminas e minerais, junto com uma das refeições principais.', 
-            description: 'Um <span class="orange">produto prático</span> para todos aqueles que procuram <span class="orange">complementar</span> as suas necessidades <span class="orange">nutricionais.</span> <br><br>Com cinco <span class="orange">fitonutrientes</span> da gama das cinco cores; assim como  <span class="orange">12 vitaminas</span> e <span class="orange">10 minerais</span> que ajudam a complementar a sua alimentação diária.', 
+            modeOfUse: 'Ingerir um tablete por dia do Nutrilite™ Daily Plus 45 tabletes - Suplemento Alimentar de vitaminas e minerais, junto com uma das refeições principais.', 
+            description: 'Um <span class="orange">produto prático</span> para todos aqueles que procuram <span class="orange">complementar</span> as suas necessidades <span class="orange">nutricionais.</span> <br><br>Com <span class="orange">12 vitaminas</span> e <span class="orange">10 minerais </span> que ajudam a complementar a sua alimentação diária.', 
             img: 'assets/imgs/Daily_Plus/ELEMENT_2.png',
             icon: 'assets/imgs/Daily_Plus/ICON_7.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
@@ -114,7 +114,7 @@ export class ProductDetailComponent implements OnInit {
                 'assets/imgs/C_Plus/ICON_8.png'
             ]
         },
-        { 
+/*         { 
             productFlag:15,
             id: 6, name: 'Vitamina B',
             slogan: 'O lado bom da vida', 
@@ -132,7 +132,7 @@ export class ProductDetailComponent implements OnInit {
                 'assets/imgs/B_Plus/ICON_6.png',
                 'assets/imgs/B_Plus/ICON_7.png'
             ]
-        },
+        }, */
         { 
             productFlag:16,
             id: 7, name: 'HSN', 
@@ -173,10 +173,10 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:18,
-            id: 9, name: 'Creme Dental',
+            id: 9, name: 'Glister Creme Dental',
             slogan: 'Consiga um sorriso radiante onde quer que vá', 
-            modeOfUse: 'Aplique o creme dental na escova de dentes e escove os dentes por, pelo menos, 1 minuto. Usar na escovação regular. Manter fora do alcance de crianças menores de 6 anos de idade. Em caso de ingestão, procure imediatamente um médico.',
-            description: 'Com sua fórmula REMINACT™, você<span class="purple"> fortalecerá seus dentes</span>, fornecendo o <span class="purple">cálcio</span> e o <span class="purple">fósforo</span> que eles perderam, além de reparar o esmalte. Seu bocal é 44% menor em relação a outras pastas, assim você economiza na hora de usar.<br><br> Entre seus benefícios está o <span class="purple">polimento</span> suave dos dentes, a <span class="purple">limpeza eficaz</span> e ajuda a manter o tom natural dos dentes.', 
+            modeOfUse: 'Aplique o creme dental na escova de dentes e escove os dentes por, pelo menos 2 minutos e enxágue.',
+            description: 'O Creme dental multi-action com flúor Glister™ possui uma fórmula equilibrada para a família toda (adultos e crianças maiores de 6 anos). Contém um agente polidor suave e de origem natural (silício), que limpa e ajuda a eliminar manchas para deixar os dentes mais brancos. Testado para garantir a eficácia na redução de cáries e no fornecimento de flúor para os dentes.<br><br>Contém nossa fórmula exclusiva REMINACT™, que promove a remineralização, ajudando a depositar novamente os minerais no esmalte para fortalecer os dentes e torná-los mais resistentes às cáries.<br><br>Fórmula atualizada contendo Plant-Based Goodness, que inclui uma combinação aromatizante aprimorada com hortelã certificada pela Nutrilite™. Fórmula livre de parabenos, álcool, peróxido, açúcar e ingredientes de origem animal.', 
             img: 'assets/imgs/Pasta_de_dientes/ICON_5.png',
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
