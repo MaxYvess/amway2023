@@ -31,15 +31,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#e16f64',
             products: [
                 {
-                    name: 'Daily Plus (90 tabs)',
+                    name: 'Nutrilite™ Daily Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Cal Mag D (90 tabs)',
+                    name: 'Nutrilite™ Cal Mag D (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_2.png'
                 },
                 {
-                    name: 'Proteína Vegetal (450 gr)',
+                    name: 'Nutrilite™ Proteína Vegetal (450 gr)',
                     img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
             ]
@@ -57,15 +57,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#b55afe',
             products: [
                 {
-                    name: 'Omega 3 Plus (90 tabs)',
+                    name: 'Nutrilite™ Omega 3 Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Daily Plus (90 tabs)',
+                    name: 'Nutrilite™ Daily Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_5.png'
                 },
                 {
-                    name: 'C Plus (60 tabs)',
+                    name: 'Nutrilite™ C Plus (60 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_6.png'
                 }
             ]
@@ -83,7 +83,7 @@ export class SolutionDetailComponent implements OnInit {
             border: '#539cf8',
             products: [
                 {
-                    name: 'Cal Mag D (90 tabs)',
+                    name: ' Nutrilite™ Cal Mag D (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_8.png'
                 },
                 {
@@ -105,15 +105,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#b55afe',
             products: [
                 {
-                    name: 'Daily Plus (30/90 tabs)',
+                    name: 'Nutrilite™ Daily Plus (30/90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'HSN',
+                    name: 'Nutrilite™ HSN',
                     img: 'assets/imgs/Soluciones/ELEMENT_14.png'
                 },
                 {
-                    name: 'Agua Micelar Skin Nutrition',
+                    name: 'Nutrilite™ Agua Micelar Skin Nutrition',
                     img: 'assets/imgs/Soluciones/ELEMENT_15.png'
                 }
             ]
@@ -131,15 +131,15 @@ export class SolutionDetailComponent implements OnInit {
             border: '#76C655',
             products: [
                 {
-                    name: 'Omega 3 Plus (30/60 TAB)',
+                    name: 'Nutrilite™ Omega 3 Plus (30/60 TAB)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Proteína Vegetal (450 gr)',
+                    name: 'Nutrilite™ Proteína Vegetal (450 gr)',
                     img: 'assets/imgs/Soluciones/ELEMENT_16.png'
                 },
                 {
-                    name: 'B Plus (60 tabs)',
+                    name: 'Nutrilite™ B Plus (60 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_11.png'
                 }
             ]
@@ -157,11 +157,11 @@ export class SolutionDetailComponent implements OnInit {
             border: '#ff7062',
             products: [
                 {
-                    name: 'Omega 3 Plus (90 tabs)',
+                    name: 'Nutrilite™ Omega 3 Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_4.png'
                 },
                 {
-                    name: 'Daily Plus (90 tabs)',
+                    name: 'Nutrilite™ Daily Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_10.png'
                 },
             ]
@@ -179,7 +179,7 @@ export class SolutionDetailComponent implements OnInit {
             border: '#4e9efb',
             products: [
                 {
-                    name: 'B Plus (60 tabs)',
+                    name: 'Nutrilite™ B Plus (60 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_12.png'
                 },
                 {
@@ -187,7 +187,7 @@ export class SolutionDetailComponent implements OnInit {
                     img: 'assets/imgs/Soluciones/ELEMENT_7.png'
                 },
                 {
-                    name: 'L.O.C Limpiador Multiusos',
+                    name: 'Nutrilite™ L.O.C Limpiador Multiusos',
                     img: 'assets/imgs/Soluciones/ELEMENT_13.png'
                 }
             ]
