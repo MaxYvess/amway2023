@@ -922,6 +922,53 @@ export class CountryToolsComponent implements OnInit {
                     link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=0001&C=FV&Brand=&utm_source=site&utm_medium=home&utm_campaign=uy_es&utm_content=cta_compra&utm_term=irresistibles-LOC'
                 }
             ]
+        },
+        {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
+            name: 'Trazabilidad Glister',
+            countries: [
+                {
+                    img: 'assets/imgs/Compras/IMG_1.png',
+                    link: 'https://amway.com.ar/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=ar_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_3.png',
+                    link: 'https://amway.cl/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=cl_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                }, 
+                {
+                    img: 'assets/imgs/Compras/IMG_12.png',
+                    link: 'https://amway.com.co/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=co_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_4.png',
+                    link: 'https://amway.co.cr/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=cr_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_5.png',
+                    link: 'https://amway.com.sv/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=sv_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_13.png',
+                    link: 'https://amway.com.gt/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=gt_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_6.png',
+                    link: 'https://amway.com.hn/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=hn_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_7.png',
+                    link: 'https://amway.com.mx/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=mx_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_8.png',
+                    link: 'https://amway.com.pa/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=pa_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_9.png',
+                    link: 'https://amway.com.uy/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=uy_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+         
+            ]
         }  
     ]
     ;

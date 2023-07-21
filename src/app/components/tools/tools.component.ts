@@ -77,7 +77,7 @@ export class ToolsComponent implements OnInit {
             id: 7,
             img: 'assets/imgs/Herramientas/ICON_8.png',
             name: 'Dr. Glister',
-            btn: 'Ir a Dr. Glister',
+            btn: 'Recomendador',
             link: 'https://www.amway.com.mx/downloads/misc/Calendario_Integrado_INA_LATAM.pdf',
             description: 'Dime tu rutina de cuidado bucal y te dire que productos debes usar. Dr. Glister llego para ayudarte a tener tu rutina ideal y conseguir una sonrisa radiante.'
         }

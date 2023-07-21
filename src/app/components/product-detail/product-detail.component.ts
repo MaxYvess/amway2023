@@ -182,7 +182,7 @@ export class ProductDetailComponent implements OnInit {
             footer: '',
             reverse: false, 
             link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=6833&C=KQ&Brand=',
-            color: '#6e6697',
+            color: '#265894',
             imgs: [
                 'assets/imgs/Pasta_de_dientes/ICON_9.png',
                 'assets/imgs/Pasta_de_dientes/ICON_11.png',
