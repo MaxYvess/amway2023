@@ -30,11 +30,11 @@ export class ProductsComponent implements OnInit {
         { id: 2, name: 'Cal Mag D', img: 'assets/imgs/Productos/IMG_2.jpg' },
         { id: 3, name: 'Proteína Vegetal', img: 'assets/imgs/Productos/IMG_3.jpg' },
         { id: 4, name: 'Ômega 3', img: 'assets/imgs/Productos/IMG_4.jpg' },
-        { id: 5, name: 'Acerola C', img: 'assets/imgs/Productos/IMG_5.jpg' },
+        { id: 5, name: 'Acerola C', img: 'assets/imgs/Productos/IMG_13.jpg' },
         { id: 6, name: 'Vitamina B', img: 'assets/imgs/Productos/IMG_6.jpg' },
         //{ id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
         { id: 8, name: 'Água Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
-        { id: 9, name: 'Creme Dental', img: 'assets/imgs/Productos/IMG_9.jpg' },
+        { id: 9, name: 'Creme Dental', img: 'assets/imgs/Productos/IMG_12.png' },
         { id: 10, name: 'LOC™ Limpador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
