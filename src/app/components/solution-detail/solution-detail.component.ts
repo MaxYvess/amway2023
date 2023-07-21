@@ -155,7 +155,7 @@ export class SolutionDetailComponent implements OnInit {
                 },
                 {
                     name: 'Nutrilite™ Daily Plus (90 tab)',
-                    img: 'assets/imgs/Soluciones/ELEMENT_10.png'
+                    img: 'assets/imgs/Soluciones/ELEMENT_5.png'
                 },
             ]
         },

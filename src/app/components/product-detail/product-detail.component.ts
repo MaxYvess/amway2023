@@ -133,7 +133,7 @@ export class ProductDetailComponent implements OnInit {
                 'assets/imgs/B_Plus/ICON_7.png'
             ]
         }, */
-        { 
+   /*      { 
             productFlag:16,
             id: 7, name: 'HSN', 
             slogan: 'Belleza de adentro hacia afuera', 
@@ -151,7 +151,7 @@ export class ProductDetailComponent implements OnInit {
                 'assets/imgs/HSN/ICON_7.png',
                 'assets/imgs/HSN/ICON_6.png'
             ]
-        },
+        }, */
         { 
             productFlag:17,
             id: 8, name: 'Água Micelar',
@@ -182,7 +182,7 @@ export class ProductDetailComponent implements OnInit {
             footer: '',
             reverse: false, 
             link: 'https://www.amway.com.br/pt/Glister-200g-Multi-Action-Creme-Dental-com-Fluor/p/E6833?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-creme-dental',
-            color: '#6e6697',
+            color: '#265894',
             imgs: [
                 'assets/imgs/Pasta_de_dientes/ICON_9.png',
                 'assets/imgs/Pasta_de_dientes/ICON_11.png',
