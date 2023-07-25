@@ -173,7 +173,7 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:18,
-            id: 9, name: 'Pasta de Dientes',
+            id: 9, name: 'Pasta de Dientes Glister',
             slogan: 'Consigue una sonrisa radiante donde quiera que vayas', 
             modeOfUse: 'Colocar un poco de pasta sobre tu cepillo dental Glister, lava tus dientes durante dos minutos y enjuaga.',
             description: 'Ayuda a eliminar la placa, limpia eficazmente y ayuda a disminuir las manchas por consumo de café, té y tabaco.<br><br>Contiene nuestra exclusiva fórmula REMINACT que promueve la remineralización ayudando a depositar minerales nuevamente en el esmalte para fortalecer los dientes y hacerlos más resistentes a las caries.<br><br>Fórmula actualizada con Plant-Based Goodness que incluye una mezcla mejorada de sabor a menta certificada por Nutrilite.', 

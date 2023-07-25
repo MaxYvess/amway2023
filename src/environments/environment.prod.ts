@@ -168,8 +168,8 @@ export const environment = {
           }, 
           {
               page_category: 'products | irresistibles',  
-              page_name: 'Pasta de Dientes',
-              page_section: 'Pasta de Dientes',
+              page_name: 'Pasta de Dientes Glister',
+              page_section: 'Pasta de Dientes Glister',
               page_subCategory: 'product',
               site_country: '',
               site_currencyCode: '',  

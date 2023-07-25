@@ -833,7 +833,7 @@ export class CountryToolsComponent implements OnInit {
         },
         {
             subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
-            name: 'Glister Pasta de Dientes',
+            name: 'Pasta de Dientes Glister ',
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',

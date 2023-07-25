@@ -34,7 +34,7 @@ export class ProductsComponent implements OnInit {
         { id: 6, name: 'B Plus / B Complex Dual Release', img: 'assets/imgs/Productos/IMG_6.jpg' },
         { id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
         { id: 8, name: 'Agua Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
-        { id: 9, name: 'Pasta de Dientes', img: 'assets/imgs/Productos/IMG_12.png' },
+        { id: 9, name: 'Pasta de Dientes Glister', img: 'assets/imgs/Productos/IMG_12.png' },
         { id: 10, name: 'L.O.C. Limpiador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
