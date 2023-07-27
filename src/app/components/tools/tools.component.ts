@@ -74,7 +74,7 @@ export class ToolsComponent implements OnInit {
     ]
     public tools6: Array<any> = [
         {
-            id: 7,
+            id: 21,
             img: 'assets/imgs/Herramientas/ICON_8.png',
             name: 'Dr. Glister',
             btn: 'Recomendador',

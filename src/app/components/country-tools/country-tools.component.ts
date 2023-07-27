@@ -924,7 +924,7 @@ export class CountryToolsComponent implements OnInit {
             ]
         },
         {
-            subtitle: 'Selecciona la bandera de tu país para poder empezar tu compra.',
+            subtitle: 'Selecciona la bandera de tu país para poder empezar',
             name: 'Trazabilidad Glister',
             countries: [
                 {
@@ -966,6 +966,53 @@ export class CountryToolsComponent implements OnInit {
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://amway.com.uy/drglister/#/traceability?utm_source=site&utm_medium=home&utm_campaign=uy_es_site_irresistibles&utm_content=cta_conoce&utm_term=trazabilidad_glister'
+                },
+         
+            ]
+        } ,
+         {
+            subtitle: 'Selecciona la bandera de tu país para poder empezar',
+            name: 'Dr. Glister',
+            countries: [
+                {
+                    img: 'assets/imgs/Compras/IMG_1.png',
+                    link: 'https://amway.com.ar/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=ar_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_3.png',
+                    link: 'https://amway.cl/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=cl_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                }, 
+                {
+                    img: 'assets/imgs/Compras/IMG_12.png',
+                    link: 'https://amway.com.co/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=co_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_4.png',
+                    link: 'https://amway.co.cr/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=cr_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_5.png',
+                    link: 'https://amway.com.sv/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=sv_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_13.png',
+                    link: 'https://amway.com.gt/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=gt_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_6.png',
+                    link: 'https://amway.com.hn/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=hn_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_7.png',
+                    link: 'https://amway.com.mx/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=mx_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_8.png',
+                    link: 'https://amway.com.pa/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=pa_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                },
+                {
+                    img: 'assets/imgs/Compras/IMG_9.png',
+                    link: 'https://amway.com.uy/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=uy_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
                 },
          
             ]
