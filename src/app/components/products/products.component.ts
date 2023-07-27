@@ -34,7 +34,7 @@ export class ProductsComponent implements OnInit {
         //{ id: 6, name: 'Vitamina B', img: 'assets/imgs/Productos/IMG_6.jpg' },
         //{ id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
         { id: 6, name: 'Água Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
-        { id: 7, name: 'Creme Dental', img: 'assets/imgs/Productos/IMG_12.png' },
+        { id: 7, name: 'Glister Creme Dental', img: 'assets/imgs/Productos/IMG_12.png' },
         { id: 8, name: 'LOC™ Limpador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
