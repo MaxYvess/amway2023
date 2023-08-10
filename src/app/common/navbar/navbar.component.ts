@@ -32,7 +32,7 @@ export class NavbarComponent implements OnInit {
     }
 
     openLink(){
-        window.open('https://www.amway.com.br/pt/Nutri%C3%A7%C3%A3o/c/nutricao?utm_source=site&utm_medium=landing_irresistiveis&utm_campaign=br_pt&utm_content=cta_compreja&utm_content=irresistiveis', '_blank');
+        window.open('https://www.amway.com.br/pt/naturalmente-irresistiveis?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=boton_comprar', '_blank');
       }
 
     openSubMenu1(){

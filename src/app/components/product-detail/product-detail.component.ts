@@ -29,7 +29,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Daily_Plus/ICON_7.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: false, 
-            link: 'https://www.amway.com.br/pt/suplemento-daily-plus/p/117549?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-daily',
+            link: 'https://www.amway.com.br/pt/suplemento-daily-plus/p/117548?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-daily',
             color: '#f97c22',
             imgs: [
                 'assets/imgs/Daily_Plus/ICON_8.png',
@@ -48,7 +48,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Cal_Mag_D/ICON_4.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2013-0002850 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
-            link: 'https://www.amway.com.br/pt/Vitamina-D-Calcio-Magnesio/p/110609?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-VitaminaD',
+            link: 'https://www.amway.com.br/pt/Vitamina-D-Calcio-Magnesio/p/110609&utm_source=site?utm_medium=irresistiveis&utm_campaign=br_pt&utm_content=cta_compra_landing_irresistiveis&utm_term=irresistiveis-CalMagD',
             color: '#6e6697',
             imgs: [
                 'assets/imgs/Cal_Mag_D/ICON_5.png',
@@ -67,7 +67,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Proteina_Vegetal/ICON_4.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO RSIA01I304. ESTE PRODUCTO ES UN ALIMENTO. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. PERMISO DE PUBLICIDAD COFEPRIS 133300201A1623.',
             reverse: false, 
-            link: 'https://www.amway.com.br/pt/Proteina-Vegetal-em-Po-Nutrilite/p/110415?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-proteina',
+            link: 'https://www.amway.com.br/pt/Proteina-Vegetal-em-Po-Nutrilite/p/110415?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-proteina',
             color: '#0b7c15',
             imgs: [
                 'assets/imgs/Proteina_Vegetal/ICON_8.png',
@@ -86,7 +86,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Omega_3_Plus/ICON_4.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004198 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: true, 
-            link: 'https://www.amway.com.br/pt/Omega-3-Nutrilite---Oleo-de-Peixe-em-Capsulas-/p/A8919?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-omega3',
+            link: 'https://www.amway.com.br/pt/Omega-3-Nutrilite---Oleo-de-Peixe-em-Capsulas-/p/A8919?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-omega',
             color: '#275994',
             imgs: [
                 'assets/imgs/Omega_3_Plus/ICON_6.png',
@@ -105,7 +105,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/C_Plus/ICON_4.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2012-0002338 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA.',
             reverse: false, 
-            link: 'https://www.amway.com.br/pt/vitamina-c-acerola-mastigavel/p/106710?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-acerola',
+            link: 'https://www.amway.com.br/pt/vitamina-c-acerola-mastigavel/p/106710?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-Cplus',
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/HSN/ICON_7.png',
@@ -181,7 +181,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
             reverse: false, 
-            link: 'https://www.amway.com.br/pt/Glister-200g-Multi-Action-Creme-Dental-com-Fluor/p/E6833?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-creme-dental',
+            link: 'https://www.amway.com.br/pt/Glister-200g-Multi-Action-Creme-Dental-com-Fluor/p/E6833?utm_source=site&utm_medium=irresistiveis&utm_campaign=br-pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-pasta-dientes',
             color: '#265894',
             imgs: [
                 'assets/imgs/Pasta_de_dientes/ICON_9.png',
@@ -200,7 +200,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_4.png',
             footer: '',
             reverse: true, 
-            link: 'https://www.amway.com.br/pt/LOC-Limpador-Multiuso-Amway-Home/p/E0001?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-LOC',
+            link: 'https://www.amway.com.br/pt/LOC-Limpador-Multiuso-Amway-Home/p/E0001?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-LOC',
             color: '#265894',
             imgs: [
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png',
