@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "amway-c78a5"
-  }
+    "default": "amway-c78a5",
+    "ir": "amway-argentina"
+  },
+  "targets": {},
+  "etags": {}
 }
