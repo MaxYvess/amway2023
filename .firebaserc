@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "amway-c78a5",
-    "ir": "amway-argentina"
+    "ir": "amway-argentina",
+    "irresistibles": "amway-c78a5"
   },
   "targets": {},
   "etags": {}

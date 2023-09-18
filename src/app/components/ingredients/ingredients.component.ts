@@ -176,12 +176,12 @@ export class IngredientsComponent implements OnInit {
     ];
     public certifications2: Array<any> = [
     {
-        title: 'Ingredientes Amway Home y Cuidado Personal',
+        title: 'Ingredientes Hogar y Cuidado Personal',
         description: '<b>REMINACT:</b> ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.',
         route: null,
     },
     {
-        title: 'Ingredientes cuidado personal y Amway Home',
+        title: 'Ingredientes cuidado personal y Hogar',
         description: '<b>Fórmula BIOQUEST:</b> incluye ingredientes derivados de fuentes naturales como el aceite de coco, provee un alto desempeño siendo biodegradable.',
         route: null,
     },

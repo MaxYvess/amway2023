@@ -25,8 +25,8 @@
         <button (click)="toggle2()" type="button" ><h4 class="general-subtitle mb0">INGREDIENTES</h4></button>
 
         <div class="submenu" [ngClass]="{ 'open': isOpenSubMenu2 }" >
-            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/1']" type="button" class="general-text mb0">Productos Naturales y Belleza</button>
-            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/2']" type="button" class="general-text mb0">Productos para el Cuidado Personal y Amway Home</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/1']" type="button" class="general-text mb0">Productos Nutrición y Belleza</button>
+            <button (click)="isOpen = false; close();" [routerLink]="['/ingredients/2']" type="button" class="general-text mb0">Productos Cuidado Personal y Hogar</button>
         </div>
         <button [routerLink]="['/solutions']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">SOLUCIONES</h4></button>
         <button [routerLink]="['/tools']" routerLinkActive="active-route" type="button" (click)="isOpen = false; close();" ><h4 class="general-subtitle mb0">HERRAMIENTAS</h4></button>
