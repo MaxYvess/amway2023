@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "bexper-39de7"
-  }
+    "default": "amway5",
+    "irresistibles esp": "amway5"
+  },
+  "targets": {},
+  "etags": {}
 }
