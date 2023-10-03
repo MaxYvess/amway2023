@@ -109,7 +109,7 @@ export class SolutionDetailComponent implements OnInit {
                     img: 'assets/imgs/Soluciones/ELEMENT_1.png'
                 },
                 {
-                    name: 'Nutrilite™ Água Micelar Demaquilante e Limpador Artisty Skin Nutrition',
+                    name: 'Água Micelar Demaquilante e Limpador Artisty Skin Nutrition',
                     img: 'assets/imgs/Soluciones/ELEMENT_100.png'
                 }
             ]
