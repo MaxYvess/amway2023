@@ -29,7 +29,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Daily_Plus/ICON_7.png',
             //footer: 'ARGENTINA: SUPLEMENTA DIETAS INSUFICIENTES. CONSULTE A SU MÉDICO Y/O FARMACÉUTICO. CHILE: SU USO NO ES RECOMENDADO PARA CONSUMO POR MENORES DE 8 AÑOS, EMBARAZADAS Y NODRIZAS, SALVO INDICACIÓN PROFESIONAL COMPETENTE Y NO REEMPLAZA UNA ALIMENTACIÓN BALANCEADA. COSTA RICA, EL SALVADOR, GUATEMALA, HONDURAS, PANAMÁ: ESTOS PRODUCTOS NO SON MEDICAMENTOS. EL CONSUMO DE ESTOS PRODUCTOS ES RESPONSABILIDAD DE QUIEN LOS RECOMIENDA Y QUIEN LOS USA. HAZ DEPORTE.URUGUAY: ESTOS PRODUCTOS NO SUSTITUYEN UNA ALIMENTACIÓN EQUILIBRADA. COLOMBIA: REGISTRO SANITARIO: SD2018-0004293 ESTE PRODUCTO ES UN SUPLEMENTO DIETARIO, NO ES UN MEDICAMENTO Y NO SUPLE UNA ALIMENTACIÓN EQUILIBRADA. MÉXICO: ESTE PRODUCTO NO ES UN MEDICAMENTO. HAZ DEPORTE. EL CONSUMO DE ESTE PRODUCTO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO USA. ',
             reverse: false, 
-            link: 'https://www.amway.com.br/pt/suplemento-daily-plus/p/117548?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-daily',
+            link: 'https://www.amway.com.br/pt/Multivitaminico-Nutrilite-Daily-Plus-45-tabletes/p/126007?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-daily',
             color: '#f97c22',
             imgs: [
                 'assets/imgs/Daily_Plus/ICON_8.png',
@@ -162,7 +162,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Agua_Micelar/ICON_4.png',
             footer: '*CONSUMER PERCEPTION (MARKETVISION RESEARCH STUDY).',
             reverse: true, 
-            link: 'https://www.amway.com.br/pt/Agua-Micelar-Demaquilante-e-Limpador-Artistry-Skin-Nutrition/p/123791?utm_source=site&utm_medium=home&utm_campaign=br_pt&utm_content=cta_compra&utm_term=irresistiveis-agua-micelar',
+            link: 'https://www.amway.com.br/pt/Agua-Micelar-Demaquilante-e-Limpador-Artistry-Skin-Nutrition/p/123791?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-agua-micelar',
             color: '#ba1a2e',
             imgs: [
                 'assets/imgs/Agua_Micelar/ICON_8.png',
@@ -181,7 +181,7 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Pasta_de_dientes/ICON_4.png',
             footer: '',
             reverse: false, 
-            link: 'https://www.amway.com.br/pt/Glister-200g-Multi-Action-Creme-Dental-com-Fluor/p/E6833?utm_source=site&utm_medium=irresistiveis&utm_campaign=br-pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-pasta-dientes',
+            link: 'https://www.amway.com.br/pt/Glister-Creme-Dental-Multi-Action/p/124106?utm_source=site&utm_medium=irresistiveis&utm_campaign=br-pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-pasta-dientes',
             color: '#265894',
             imgs: [
                 'assets/imgs/Pasta_de_dientes/ICON_9.png',

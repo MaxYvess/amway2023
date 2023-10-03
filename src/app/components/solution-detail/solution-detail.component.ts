@@ -177,7 +177,7 @@ export class SolutionDetailComponent implements OnInit {
                     img: 'assets/imgs/Soluciones/ELEMENT_17.png'
                 },
                 {
-                    name: 'Nutrilite™ L.O.C Limpador Multiuso',
+                    name: 'L.O.C Limpador Multiuso',
                     img: 'assets/imgs/Soluciones/ELEMENT_18.png'
                 }
             ]
