@@ -18,7 +18,7 @@ export class BuyComponent implements OnInit {
     public countries: Array<any> = [
         {
             img: 'assets/imgs/Compras/IMG_1.png',
-            link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdsList&IC=4&C=PO&line=P&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=ar_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdsList&IC=5&C=PO&line=P&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=ar_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_3.png',
@@ -26,7 +26,7 @@ export class BuyComponent implements OnInit {
         }, 
         {
             img: 'assets/imgs/Compras/IMG_12.png',
-            link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CA&line=C&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=co_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdsList&IC=6&C=CA&line=C&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=co_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_4.png',
@@ -38,7 +38,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_13.png',
-            link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdsList&IC=5&C=CU&line=C&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=gt_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdsList&IC=6&C=CU&line=C&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=gt_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_6.png',
@@ -46,7 +46,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_7.png',
-            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdsList&IC=5&C=KQ&line=K&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=mx_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdsList&IC=6&C=KQ&line=K&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=mx_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_8.png',
@@ -54,7 +54,7 @@ export class BuyComponent implements OnInit {
         },
         {
             img: 'assets/imgs/Compras/IMG_9.png',
-            link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdsList&IC=2&C=FV&line=F&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=uy_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
+            link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdsList&IC=3&C=FV&line=F&NavM=N&utm_source=site&utm_medium=irresistibles&utm_campaign=uy_es_landing_irresistibles&utm_content=cta_compra&utm_term=boton_comprar'
         },
         {
             img: 'assets/imgs/Compras/IMG_10.png',

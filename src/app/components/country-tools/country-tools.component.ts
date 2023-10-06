@@ -473,7 +473,7 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=117548&C=PO&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=ar_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-daily'
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&line=I&NavM=N&BC=126009&utm_source=site&utm_medium=irresistibles&utm_campaign=ar_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
@@ -501,7 +501,7 @@ export class CountryToolsComponent implements OnInit {
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=117548&C=KQ&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=mx_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-daily'
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=126010&C=KH&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=mx_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-daily'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
@@ -837,15 +837,15 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=P&BC=6833&C=PO&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=ar_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=N&BC=124106&C=NL&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=ar_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=0001&C=CV&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=cl_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=124106&C=BM&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=cl_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=C&BC=6833&C=CA&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=co_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=124106&C=BA&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=co_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
@@ -853,7 +853,7 @@ export class CountryToolsComponent implements OnInit {
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=Q&BC=6833&C=QB&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=Q&BC=124106&C=QB&Brand=&utm_source=site&utm_medium=home&utm_campaign=sv_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
@@ -869,11 +869,11 @@ export class CountryToolsComponent implements OnInit {
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=6833&C=DS&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=pa_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=124106&C=DS&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=pa_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_9.png',
-                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=F&BC=6833&C=FV&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=uy_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.com.uy/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=B&BC=124106&C=BO&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=uy_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',

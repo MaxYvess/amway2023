@@ -113,7 +113,7 @@ export class SolutionDetailComponent implements OnInit {
                     img: 'assets/imgs/Soluciones/ELEMENT_14.png'
                 },
                 {
-                    name: 'Nutrilite™ Agua Micelar Skin Nutrition',
+                    name: 'Agua Micelar Skin Nutrition',
                     img: 'assets/imgs/Soluciones/ELEMENT_15.png'
                 }
             ]
