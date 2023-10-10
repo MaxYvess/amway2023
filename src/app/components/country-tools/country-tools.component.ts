@@ -877,7 +877,7 @@ export class CountryToolsComponent implements OnInit {
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
-                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=A&BC=6833&C=AZ&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=ve_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
+                    link: 'https://www.amway.com.ve/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=D&BC=124106&C=DB&Brand=&utm_source=site&utm_medium=irresistibles&utm_campaign=ve_es_landing_irresistibles&utm_content=cta_compra&utm_term=irresistibles-pasta-dientes'
                 }
             ]
         },
