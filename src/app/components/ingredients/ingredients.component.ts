@@ -143,13 +143,13 @@ export class IngredientsComponent implements OnInit {
         {
             img: 'assets/imgs/Ingredientes/IMG_22.png',
             name: 'REMINACT™',
-            description: 'Ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.'
+            description: 'Nossa fórmula exclusiva REMINACT™ promove a remineralização, ajudando a depositar novamente os minerais no esmalte para fortalecer os dentes e torná-los mais resistentes às cáries.'
         },
         {
             
             img: 'assets/imgs/Ingredientes/IMG_23.png',
             name: 'Fórmula BIOQUEST',
-            description: 'Incluye ingredientes derivados de fuentes naturales como el aceite de coco, provee un alto desempeño siendo biodegradable.'
+            description: 'tecnologia Bioquest Formula™, uma fórmula biodegradável, dermatologicamente testada, concentrada e de alta performance.'
         },
     ];
     public certifications: Array<any> = [
