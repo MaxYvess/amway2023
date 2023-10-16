@@ -1,46 +1,42 @@
+<div class="ingredients" style="overflow-x: hidden; overflow-y: hidden;">
 
 
-        
-<div class="ingredients" style="overflow-x: hidden; overflow-y: hidden;" >
+    <div *ngIf="view == 1" class="custom-center"
+        style="background: #f1f1f1; padding: 2rem 0 5rem; min-height: calc(100vh - 80px); position: relative; ">
 
- 
-    <div *ngIf="view == 1" class="custom-center" style="background: #f1f1f1; padding: 2rem 0 5rem; min-height: calc(100vh - 80px); position: relative; ">
-        
         <img id="parallax1" src="assets/imgs/Ingredientes/ICON_3.png" class="parallax1" alt="image">
-    
+
         <img id="parallax2" src="assets/imgs/Ingredientes/ICON_4.png" class="parallax2" alt="image">
-    
+
         <img id="parallax3" src="assets/imgs/Ingredientes/ICON_1.png" class="parallax3" alt="image">
-    
-        <img id="parallax4" src="assets/imgs/Ingredientes/ICON_2.png" class="parallax4" alt="image" >
-       
-        
-        <div id="content" class="custom-container" style="z-index: 2">   
-            
+
+        <img id="parallax4" src="assets/imgs/Ingredientes/ICON_2.png" class="parallax4" alt="image">
+
+
+        <div id="content" class="custom-container" style="z-index: 2">
+
             <div class="text-center">
                 <h1 class="general-subtitle">Nuestros ingredientes</h1>
-                <h4 class="general-text" >Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto.</h4>
+                <h4 class="general-text">Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu
+                    mereces saber que contiene cada producto.</h4>
             </div>
 
-            <swiper
-                [slidesPerView]="1"
-                [grabCursor]="true"
-                [navigation]="true"
-                [initialSlide]="0" >
-                <ng-template *ngFor="let certification of certifications" swiperSlide >
+            <swiper [slidesPerView]="1" [grabCursor]="true" [navigation]="true" [initialSlide]="0">
+                <ng-template *ngFor="let certification of certifications" swiperSlide>
                     <div class="custom-center">
 
                         <div class="certifications-card">
                             <h4 class="general-text bold-text mb0">{{ certification.title }}</h4>
                             <div>
-                                
-                                <h5 class="general-text" (click)="navigateTo(certification.route)" [innerHtml]="certification.description"></h5>
+
+                                <h5 class="general-text" (click)="navigateTo(certification.route)"
+                                    [innerHtml]="certification.description"></h5>
 
                                 <!--<div class="text-center">
                                     <button class="general-btn">Leer más</button>
                                 </div>-->
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -51,105 +47,170 @@
         </div>
     </div>
 
+    <div *ngIf="view == 1" class="custom-center"
+        style="background: #fff; padding: 3rem 0; min-height: calc(100vh - 80px); align-items: flex-start;">
+        <div id="content2" class="custom-container" style="z-index: 2">
+
+
+            <div class="custom-tabs">
+                <button (click)="tab = 1" [ngClass]="{ 'active': tab == 1 }">
+                    <h3 class="general-text mb0">Ingredientes Nutrilite™</h3>
+                </button>
+                <button (click)="tab = 2" [ngClass]="{ 'active': tab == 2 }">
+                    <h3 class="general-text mb0">Ingredientes Artistry™</h3>
+                </button>
+            </div>
+
+            <div *ngIf="tab == 1">
+                <div class="custom-row">
+
+                    <div *ngFor="let ingredient of ingredients" class="custom-col">
+                        <div class="ingredients-card">
+                            <img [src]="ingredient.img" draggable="false" alt="">
+                            <div>
+                                <h4 class="general-text bold-text">{{ ingredient.name }}</h4>
+                                <h6 class="general-text">{{ ingredient.description }}</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div *ngIf="tab == 2">
+                <div class="custom-row mb3">
+
+                    <div *ngFor="let ingredient2 of ingredients2" class="custom-col">
+                        <div class="ingredients-card">
+                            <img [src]="ingredient2.img" draggable="false" alt="">
+                            <div>
+                                <h4 class="general-text bold-text">{{ ingredient2.name }}</h4>
+                                <h6 class="general-text">{{ ingredient2.description }}</h6>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="text-center">
+                    <h1 class="general-subtitle">Nada que NO quisieras</h1>
+                    <h4 class="general-text">Estamos comprometidos con la seguridad de todos los que utilizan nuestros
+                        productos Naturalmente Irresistibles. Con el fin de proporcionar fórmulas Clean Beauty
+                        Artistry™, lo que queremos es generar productos que sean puros, seguros y efectivos. Por eso
+                        elegimos no utilizar ciertos ingredientes y hacemos un seguimiento continuo para mantenernos al
+                        tanto de los últimos avances.</h4>
+                    <h1 class="general-text"><b>*Creado sin:</b></h1>
+                    <h4 class="general-text">
+                        <li>Parabenos</li>
+                    </h4>
+                    <h4 class="general-text">
+                        <li>Ftalatos</li>
+                    </h4>
+                    <h4 class="general-text">
+                        <li>Tensioactivos sulfatados (SLS, SLES)</li>
+                    </h4>
+                    <h4 class="general-text">
+                        <li>Aceite mineral</li>
+                    </h4>
+                    <h4 class="general-text">
+                        <li>Ingredientes de origen animal</li>
+                    </h4>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <div *ngIf="view == 2" class="custom-center" style="background: #f1f1f1; min-height: 100vh; position: relative; ">
-        
+
         <img id="parallax1" src="assets/imgs/Ingredientes/ICON_3.png" class="parallax1" alt="image">
-    
+
         <img id="parallax2" src="assets/imgs/Ingredientes/ICON_4.png" class="parallax2" alt="image">
-    
+
         <img id="parallax3" src="assets/imgs/Ingredientes/ICON_1.png" class="parallax3" alt="image">
-    
-        <img id="parallax4" src="assets/imgs/Ingredientes/ICON_2.png" class="parallax4" alt="image" >
-       
-        
-        <div id="content" class="custom-container" style="z-index: 2">   
-            
-        <div class="text-center">
+
+        <img id="parallax4" src="assets/imgs/Ingredientes/ICON_2.png" class="parallax4" alt="image">
+
+
+        <div id="content" class="custom-container" style="z-index: 2">
+            <br><br>
+            <div class="text-center">
                 <h1 class="general-subtitle">Nuestros ingredientes</h1>
-                <h4 class="general-text" >Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu mereces saber que contiene cada producto.</h4>
+                <h4 class="general-text">Nos esforzamos por utilizar los mejores ingredientes posibles, ya que tu
+                    mereces saber que contiene cada producto.</h4>
                 <h1 class="general-subtitle">Ingredientes Cuidado Personal y Amway Home</h1>
             </div>
             <div class="custom-row" style="justify-content: center;">
 
-                <div *ngFor="let ingredient3 of ingredients3" class="custom-col">
-                    <div class="ingredients-card">
-                        <img [src]="ingredient3.img" draggable="false" alt="">
-                        <div>
-                            <h4 class="general-text bold-text">{{ ingredient3.name }}</h4>
-                            <h6 class="general-text">{{ ingredient3.description }}</h6>
+
+                <div id="content2" class="custom-container" style="z-index: 2">
+
+
+                    <div class="custom-tabs">
+                        <button (click)="tab2 = 1" [ngClass]="{ 'active': tab2 == 1 }">
+                            <h3 class="general-text mb0">Cuidado Personal</h3>
+                        </button>
+                        <button (click)="tab2 = 2" [ngClass]="{ 'active': tab2 == 2 }">
+                            <h3 class="general-text mb0">Amway Home</h3>
+                        </button>
+                    </div>
+
+                    <div *ngIf="tab2 == 1">
+                        <div class="custom-row">
+
+                            <div *ngFor="let ingredients3 of ingredients3" class="custom-col">
+                                <div class="ingredients-card">
+                                    <img [src]="ingredients3.img" draggable="false" alt="">
+                                    <div>
+                                        <h4 class="general-text bold-text">{{ ingredients3.name }}</h4>
+                                        <h6 class="general-text">{{ ingredients3.description }}</h6>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+
+                    <div *ngIf="tab2 == 2">
+                        <div class="custom-row mb3">
+
+                            <div *ngFor="let ingredient4 of ingredients4" class="custom-col">
+                                <div class="ingredients-card">
+                                    <img [src]="ingredient4.img" draggable="false" alt="">
+                                    <div>
+                                        <h4 class="general-text bold-text">{{ ingredient4.name }}</h4>
+                                        <h6 class="general-text">{{ ingredient4.description }}</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+            
+
+                    </div>
+
                 </div>
 
             </div>
 
+
+
+
         </div>
 
-       
+
+
+
+
+
     </div>
 
 
-    <div *ngIf="view == 1" class="custom-center" style="background: #fff; padding: 3rem 0; min-height: calc(100vh - 80px); align-items: flex-start;">
-    <div id="content2" class="custom-container" style="z-index: 2">   
-        
 
-        <div class="custom-tabs">
-            <button (click)="tab = 1" [ngClass]="{ 'active': tab == 1 }">
-                <h3 class="general-text mb0">Ingredientes Nutrilite™</h3>
-            </button>
-            <button (click)="tab = 2" [ngClass]="{ 'active': tab == 2 }">
-                <h3 class="general-text mb0">Ingredientes Artistry™</h3>
-            </button>
-        </div>
 
-        <div *ngIf="tab == 1">
-            <div class="custom-row">
-
-                <div *ngFor="let ingredient of ingredients" class="custom-col">
-                    <div class="ingredients-card">
-                        <img [src]="ingredient.img" draggable="false" alt="">
-                        <div>
-                            <h4 class="general-text bold-text">{{ ingredient.name }}</h4>
-                            <h6 class="general-text">{{ ingredient.description }}</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div *ngIf="tab == 2">
-            <div class="custom-row mb3">
-
-                <div *ngFor="let ingredient2 of ingredients2" class="custom-col">
-                    <div class="ingredients-card">
-                        <img [src]="ingredient2.img" draggable="false" alt="">
-                        <div>
-                            <h4 class="general-text bold-text">{{ ingredient2.name }}</h4>
-                            <h6 class="general-text">{{ ingredient2.description }}</h6>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="text-center">
-                <h1 class="general-subtitle" >Nada que NO quisieras</h1>
-                <h4 class="general-text">Estamos comprometidos con la seguridad de todos los que utilizan nuestros productos Naturalmente Irresistibles. Con el fin de proporcionar fórmulas Clean Beauty Artistry™, lo que queremos es generar productos que sean puros, seguros y efectivos. Por eso elegimos no utilizar ciertos ingredientes y hacemos un seguimiento continuo para mantenernos al tanto de los últimos avances.</h4>
-                <h1 class="general-text"><b>*Creado sin:</b></h1>
-                <h4 class="general-text" ><li>Parabenos</li></h4>
-                <h4 class="general-text" ><li>Ftalatos</li></h4>
-                <h4 class="general-text" ><li>Tensioactivos sulfatados (SLS, SLES)</li></h4>
-                <h4 class="general-text" ><li>Aceite mineral</li></h4>
-                <h4 class="general-text" ><li>Ingredientes de origen animal</li></h4>
-                
-            </div>
-
-        </div>
-
-    </div>
-    </div>
- 
     <div style="width: 100%; text-align: end;" [style.background]="view == 1 ? '#fff' : '#f1f1f1'">
         <button (click)="goTo()" class="go-to-top">
             <img src="assets/imgs/Por_Que_Naturales/flecha.png" style="width: 40px;" alt="">

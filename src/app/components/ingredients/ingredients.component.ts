@@ -146,6 +146,25 @@ export class IngredientsComponent implements OnInit {
             description: 'Ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.'
         },
         {
+            img: 'assets/imgs/Ingredientes/IMG_25.png',
+            name: 'Ceramida derivada de aceite de oliva',
+            description: 'Este tipo especial de lípido ayuda a mantener la barrera de humedad de la piel.'
+        },
+        {
+            img: 'assets/imgs/Ingredientes/IMG_26.png',
+            name: 'Acerola cultivada por Nutrilite™',
+            description: 'Extracto de acerola verde rica en vitamina C, que ayuda a proporcionar protección antioxidante. Nuestra acerola verde se cultiva en una granja Nutrilite™ con certificación orgánica, lo que permite una trazabilidad única "de la semilla a la piel".'
+        },
+        {
+            img: 'assets/imgs/Ingredientes/IMG_24.png',
+            name: 'Agua de bambú',
+            description: 'Con agua de bambú y glicerina de origen vegetal que ayudan a hidratar la piel.'
+        },
+       
+    ];
+    public ingredients4: Array<any> = [
+  
+        {
             
             img: 'assets/imgs/Ingredientes/IMG_23.png',
             name: 'Fórmula BIOQUEST',
@@ -189,6 +208,7 @@ export class IngredientsComponent implements OnInit {
 
 
     public tab: number = 1;
+    public tab2: number = 1;
     public view: number = 1;
 
     constructor(private router: Router,

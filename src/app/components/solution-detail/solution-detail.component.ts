@@ -42,7 +42,8 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'Nutrilite™ Proteína Vegetal (450 gr)',
                     img: 'assets/imgs/Soluciones/ELEMENT_3.png'
                 }
-            ]
+            ],
+            sizeImg:"width: 33%"
         },
         {
             name: 'DESAFÍA TUS IDEAS',
@@ -68,7 +69,8 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'Nutrilite™ C Plus (60 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_6.png'
                 }
-            ]
+            ],
+            sizeImg:"width: 33%"
         },
         {
             name: 'SONRISA IDEAL',
@@ -90,7 +92,8 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'Glister Pasta de Dientes Multiacción con Fluoruro',
                     img: 'assets/imgs/Soluciones/ELEMENT_7.png'
                 }
-            ]
+            ],
+            sizeImg:"width: 33%"
         },
         {
             name: 'BELLEZA INTEGRAL',
@@ -116,7 +119,8 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'Agua Micelar Skin Nutrition',
                     img: 'assets/imgs/Soluciones/ELEMENT_15.png'
                 }
-            ]
+            ],
+            sizeImg:"width: 33%"
         },
         {
             name: 'ACTIVIDAD DIARIA',
@@ -142,7 +146,8 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'Nutrilite™ B Plus (60 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_11.png'
                 }
-            ]
+            ],
+            sizeImg:"width: 33%"
         },
         {
             name: 'EN LA MIRA',
@@ -164,7 +169,8 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'Nutrilite™ Daily Plus (90 tabs)',
                     img: 'assets/imgs/Soluciones/ELEMENT_10.png'
                 },
-            ]
+            ],
+            sizeImg:"width: 33%"
         },
         {
             name: 'ECO ACTIVO',
@@ -190,7 +196,39 @@ export class SolutionDetailComponent implements OnInit {
                     name: 'L.O.C Limpiador Multiusos',
                     img: 'assets/imgs/Soluciones/ELEMENT_13.png'
                 }
-            ]
+            ],
+            sizeImg:"width: 33%"
+        },
+        {
+            name: 'SIEMPRE RELUCIENTE',
+            img: 'assets/imgs/Soluciones/IMG_20.png',
+            icon: 'assets/imgs/Soluciones/ICON_17.png',
+            solutionImg: 'assets/imgs/Soluciones/ICON_11.png',
+            personName: 'Isabella',
+            personJob: 'Empleada',
+            personAge: 45,
+            description: 'Trabaja en una oficina y está en constante exposición a pantallas como computadores y celulares durante 8 horas al día. Hace ejercicio en casa al menos 3 veces a la semana. Tiene 1 hijo de 2 años al que lleva a gimnasia 2 veces a la semana. Aunque le interesa cuidar su piel del rostro y cuerpo no tiene mucho tiempo para hacerlo. Trata de comer saludable pero considera que no es una alimentación balanceada. Le preocupa no estar consumiendo los nutrientes que requiere para su bienestar y el de su familia. ',
+            reverse: false,
+            border: '#e16f64',
+            products: [
+                {
+                    name: 'Nutrilite™ Daily Plus (90 tabs)',
+                    img: 'assets/imgs/Soluciones/ELEMENT_18.png'
+                },
+                {
+                    name: 'Glister Pasta de Dientes Multiacción con Fluoruro',
+               
+                },
+                {
+                    name: 'Agua Micelar Skin Nutrition',
+             
+                },
+                {
+                    name: 'G&H Loción Refrescante',
+                 
+                }
+            ],
+            sizeImg:"width: 80%"
         },
         
     ];

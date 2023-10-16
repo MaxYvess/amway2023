@@ -208,6 +208,25 @@ export class ProductDetailComponent implements OnInit {
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_8.png',
                 'assets/imgs/L.O.C._Limpiador_Multiusos/ICON_6.png'
             ]
+        },
+        { 
+            productFlag:22,
+            id: 11, name: 'Loción Corporal Refrescante', smallName: '', 
+            slogan: 'Textura ligera y fácil de aplicar', 
+            modeOfUse: 'Coloca la cantidad deseada de producto en la mano. Masajeando suavemente, aplica la loción sobre la piel. Adecuado para uso diario según sea necesario. Evita el contacto con los ojos.',
+            description: 'Loción corporal ligera con agua de bambú, ceramida derivada del aceite de oliva y acerola verde que proporciona hidratación y ayuda a proteger y mantener la barrera de hidratación de la piel.', 
+            img: 'assets/imgs/Locion_Corporal_Refrescante/ICON_5.png',
+            icon: 'assets/imgs/Locion_Corporal_Refrescante/ICON_4.png',
+            footer: '',
+            reverse: true, 
+            link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=0001&C=KQ&Brand=',
+            color: '#ba1a2e',
+            imgs: [
+                'assets/imgs/HSN/ICON_7.png',
+                'assets/imgs/C_Plus/ICON_7.png',
+                'assets/imgs/HSN/ICON_7.png',
+                'assets/imgs/C_Plus/ICON_8.png'
+            ]
         }
     ];
     public product: any = {};

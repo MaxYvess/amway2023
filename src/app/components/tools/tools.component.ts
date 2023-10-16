@@ -82,6 +82,7 @@ export class ToolsComponent implements OnInit {
             description: 'Dime tu rutina de cuidado bucal y te diré qué productos debes usar. Dr. Glister llegó para ayudarte a tener tu rutina ideal y conseguir una sonrisa radiante.'
         }
     ]
+    
     constructor(private router: Router) { }
 
     ngOnInit(): void {

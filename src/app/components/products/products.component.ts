@@ -35,6 +35,7 @@ export class ProductsComponent implements OnInit {
         { id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
         { id: 8, name: 'Agua Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
         { id: 9, name: 'Pasta de Dientes Glister', img: 'assets/imgs/Productos/IMG_12.png' },
+        { id: 11, name: 'Loción Corporal Refrescante', img: 'assets/imgs/Productos/IMG_13.jpg' },
         { id: 10, name: 'L.O.C. Limpiador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
