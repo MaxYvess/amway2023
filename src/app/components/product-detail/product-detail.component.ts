@@ -192,6 +192,25 @@ export class ProductDetailComponent implements OnInit {
         },
         { 
             productFlag:19,
+            id: 10, name: 'Loção Hidratante Corporal Refrescante ', smallName: '', 
+            slogan: 'Textura leve e fácil de aplicar na pele', 
+            modeOfUse: 'Coloque a quantidade desejada de produto na palma da mão. Massageie suavemente a loção na pele. Adequado para uso diário, conforme necessário. Evite o contato com os olhos.',
+            description: 'Loção corporal leve com água de bambu, ceramida derivada do óleo de oliva e acerola verde. Proporciona hidratação e ajuda a proteger e manter a barreira de hidratação da pele.', 
+            img: 'assets/imgs/Locion_Corporal_Refrescante/ICON_5.png',
+            icon: 'assets/imgs/Locion_Corporal_Refrescante/ICON_4.png',
+            footer: '',
+            reverse: true, 
+            link: 'https://www.amway.com.br/pt/LOC-Limpador-Multiuso-Amway-Home/p/E0001?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-LOC',
+            color: '#ba1a2e',
+            imgs: [
+                'assets/imgs/HSN/ICON_7.png',
+                'assets/imgs/C_Plus/ICON_7.png',
+                'assets/imgs/HSN/ICON_7.png',
+                'assets/imgs/C_Plus/ICON_8.png'
+            ]
+        },
+        { 
+            productFlag:19,
             id: 10, name: 'LOC™', smallName: 'Limpador Multiuso', 
             slogan: 'O limpador de superfícies mais versátil', 
             modeOfUse: 'Para limpeza geral com solução menos concentrada: adicione 30 ml (1½ tampa) do produto em um balde com 5 litros de água. Não é necessário enxaguar. Rende até 166 litros de solução.',

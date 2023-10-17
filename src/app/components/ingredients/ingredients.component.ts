@@ -139,18 +139,38 @@ export class IngredientsComponent implements OnInit {
         },  
         
     ];
+
     public ingredients3: Array<any> = [
+  
+        {
+            img: 'assets/imgs/Ingredientes/IMG_25.png',
+            name: 'Ceramida derivada do óleo de oliva:',
+            description: 'Esse tipo especial de lipídio ajuda a manter a barreira de umidade da pele.'
+        },
+        {
+            img: 'assets/imgs/Ingredientes/IMG_26.png',
+            name: 'Acerola cultivada pela Nutrilite™',
+            description: 'Extrato de acerola verde rico em vitamina C, que ajuda a proporcionar proteção antioxidante. Nossa acerola verde é cultivada em uma fazenda Nutrilite™ com certificação orgânica, o que permite uma rastreabilidade exclusiva "da semente à pele".'
+        },
+        {
+            img: 'assets/imgs/Ingredientes/IMG_24.png',
+            name: 'Água de bambu',
+            description: 'Com água de bambu e glicerina de origem vegetal para ajudar a hidratar a pele.'
+        },
         {
             img: 'assets/imgs/Ingredientes/IMG_22.png',
             name: 'REMINACT™',
             description: 'Nossa fórmula exclusiva REMINACT™ promove a remineralização, ajudando a depositar novamente os minerais no esmalte para fortalecer os dentes e torná-los mais resistentes às cáries.'
         },
+       
+    ];
+    public ingredients4: Array<any> = [
+  
         {
-            
             img: 'assets/imgs/Ingredientes/IMG_23.png',
             name: 'Fórmula BIOQUEST',
-            description: 'tecnologia Bioquest Formula™, uma fórmula biodegradável, dermatologicamente testada, concentrada e de alta performance.'
-        },
+            description: 'Tecnologia Bioquest Formula™, uma fórmula biodegradável, dermatologicamente testada, concentrada e de alta performance.'
+        },   
     ];
     public certifications: Array<any> = [
         {
@@ -189,6 +209,7 @@ export class IngredientsComponent implements OnInit {
 
 
     public tab: number = 1;
+    public tab2: number = 1;
     public view: number = 1;
 
     constructor(private router: Router,

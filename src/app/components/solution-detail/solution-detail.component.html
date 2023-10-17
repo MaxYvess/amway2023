@@ -94,7 +94,7 @@
                     </div>
                     <div class="col-12 col-lg-7">
                         <div style="display: flex;">
-                            <img *ngFor="let product of solution.products;" [src]="product.img" draggable="false" style="width: 33%" alt="">
+                            <img *ngFor="let product of solution.products;" [src]="product.img" draggable="false" [style]="solution.sizeimg" alt="">
                         </div>
                     </div>
                 </div>

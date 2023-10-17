@@ -35,7 +35,8 @@ export class ProductsComponent implements OnInit {
         //{ id: 7, name: 'HSN', img: 'assets/imgs/Productos/IMG_7.jpg' },
         { id: 6, name: 'Água Micelar', img: 'assets/imgs/Productos/IMG_8.jpg' },
         { id: 7, name: 'Glister Creme Dental', img: 'assets/imgs/Productos/IMG_12.png' },
-        { id: 8, name: 'LOC™ Limpador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
+        { id: 8, name: 'Loção Hidratante Corporal Refrescante ', img: 'assets/imgs/Productos/IMG_14.jpg' },
+        { id: 9, name: 'LOC™ Limpador Multiusos', img: 'assets/imgs/Productos/IMG_10.jpg' }
     ];
     
     public breakpoints: any = {
