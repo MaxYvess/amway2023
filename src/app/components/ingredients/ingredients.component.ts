@@ -140,11 +140,7 @@ export class IngredientsComponent implements OnInit {
         
     ];
     public ingredients3: Array<any> = [
-        {
-            img: 'assets/imgs/Ingredientes/IMG_22.png',
-            name: 'REMINACT™',
-            description: 'Ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.'
-        },
+     
         {
             img: 'assets/imgs/Ingredientes/IMG_25.png',
             name: 'Ceramida derivada de aceite de oliva',
@@ -159,6 +155,11 @@ export class IngredientsComponent implements OnInit {
             img: 'assets/imgs/Ingredientes/IMG_24.png',
             name: 'Agua de bambú',
             description: 'Con agua de bambú y glicerina de origen vegetal que ayudan a hidratar la piel.'
+        },
+        {
+            img: 'assets/imgs/Ingredientes/IMG_22.png',
+            name: 'REMINACT™',
+            description: 'Ayuda a disminuir manchas de café, té o tabaco. Además, combate el sarro y la caries refrescando tu aliento al mismo tiempo con un suave sabor a menta.'
         },
        
     ];
