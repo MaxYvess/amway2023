@@ -220,7 +220,7 @@ export class ProductDetailComponent implements OnInit {
             footer: '',
             reverse: true, 
             link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&NavM=N&line=K&BC=0001&C=KQ&Brand=',
-            color: '#ba1a2e',
+            color: '#275994',
             imgs: [
                 'assets/imgs/HSN/ICON_7.png',
                 'assets/imgs/C_Plus/ICON_7.png',

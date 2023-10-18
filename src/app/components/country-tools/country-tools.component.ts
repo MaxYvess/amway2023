@@ -123,48 +123,48 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.ar/downloads/misc/AR_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.ar/downloads/misc/AR_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=ar_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.cl/downloads/misc/CL_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.cl/downloads/misc/CL_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=cl_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.co/downloads/misc/CO_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.co/downloads/misc/CO_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=co_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.co.cr/downloads/misc/CR_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.co.cr/downloads/misc/CR_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=cr_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.sv/downloads/misc/SV_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.sv/downloads/misc/SV_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=sv_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.gt/downloads/misc/GT_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.gt/downloads/misc/GT_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=gt_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.hn/downloads/misc/HN_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.hn/downloads/misc/HN_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=hn_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/MX_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/MX_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=mx_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.pa/downloads/misc/PA_Herramienta_Irresistible.pdf'
+                    link: 'https://www.amway.com.pa/downloads/misc/PA_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=pa_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
-                {
+             /*    {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://www.amway.com.uy/downloads/misc/UY_Herramienta_Irresistible.pdf'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
                     link: 'https://www.amway.com.ve/downloads/misc/VE_Herramienta_Irresistible.pdf'
-                }
+                } */
             ]
         },
         {
@@ -173,48 +173,48 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=ar_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=cl_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=co_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=cr_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=sv_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=gt_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=hn_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=mx_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
+                    link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=pa_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
-                {
+                /* {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
                     link: 'https://www.amway.com.ve/downloads/misc/Infografia_Perfiles_irresistibles_VE.pdf'
-                },
+                }, */
             ]
         },
         {
@@ -1023,44 +1023,44 @@ export class CountryToolsComponent implements OnInit {
             countries: [
                 {
                     img: 'assets/imgs/Compras/IMG_1.png',
-                    link: 'https://amway.com.ar/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=ar_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.ar/Store/Catalogue.aspx?show=PrdDetail&line=I&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=ar_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_3.png',
-                    link: 'https://amway.cl/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=cl_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.cl/Store/Catalogue.aspx?show=PrdDetail&line=K&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=cl_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 }, 
                 {
                     img: 'assets/imgs/Compras/IMG_12.png',
-                    link: 'https://amway.com.co/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=co_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.co/Store/Catalogue.aspx?show=PrdDetail&line=L&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=co_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_4.png',
-                    link: 'https://amway.co.cr/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=cr_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.co.cr/Store/Catalogue.aspx?show=PrdDetail&line=J&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=cr_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_5.png',
-                    link: 'https://amway.com.sv/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=sv_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.sv/Store/Catalogue.aspx?show=PrdDetail&line=B&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=sv_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_13.png',
-                    link: 'https://amway.com.gt/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=gt_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.gt/Store/Catalogue.aspx?show=PrdDetail&line=I&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=gt_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_6.png',
-                    link: 'https://amway.com.hn/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=hn_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.hn/Store/Catalogue.aspx?show=PrdDetail&line=L&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=hn_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_7.png',
-                    link: 'https://amway.com.mx/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=mx_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.mx/Store/Catalogue.aspx?show=PrdDetail&line=I&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=mx_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_8.png',
-                    link: 'https://amway.com.pa/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=pa_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
+                    link: 'https://www.amway.com.pa/Store/Catalogue.aspx?show=PrdDetail&line=Q&NavM=N&BC=125893&utm_source=site_Irresistibles&utm_medium=home&utm_campaign=pa_es_gyh&utm_content=cta_compra&utm_term=Locion_corporal_refrescante'
                 },
-                {
+             /*    {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://amway.com.uy/drglister/#/doctor-glister?utm_source=site&utm_medium=home&utm_campaign=uy_es_site_irresistibles&utm_content=cta_conoce&utm_term=recomendador_glister'
-                },
+                }, */
          
             ]
         } 
