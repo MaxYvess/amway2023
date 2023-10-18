@@ -216,7 +216,7 @@ export class SolutionDetailComponent implements OnInit {
                  
                 },
                 {
-                    name: 'G&H™ Loción Refrescante',
+                    name: 'G&H™ Loção Hidratante Corporal Refrescante',
                  
                 }
             ],

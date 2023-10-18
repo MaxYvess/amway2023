@@ -44,7 +44,7 @@ export class ToolsComponent implements OnInit {
             img: 'assets/imgs/Herramientas/ICON_3.png',
             name: 'PERFIS IRRESISTÍVEIS',
             btn: 'Baixe',
-            link: 'https://www.amway.com.mx/downloads/AmwayBrasil/BR_ferramenta_irresistivel.pdf',
+            link: 'https://www.amway.com.mx/downloads/AmwayBrasil/BR_ferramenta_irresistivel.pdf?utm_source=site_irresistiveis&utm_medium=home&utm_campaign=br_pt_irresistiveis&utm_content=cta_link&utm_term=ferramenta_irresistivel',
             description: 'Leve as informações dos seus possíveis clientes a qualquer lugar, baixando os sete perfis que criamos para você no seu celular.'
         },
         {
@@ -52,7 +52,7 @@ export class ToolsComponent implements OnInit {
             img: 'assets/imgs/Herramientas/ICON_7.png',
             name: 'INFOGRAFIAS IRRESISTÍVEIS',
             btn: 'Baixe',
-            link: 'https://www.amway.com.mx/downloads/AmwayBrasil/Infografia_Perfis_BR.pdf',
+            link: 'https://www.amway.com.mx/downloads/AmwayBrasil/Infografia_Perfis_BR.pdf?utm_source=site_irresistiveis&utm_medium=home&utm_campaign=br_pt_irresistiveis&utm_content=cta_link&utm_term=infografia_perfis',
             description: 'Vire um especialista sobre os benefícios dos ingredientes dos produtos Naturalmente Irresistíveis.'
         }
     ]

@@ -200,8 +200,8 @@ export class ProductDetailComponent implements OnInit {
             icon: 'assets/imgs/Locion_Corporal_Refrescante/ICON_4.png',
             footer: '',
             reverse: true, 
-            link: 'https://www.amway.com.br/pt/LOC-Limpador-Multiuso-Amway-Home/p/E0001?utm_source=site&utm_medium=irresistiveis&utm_campaign=br_pt_landing_irresistiveis&utm_content=cta_compra&utm_term=irresistiveis-LOC',
-            color: '#ba1a2e',
+            link: 'https://amway.com.br/pt/Locao-Hidratante-Corporal-Refrescante/p/125893?utm_source=site_irresistiveis&utm_medium=home&utm_campaign=br_pt_irresistiveis&utm_content=cta_comprar&utm_term=Lo%C3%A7%C3%A3o_Hidratante_Corporal',
+            color: '#265894',
             imgs: [
                 'assets/imgs/HSN/ICON_7.png',
                 'assets/imgs/C_Plus/ICON_7.png',
