@@ -191,14 +191,14 @@ export class SolutionDetailComponent implements OnInit {
         },
         
         {
-            name: 'SEMPRE RELUCIENTE',
+            name: 'SEMPRE RELUZENTE',
             img: 'assets/imgs/Soluciones/IMG_20.png',
             icon: 'assets/imgs/Soluciones/ICON_17.png',
             solutionImg: 'assets/imgs/Soluciones/ICON_11.png',
             personName: 'Isabella',
             personJob: 'Funcionária',
             personAge: 45,
-            description: 'Trabalha em um escritório e está constantemente exposto a telas de computadores e celulares, 8 horas por dia. • Faz exercícios em casa pelo menos 3 vezes por semana. Tem um filho de 2 anos que leva a academia duas vezes por semana. Embora esteja interessado em cuidar da pele do rosto e do corpo, não tem muito tempo para isso. Tenta ter uma alimentação saudável, mas considera que não é uma dieta equilibrada. Esta preocupado por não estar consumindo os nutrientes necessários para o seu bem-estar e o da sua família.',
+            description: 'Trabalha em um escritório 8 horas por dia e está constantemente exposta a telas de computadores e celulares. Faz exercícios em casa pelo menos 3 vezes por semana e leva seu filho de 2 anos ao ginásio em outros 2 dias. Embora esteja interessada em cuidar da pele do rosto e corpo, não tem muito tempo para isso. Tenta ter uma alimentação saudável, mas considera que não é uma dieta equilibrada, além disso, se preocupa por não estar consumindo os nutrientes necessários para o seu bem-estar e o da sua família.',
             reverse: false,
             border: '#ff7062',
             products: [
