@@ -37,6 +37,12 @@ export class SolutionsComponent implements OnInit {
             icon: 'icon2',*/
         },
         {
+            id: 8,
+            img: 'assets/imgs/Soluciones/IMG_21.png',
+            /*name: 'ÚLTIMA SOLUCIÓN',
+            icon: 'icon2',*/
+        },
+        {
             id: 3,
             img: 'assets/imgs/Soluciones/IMG_9.png',
             /*name: 'SONRISA IDEAL',
@@ -66,12 +72,7 @@ export class SolutionsComponent implements OnInit {
             /*name: 'ÚLTIMA SOLUCIÓN',
             icon: 'icon2',*/
         },
-        {
-            id: 8,
-            img: 'assets/imgs/Soluciones/IMG_21.png',
-            /*name: 'ÚLTIMA SOLUCIÓN',
-            icon: 'icon2',*/
-        }
+    
     ]
 
     public breakpoints: any = {

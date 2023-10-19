@@ -157,14 +157,14 @@ export class CountryToolsComponent implements OnInit {
                     img: 'assets/imgs/Compras/IMG_8.png',
                     link: 'https://www.amway.com.pa/downloads/misc/PA_Herramienta_Irresistible.pdf?utm_source=site_Irresistibles&utm_medium=home&utm_campaign=pa_es_irresistibles&utm_content=cta_ver&utm_term=herramienta_irresistible'
                 },
-             /*    {
+                {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://www.amway.com.uy/downloads/misc/UY_Herramienta_Irresistible.pdf'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
                     link: 'https://www.amway.com.ve/downloads/misc/VE_Herramienta_Irresistible.pdf'
-                } */
+                }
             ]
         },
         {
@@ -207,14 +207,14 @@ export class CountryToolsComponent implements OnInit {
                     img: 'assets/imgs/Compras/IMG_8.png',
                     link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf?utm_source=site_irresistibles&utm_medium=home&utm_campaign=pa_es_irresistibles&utm_content=cta_link&utm_term=infografia_perfiles'
                 },
-                /* {
+                {
                     img: 'assets/imgs/Compras/IMG_9.png',
                     link: 'https://www.amway.com.mx/downloads/misc/Infografia_Perfiles_irresistibles.pdf'
                 },
                 {
                     img: 'assets/imgs/Compras/IMG_10.png',
                     link: 'https://www.amway.com.ve/downloads/misc/Infografia_Perfiles_irresistibles_VE.pdf'
-                }, */
+                },
             ]
         },
         {
