@@ -1,8 +1,10 @@
 {
   "projects": {
-    "default": "amway5",
+    "default": "amway6-6b4aa",
     "irresistibles esp": "amway5",
-    "irresistibles": "amway5"
+    "irresistibles": "amway5",
+    "dist": "amway6-6b4aa",
+    "s": "amway6-6b4aa"
   },
   "targets": {},
   "etags": {}

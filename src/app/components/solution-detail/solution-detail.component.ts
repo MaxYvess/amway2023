@@ -204,11 +204,11 @@ export class SolutionDetailComponent implements OnInit {
             products: [
 
                 {
-                    name: 'Glister Multi-Action Creme Dental com Flúor',
+                    name: 'Nutrilite™ Daily Plus (90 tab)',
                     img: 'assets/imgs/Soluciones/ELEMENT_20.png'
                 },
-                {
-                    name: 'Nutrilite™ Daily Plus (90 tab)',
+                {                   
+                    name: 'Glister Multi-Action Creme Dental com Flúor',
                  
                 },
                 {
